@@ -1,0 +1,1665 @@
+[
+    {
+        "activity_name": "Types",
+        "activity_json": [
+            {
+                "videoResources": "/Types.zip",
+                "activityType": "video",
+                "videoURL": "http://courseware.msitprogram.net/play/content/cspp1/videos//Types.mp4",
+                "title": "In this activity we discussed about simple operations in python by watching a video"
+            }
+        ],
+        "activity_id": "A1"
+    },
+    {
+        "activity_name": "Types-1 notes",
+        "activity_json": [
+            {
+                "activityType": "notes",
+                "title": "Types-1 notes",
+                "text": "Last activity we learned about simple operations in python. Let's answer few questions in this activity<br><br>For each of the following expressions, indicate the value returned, or if the evaluation would lead to an error, write the word 'error' (note this is a word, not a string, no quotes). While you could simply type these expressions into an IDE, we encourage you to answer them directly since this will help reinforce your understanding of basic Python expressions.<br><br><b>Note:The python 'None' keyword.<br><br><b>In Python, the keyword None is frequently used to represent the absence of a value. None is the only value in Python of type NoneType."
+            }
+        ],
+        "activity_id": "A2"
+    },
+    {
+        "activity_name": "Types-1",
+        "activity_json": [
+            {
+                "quizDescription": "For each of the following expressions, indicate the value returned, or if the evaluation would lead to an error, write the word 'error' (note this is a word, not a string, no quotes). While you could simply type these expressions into an IDE, we encourage you to answer them directly since this will help reinforce your understanding of basic Python expressions.<br><br><b>Note:The python 'None' keyword<br>In Python, the keyword <code>None</code> is frequently used to represent the absence of a value. None is the only value in Python of type <code>NoneType.</code></b> ",
+                "activityType": "quiz",
+                "questions": [
+                    {
+                        "questionType": "checkbox",
+                        "questionText": [
+                            {
+                                "text": "<code>3.14</code>"
+                            }
+                        ],
+                        "correct_feedback": "Correct",
+                        "max_marks": 1,
+                        "wrong_feedback": "Incorrect",
+                        "options": [
+                            {
+                                "correct": false,
+                                "option": "NoneType"
+                            },
+                            {
+                                "correct": false,
+                                "option": "int"
+                            },
+                            {
+                                "correct": true,
+                                "option": "float"
+                            },
+                            {
+                                "correct": false,
+                                "option": "bool"
+                            }
+                        ],
+                        "question_id": "Q1"
+                    },
+                    {
+                        "questionType": "checkbox",
+                        "questionText": [
+                            {
+                                "text": "<code>-34</code>"
+                            }
+                        ],
+                        "correct_feedback": "Correct",
+                        "max_marks": 1,
+                        "wrong_feedback": "Incorrect",
+                        "options": [
+                            {
+                                "correct": false,
+                                "option": "NoneType"
+                            },
+                            {
+                                "correct": true,
+                                "option": "int"
+                            },
+                            {
+                                "correct": false,
+                                "option": "float"
+                            },
+                            {
+                                "correct": false,
+                                "option": "bool"
+                            }
+                        ],
+                        "question_id": "Q2"
+                    },
+                    {
+                        "questionType": "checkbox",
+                        "questionText": [
+                            {
+                                "text": "<code>True</code>"
+                            }
+                        ],
+                        "correct_feedback": "Correct",
+                        "max_marks": 1,
+                        "wrong_feedback": "Incorrect",
+                        "options": [
+                            {
+                                "correct": false,
+                                "option": "NoneType"
+                            },
+                            {
+                                "correct": false,
+                                "option": "int"
+                            },
+                            {
+                                "correct": false,
+                                "option": "float"
+                            },
+                            {
+                                "correct": true,
+                                "option": "bool"
+                            }
+                        ],
+                        "question_id": "Q3"
+                    },
+                    {
+                        "questionType": "checkbox",
+                        "questionText": [
+                            {
+                                "text": "<code>None</code>"
+                            }
+                        ],
+                        "correct_feedback": "Correct",
+                        "max_marks": 1,
+                        "wrong_feedback": "Incorrect",
+                        "options": [
+                            {
+                                "correct": true,
+                                "option": "NoneType"
+                            },
+                            {
+                                "correct": false,
+                                "option": "int"
+                            },
+                            {
+                                "correct": false,
+                                "option": "float"
+                            },
+                            {
+                                "correct": false,
+                                "option": "bool"
+                            }
+                        ],
+                        "question_id": "Q4"
+                    },
+                    {
+                        "questionType": "checkbox",
+                        "questionText": [
+                            {
+                                "text": "<code>3.0</code>"
+                            }
+                        ],
+                        "correct_feedback": "Correct",
+                        "max_marks": 1,
+                        "wrong_feedback": "Incorrect",
+                        "options": [
+                            {
+                                "correct": false,
+                                "option": "NoneType"
+                            },
+                            {
+                                "correct": false,
+                                "option": "int"
+                            },
+                            {
+                                "correct": true,
+                                "option": "float"
+                            },
+                            {
+                                "correct": false,
+                                "option": "bool"
+                            }
+                        ],
+                        "question_id": "Q5"
+                    }
+                ],
+                "title": "Last activity we learned about simple operations in python. Let's answer few questions in this activity"
+            }
+        ],
+        "activity_id": "A3"
+    },
+    {
+        "activity_name": "Types-2",
+        "activity_json": [
+            {
+                "quizDescription": "For each of the following expressions, indicate the value returned, or if the evaluation would lead to an error, write the word 'error' (note this is a word, not a string, no quotes). While you could simply type these expressions into an IDE, we encourage you to answer them directly since this will help reinforce your understanding of basic Python expressions.<br><br>For decimal answers, give the full result, or four decimal places of accuracy (whichever is shortest).<br><br><b>Floating point Errors:</b><br>Decimal numbers cannot be stored exactly in the computer because the computer does not have an infinite amount of memory. So decimal numbers are rounded when stored. When you do calculations with these numbers, your final result will be different than the actual result. For example, you may get something like 5.0000000044 instead of 5.0. This is called floating-point rounding error.",
+                "activityType": "quiz",
+                "questions": [
+                    {
+                        "questionType": "checkbox",
+                        "questionText": [
+                            {
+                                "text": "<code>6 + 12 -3</code>"
+                            }
+                        ],
+                        "correct_feedback": "Correct",
+                        "max_marks": 1,
+                        "wrong_feedback": "Incorrect",
+                        "options": [
+                            {
+                                "correct": true,
+                                "option": "15"
+                            },
+                            {
+                                "correct": false,
+                                "option": "14"
+                            },
+                            {
+                                "correct": false,
+                                "option": "15.0"
+                            },
+                            {
+                                "correct": false,
+                                "option": "16"
+                            }
+                        ],
+                        "question_id": "Q6"
+                    },
+                    {
+                        "questionType": "checkbox",
+                        "questionText": [
+                            {
+                                "text": "<code>2 * 3.0</code>"
+                            }
+                        ],
+                        "correct_feedback": "Correct",
+                        "max_marks": 1,
+                        "wrong_feedback": "Incorrect",
+                        "options": [
+                            {
+                                "correct": false,
+                                "option": "6"
+                            },
+                            {
+                                "correct": true,
+                                "option": "6.0"
+                            },
+                            {
+                                "correct": false,
+                                "option": "6.6"
+                            },
+                            {
+                                "correct": false,
+                                "option": "3.3"
+                            }
+                        ],
+                        "question_id": "Q7"
+                    },
+                    {
+                        "questionType": "checkbox",
+                        "questionText": [
+                            {
+                                "text": "<code>- - 4</code>"
+                            }
+                        ],
+                        "correct_feedback": "Correct",
+                        "max_marks": 1,
+                        "wrong_feedback": "Incorrect",
+                        "options": [
+                            {
+                                "correct": false,
+                                "option": "-4"
+                            },
+                            {
+                                "correct": false,
+                                "option": "4.0"
+                            },
+                            {
+                                "correct": false,
+                                "option": "4.4"
+                            },
+                            {
+                                "correct": true,
+                                "option": "4"
+                            }
+                        ],
+                        "question_id": "Q8"
+                    },
+                    {
+                        "questionType": "checkbox",
+                        "questionText": [
+                            {
+                                "text": "<code>10/3</code>"
+                            }
+                        ],
+                        "correct_feedback": "Correct",
+                        "max_marks": 1,
+                        "wrong_feedback": "Incorrect",
+                        "options": [
+                            {
+                                "correct": false,
+                                "option": "3"
+                            },
+                            {
+                                "correct": false,
+                                "option": "3.0"
+                            },
+                            {
+                                "correct": true,
+                                "option": "3.3333"
+                            },
+                            {
+                                "correct": false,
+                                "option": "3"
+                            }
+                        ],
+                        "question_id": "Q9"
+                    },
+                    {
+                        "questionType": "checkbox",
+                        "questionText": [
+                            {
+                                "text": "<code>10.0/3.0</code>"
+                            }
+                        ],
+                        "correct_feedback": "Correct",
+                        "max_marks": 1,
+                        "wrong_feedback": "Incorrect",
+                        "options": [
+                            {
+                                "correct": false,
+                                "option": "3"
+                            },
+                            {
+                                "correct": false,
+                                "option": "3.0"
+                            },
+                            {
+                                "correct": true,
+                                "option": "3.3333"
+                            },
+                            {
+                                "correct": false,
+                                "option": "3"
+                            }
+                        ],
+                        "question_id": "Q10"
+                    },
+                    {
+                        "questionType": "checkbox",
+                        "questionText": [
+                            {
+                                "text": "<code>(2 + 3) * 4</code>"
+                            }
+                        ],
+                        "correct_feedback": "Correct",
+                        "max_marks": 1,
+                        "wrong_feedback": "Incorrect",
+                        "options": [
+                            {
+                                "correct": false,
+                                "option": "14"
+                            },
+                            {
+                                "correct": true,
+                                "option": "20"
+                            },
+                            {
+                                "correct": false,
+                                "option": "10"
+                            },
+                            {
+                                "correct": false,
+                                "option": "16"
+                            }
+                        ],
+                        "question_id": "Q11"
+                    },
+                    {
+                        "questionType": "checkbox",
+                        "questionText": [
+                            {
+                                "text": "<code>2 + 3 * 4</code>"
+                            }
+                        ],
+                        "correct_feedback": "Correct",
+                        "max_marks": 1,
+                        "wrong_feedback": "Incorrect",
+                        "options": [
+                            {
+                                "correct": true,
+                                "option": "14"
+                            },
+                            {
+                                "correct": false,
+                                "option": "20"
+                            },
+                            {
+                                "correct": false,
+                                "option": "10"
+                            },
+                            {
+                                "correct": false,
+                                "option": "16"
+                            }
+                        ],
+                        "question_id": "Q12"
+                    },
+                    {
+                        "questionType": "checkbox",
+                        "questionText": [
+                            {
+                                "text": "<code>2**3 + 1</code>"
+                            }
+                        ],
+                        "correct_feedback": "Correct",
+                        "max_marks": 1,
+                        "wrong_feedback": "Incorrect",
+                        "options": [
+                            {
+                                "correct": false,
+                                "option": "8"
+                            },
+                            {
+                                "correct": true,
+                                "option": "9"
+                            },
+                            {
+                                "correct": false,
+                                "option": "16"
+                            },
+                            {
+                                "correct": false,
+                                "option": "32"
+                            }
+                        ],
+                        "question_id": "Q13"
+                    },
+                    {
+                        "questionType": "checkbox",
+                        "questionText": [
+                            {
+                                "text": "<code>2.1 ** 2.0</code>"
+                            }
+                        ],
+                        "correct_feedback": "Correct",
+                        "max_marks": 1,
+                        "wrong_feedback": "Incorrect",
+                        "options": [
+                            {
+                                "correct": false,
+                                "option": "2.1"
+                            },
+                            {
+                                "correct": true,
+                                "option": "4.41"
+                            },
+                            {
+                                "correct": false,
+                                "option": "2"
+                            },
+                            {
+                                "correct": false,
+                                "option": "2.21"
+                            }
+                        ],
+                        "question_id": "Q14"
+                    },
+                    {
+                        "questionType": "checkbox",
+                        "questionText": [
+                            {
+                                "text": "<code>2.2 * 3.0</code>"
+                            }
+                        ],
+                        "correct_feedback": "Correct",
+                        "max_marks": 1,
+                        "wrong_feedback": "Incorrect",
+                        "options": [
+                            {
+                                "correct": false,
+                                "option": "2.2"
+                            },
+                            {
+                                "correct": false,
+                                "option": "6.0"
+                            },
+                            {
+                                "correct": true,
+                                "option": "6.6"
+                            },
+                            {
+                                "correct": false,
+                                "option": "6.66"
+                            }
+                        ],
+                        "question_id": "Q15"
+                    }
+                ],
+                "title": "Last activity you solved few questions. There are few more questions in this activity for you to answer"
+            }
+        ],
+        "activity_id": "A4"
+    },
+    {
+        "activity_name": "Variables",
+        "activity_json": [
+            {
+                "videoResources": "/Variables.zip",
+                "activityType": "video",
+                "videoURL": "http://courseware.msitprogram.net/play/content/cspp1/videos//Variables.mp4",
+                "title": "In this activity we discussed about Variables in python by watching a video"
+            }
+        ],
+        "activity_id": "A5"
+    },
+    {
+        "activity_name": "Variables-1 notes",
+        "activity_json": [
+            {
+                "activityType": "notes",
+                "title": "Variables-1 notes",
+                "text": "Last activity we learned about Variables in python. Let's answer few questions in this activity<br><br>Below is a transcript of a session with the Python shell. For each expression being evaluated, provide the type and the value the expression returns. In evaluating an expression would cause an error, select 'NoneType' and write the word 'error' (note this is a word, not a string, no quotes) in the box. While you could simply type these expressions into your IDE, we encourage you to answer them directly since this will help reinforce your understanding of basic Python expressions.<br><br>Assume that the expressions are evaluated in the order shown - that is, each problem part is evaluated directly after the previous problem part(s)."
+            }
+        ],
+        "activity_id": "A6"
+    },
+    {
+        "activity_name": "Variables-1",
+        "activity_json": [
+            {
+                "quizDescription": "Below is a transcript of a session with the Python shell. For each expression being evaluated, provide the type and the value the expression returns. In evaluating an expression would cause an error, select 'NoneType' and write the word 'error' (note this is a word, not a string, no quotes) in the box. While you could simply type these expressions into your IDE, we encourage you to answer them directly since this will help reinforce your understanding of basic Python expressions.<br><br>Assume that the expressions are evaluated in the order shown - that is, each problem part is evaluated directly after the previous problem part(s).<br>",
+                "activityType": "quiz",
+                "questions": [
+                    {
+                        "questionType": "checkbox",
+                        "questionText": [
+                            {
+                                "text": "a = 3<br>a + 2.0 "
+                            }
+                        ],
+                        "correct_feedback": "Correct",
+                        "max_marks": 1,
+                        "wrong_feedback": "Incorrect",
+                        "options": [
+                            {
+                                "correct": false,
+                                "option": "5"
+                            },
+                            {
+                                "correct": true,
+                                "option": "5.0"
+                            },
+                            {
+                                "correct": false,
+                                "option": "3"
+                            },
+                            {
+                                "correct": false,
+                                "option": "3.0"
+                            }
+                        ],
+                        "question_id": "Q16"
+                    },
+                    {
+                        "questionType": "checkbox",
+                        "questionText": [
+                            {
+                                "text": "a = 3<br>a + 2.0 "
+                            }
+                        ],
+                        "correct_feedback": "Correct",
+                        "max_marks": 1,
+                        "wrong_feedback": "Incorrect",
+                        "options": [
+                            {
+                                "correct": false,
+                                "option": "NoneType"
+                            },
+                            {
+                                "correct": false,
+                                "option": "int"
+                            },
+                            {
+                                "correct": true,
+                                "option": "float"
+                            },
+                            {
+                                "correct": false,
+                                "option": "bool"
+                            }
+                        ],
+                        "question_id": "Q17"
+                    },
+                    {
+                        "questionType": "checkbox",
+                        "questionText": [
+                            {
+                                "text": "a = a + 1.0<br>a"
+                            }
+                        ],
+                        "correct_feedback": "Correct",
+                        "max_marks": 1,
+                        "wrong_feedback": "Incorrect",
+                        "options": [
+                            {
+                                "correct": false,
+                                "option": "6.0"
+                            },
+                            {
+                                "correct": false,
+                                "option": "6"
+                            },
+                            {
+                                "correct": true,
+                                "option": "4.0"
+                            },
+                            {
+                                "correct": false,
+                                "option": "4"
+                            }
+                        ],
+                        "question_id": "Q18"
+                    },
+                    {
+                        "questionType": "checkbox",
+                        "questionText": [
+                            {
+                                "text": "a = a + 1.0<br>a"
+                            }
+                        ],
+                        "correct_feedback": "Correct",
+                        "max_marks": 1,
+                        "wrong_feedback": "Incorrect",
+                        "options": [
+                            {
+                                "correct": false,
+                                "option": "NoneType"
+                            },
+                            {
+                                "correct": false,
+                                "option": "int"
+                            },
+                            {
+                                "correct": true,
+                                "option": "float"
+                            },
+                            {
+                                "correct": false,
+                                "option": "bool"
+                            }
+                        ],
+                        "question_id": "Q19"
+                    },
+                    {
+                        "questionType": "checkbox",
+                        "questionText": [
+                            {
+                                "text": "a = 3<br>b"
+                            }
+                        ],
+                        "correct_feedback": "Correct",
+                        "max_marks": 1,
+                        "wrong_feedback": "Incorrect",
+                        "options": [
+                            {
+                                "correct": false,
+                                "option": "3"
+                            },
+                            {
+                                "correct": false,
+                                "option": "3.0"
+                            },
+                            {
+                                "correct": false,
+                                "option": "4"
+                            },
+                            {
+                                "correct": true,
+                                "option": "error"
+                            }
+                        ],
+                        "question_id": "Q20"
+                    },
+                    {
+                        "questionType": "checkbox",
+                        "questionText": [
+                            {
+                                "text": "a = 3<br>b"
+                            }
+                        ],
+                        "correct_feedback": "Correct",
+                        "max_marks": 1,
+                        "wrong_feedback": "Incorrect",
+                        "options": [
+                            {
+                                "correct": true,
+                                "option": "NoneType"
+                            },
+                            {
+                                "correct": false,
+                                "option": "int"
+                            },
+                            {
+                                "correct": false,
+                                "option": "float"
+                            },
+                            {
+                                "correct": false,
+                                "option": "bool"
+                            }
+                        ],
+                        "question_id": "Q21"
+                    }
+                ],
+                "title": "Last activity we learned about Variables in python. Let's answer few questions in this activity"
+            }
+        ],
+        "activity_id": "A7"
+    },
+    {
+        "activity_name": "Operators and Branching",
+        "activity_json": [
+            {
+                "videoResources": "/Operators and Branching.zip",
+                "activityType": "video",
+                "videoURL": "http://courseware.msitprogram.net/play/content/cspp1/videos//Operators%20and%20Branching.mp4",
+                "title": "In this activity we discussed about Operators and branching in python by watching a video"
+            }
+        ],
+        "activity_id": "A8"
+    },
+    {
+        "activity_name": "Operators and Branching-1 notes",
+        "activity_json": [
+            {
+                "activityType": "notes",
+                "title": "Operators and Branching-1 notes",
+                "text": "Last activity we leared about Operators and Branching in python. Let's answer few questions in this activity<br><br>For each of the following expressions, indicate the value returned, or if the evaluation would lead to an error, write the word 'error' (note this is a word, not a string, no quotes). While you could simply type these expressions into your IDE, we encourage you to answer them directly since this will help reinforce your understanding of basic Python expressions.<br><br><b>Hint: Python boolean Types</b><br>Remember that in Python words are case-sensitive. The word True is a Python keyword (it is the value of the Boolean type) and is not the same as the word true. Refer to the <a href=\"https://docs.python.org/3/library/stdtypes.html#boolean-values\">Python documentation on Boolean</a> values.<br><br><b>Hint: Priority order of Boolean Operations</b><br>For these problems, it's important to understand the priority of Boolean operations. The order of operations is as follows:<br><br><ol><li>Parentheses. Before operating on anything else, Python must evaluate all parentheticals starting at the innermost level.</li><li>not statements.</li><li>and statements.</li><li>or statements.</li</ol><br>What this means is that an expression like<br>not True and False<br><br>evaluates to False, because the not is evaluated first (not True is False), then the and is evaluated, yielding False and False which is False.<br><br>However the expression<br><br>not (True and False)<br><br>evaluates to True, because the expression inside the parentheses must be evaluated first - True and False is False. Next the not can be evaluated, yielding not False which is True.<br><br>Overall, you should always use parenthesis when writing expressions to make it clear what order you wish to have Python evaluate your expression. As we've seen here, not (True and False) is different from (not True) and False - but it's easy to see how Python will evaluate it when you use parentheses. A statement like not True and False can bring confusion!"
+            }
+        ],
+        "activity_id": "A9"
+    },
+    {
+        "activity_name": "Operators and Branching-1",
+        "activity_json": [
+            {
+                "quizDescription": "Last activity we leared about Operators and Branching in python. Let's answer few questions in this activity<br><br>For each of the following expressions, indicate the value returned, or if the evaluation would lead to an error, write the word 'error' (note this is a word, not a string, no quotes). While you could simply type these expressions into your IDE, we encourage you to answer them directly since this will help reinforce your understanding of basic Python expressions.<br><br><b>Hint: Python boolean Types</b><br>Remember that in Python words are case-sensitive. The word True is a Python keyword (it is the value of the Boolean type) and is not the same as the word true. Refer to the <a href=\"https://docs.python.org/3/library/stdtypes.html#boolean-values\">Python documentation on Boolean</a> values.<br><br><b>Hint: Priority order of Boolean Operations</b><br>For these problems, it's important to understand the priority of Boolean operations. The order of operations is as follows:<ol<li>Parentheses. Before operating on anything else, Python must evaluate all parentheticals starting at the innermost level.</li><li>not statements.</li><li>and statements.</li><li>or statements.</li</ol><br>What this means is that an expression like<br>not True and False<br><br>evaluates to False, because the not is evaluated first (not True is False), then the and is evaluated, yielding False and False which is False.<br><br>However the expression<br><br>not (True and False)<br><br>evaluates to True, because the expression inside the parentheses must be evaluated first - True and False is False. Next the not can be evaluated, yielding not False which is True.<br><br>Overall, you should always use parenthesis when writing expressions to make it clear what order you wish to have Python evaluate your expression. As we've seen here, not (True and False) is different from (not True) and False - but it's easy to see how Python will evaluate it when you use parentheses. A statement like not True and False can bring confusion!",
+                "activityType": "quiz",
+                "questions": [
+                    {
+                        "questionType": "checkbox",
+                        "questionText": [
+                            {
+                                "text": "<code>3 > 4</code>"
+                            }
+                        ],
+                        "correct_feedback": "Correct",
+                        "max_marks": 1,
+                        "wrong_feedback": "Incorrect",
+                        "options": [
+                            {
+                                "correct": true,
+                                "option": "False"
+                            },
+                            {
+                                "correct": false,
+                                "option": "True"
+                            }
+                        ],
+                        "question_id": "Q22"
+                    },
+                    {
+                        "questionType": "checkbox",
+                        "questionText": [
+                            {
+                                "text": "<code>4.0 > 3.999</code>"
+                            }
+                        ],
+                        "correct_feedback": "Correct",
+                        "max_marks": 1,
+                        "wrong_feedback": "Incorrect",
+                        "options": [
+                            {
+                                "correct": true,
+                                "option": "True"
+                            },
+                            {
+                                "correct": false,
+                                "option": "False"
+                            }
+                        ],
+                        "question_id": "Q23"
+                    },
+                    {
+                        "questionType": "checkbox",
+                        "questionText": [
+                            {
+                                "text": "<code>4 > 4</code>"
+                            }
+                        ],
+                        "correct_feedback": "Correct",
+                        "max_marks": 1,
+                        "wrong_feedback": "Incorrect",
+                        "options": [
+                            {
+                                "correct": false,
+                                "option": "True"
+                            },
+                            {
+                                "correct": true,
+                                "option": "False"
+                            }
+                        ],
+                        "question_id": "Q24"
+                    },
+                    {
+                        "questionType": "checkbox",
+                        "questionText": [
+                            {
+                                "text": "<code>4 > + 4</code>"
+                            }
+                        ],
+                        "correct_feedback": "Correct",
+                        "max_marks": 1,
+                        "wrong_feedback": "Incorrect",
+                        "options": [
+                            {
+                                "correct": false,
+                                "option": "True"
+                            },
+                            {
+                                "correct": true,
+                                "option": "False"
+                            }
+                        ],
+                        "question_id": "Q25"
+                    },
+                    {
+                        "questionType": "checkbox",
+                        "questionText": [
+                            {
+                                "text": "<code>2 + 2 == 4</code>"
+                            }
+                        ],
+                        "correct_feedback": "Correct",
+                        "max_marks": 1,
+                        "wrong_feedback": "Incorrect",
+                        "options": [
+                            {
+                                "correct": true,
+                                "option": "True"
+                            },
+                            {
+                                "correct": false,
+                                "option": "False"
+                            }
+                        ],
+                        "question_id": "Q26"
+                    },
+                    {
+                        "questionType": "checkbox",
+                        "questionText": [
+                            {
+                                "text": "<code>True or False</code>"
+                            }
+                        ],
+                        "correct_feedback": "Correct",
+                        "max_marks": 1,
+                        "wrong_feedback": "Incorrect",
+                        "options": [
+                            {
+                                "correct": true,
+                                "option": "True"
+                            },
+                            {
+                                "correct": false,
+                                "option": "False"
+                            }
+                        ],
+                        "question_id": "Q27"
+                    },
+                    {
+                        "questionType": "checkbox",
+                        "questionText": [
+                            {
+                                "text": "<code>False or False</code>"
+                            }
+                        ],
+                        "correct_feedback": "Correct",
+                        "max_marks": 1,
+                        "wrong_feedback": "Incorrect",
+                        "options": [
+                            {
+                                "correct": false,
+                                "option": "True"
+                            },
+                            {
+                                "correct": true,
+                                "option": "False"
+                            }
+                        ],
+                        "question_id": "Q28"
+                    },
+                    {
+                        "questionType": "checkbox",
+                        "questionText": [
+                            {
+                                "text": "<code>not False</code>"
+                            }
+                        ],
+                        "correct_feedback": "Correct",
+                        "max_marks": 1,
+                        "wrong_feedback": "Incorrect",
+                        "options": [
+                            {
+                                "correct": true,
+                                "option": "True"
+                            },
+                            {
+                                "correct": false,
+                                "option": "False"
+                            }
+                        ],
+                        "question_id": "Q29"
+                    },
+                    {
+                        "questionType": "checkbox",
+                        "questionText": [
+                            {
+                                "text": "<code>3.0 - 1.0 != 5.0 - 3.0</code>"
+                            }
+                        ],
+                        "correct_feedback": "Correct",
+                        "max_marks": 1,
+                        "wrong_feedback": "Incorrect",
+                        "options": [
+                            {
+                                "correct": false,
+                                "option": "True"
+                            },
+                            {
+                                "correct": true,
+                                "option": "False"
+                            }
+                        ],
+                        "question_id": "Q30"
+                    },
+                    {
+                        "questionType": "checkbox",
+                        "questionText": [
+                            {
+                                "text": "<code>3 > 4 or (2 < 3 and 9 > 10)</code>"
+                            }
+                        ],
+                        "correct_feedback": "Correct",
+                        "max_marks": 1,
+                        "wrong_feedback": "Incorrect",
+                        "options": [
+                            {
+                                "correct": false,
+                                "option": "True"
+                            },
+                            {
+                                "correct": true,
+                                "option": "False"
+                            }
+                        ],
+                        "question_id": "Q31"
+                    },
+                    {
+                        "questionType": "checkbox",
+                        "questionText": [
+                            {
+                                "text": "<code>4 > 5 or 3 < 4 and 9 > 8</code>"
+                            }
+                        ],
+                        "correct_feedback": "Correct",
+                        "max_marks": 1,
+                        "wrong_feedback": "Incorrect",
+                        "options": [
+                            {
+                                "correct": true,
+                                "option": "True"
+                            },
+                            {
+                                "correct": false,
+                                "option": "False"
+                            }
+                        ],
+                        "question_id": "Q32"
+                    },
+                    {
+                        "questionType": "checkbox",
+                        "questionText": [
+                            {
+                                "text": "<code>not(4 > 3 and 100 > 6)</code>"
+                            }
+                        ],
+                        "correct_feedback": "Correct",
+                        "max_marks": 1,
+                        "wrong_feedback": "Incorrect",
+                        "options": [
+                            {
+                                "correct": false,
+                                "option": "True"
+                            },
+                            {
+                                "correct": true,
+                                "option": "False"
+                            }
+                        ],
+                        "question_id": "Q33"
+                    }
+                ],
+                "title": "Last activity we leared about Operators and Branching in python. Let's answer few questions in this activity"
+            }
+        ],
+        "activity_id": "A10"
+    },
+    {
+        "activity_name": "Operators and Branching-2 notes",
+        "activity_json": [
+            {
+                "activityType": "notes",
+                "title": "Operators and Branching-2 notes",
+                "text": "Last activity you solved few questions. There are few more questions in this activity for you to answer<br><br>Below is a transcript of a session with the Python shell. For each expression being evaluated, provide the type and the value that the last expression in the transcript returns. If evaluating an expression would cause an error, select 'NoneType' and write the word 'error' (note this is a word, not a string, no quotes) in the box. While you could simply type these expressions into your IDE, we encourage you to answer them directly since this will help reinforce your understanding of basic Python expressions.<br><br>Assume that the expressions are evaluated in the order shown - that is, each problem part is evaluated directly after the previous problem part(s)."
+            }
+        ],
+        "activity_id": "A11"
+    },
+    {
+        "activity_name": "Operators and Branching-2",
+        "activity_json": [
+            {
+                "quizDescription": "Below is a transcript of a session with the Python shell. For each expression being evaluated, provide the type and the value that the last expression in the transcript returns. If evaluating an expression would cause an error, select 'NoneType' and write the word 'error' (note this is a word, not a string, no quotes) in the box. While you could simply type these expressions into your IDE, we encourage you to answer them directly since this will help reinforce your understanding of basic Python expressions.<br><br>Assume that the expressions are evaluated in the order shown - that is, each problem part is evaluated directly after the previous problem part(s).",
+                "activityType": "quiz",
+                "questions": [
+                    {
+                        "questionType": "checkbox",
+                        "questionText": [
+                            {
+                                "text": "a = 3<br>a == 5.0<br>a "
+                            }
+                        ],
+                        "correct_feedback": "Correct",
+                        "max_marks": 1,
+                        "wrong_feedback": "Incorrect",
+                        "options": [
+                            {
+                                "correct": true,
+                                "option": "False"
+                            },
+                            {
+                                "correct": false,
+                                "option": "True"
+                            },
+                            {
+                                "correct": false,
+                                "option": "3"
+                            },
+                            {
+                                "correct": false,
+                                "option": "3.0"
+                            }
+                        ],
+                        "question_id": "Q34"
+                    },
+                    {
+                        "questionType": "checkbox",
+                        "questionText": [
+                            {
+                                "text": "a = 3<br>a == 5.0<br>a "
+                            }
+                        ],
+                        "correct_feedback": "Correct",
+                        "max_marks": 1,
+                        "wrong_feedback": "Incorrect",
+                        "options": [
+                            {
+                                "correct": false,
+                                "option": "NoneType"
+                            },
+                            {
+                                "correct": true,
+                                "option": "int"
+                            },
+                            {
+                                "correct": false,
+                                "option": "float"
+                            },
+                            {
+                                "correct": false,
+                                "option": "bool"
+                            }
+                        ],
+                        "question_id": "Q35"
+                    },
+                    {
+                        "questionType": "checkbox",
+                        "questionText": [
+                            {
+                                "text": "b = 10<br>c = b > 9<br>c "
+                            }
+                        ],
+                        "correct_feedback": "Correct",
+                        "max_marks": 1,
+                        "wrong_feedback": "Incorrect",
+                        "options": [
+                            {
+                                "correct": false,
+                                "option": "False"
+                            },
+                            {
+                                "correct": true,
+                                "option": "True"
+                            },
+                            {
+                                "correct": false,
+                                "option": "1"
+                            },
+                            {
+                                "correct": false,
+                                "option": "0"
+                            }
+                        ],
+                        "question_id": "Q36"
+                    },
+                    {
+                        "questionType": "checkbox",
+                        "questionText": [
+                            {
+                                "text": "b = 10<br>c = b > 9<br>c "
+                            }
+                        ],
+                        "correct_feedback": "Correct",
+                        "max_marks": 1,
+                        "wrong_feedback": "Incorrect",
+                        "options": [
+                            {
+                                "correct": false,
+                                "option": "NoneType"
+                            },
+                            {
+                                "correct": false,
+                                "option": "int"
+                            },
+                            {
+                                "correct": false,
+                                "option": "float"
+                            },
+                            {
+                                "correct": true,
+                                "option": "bool"
+                            }
+                        ],
+                        "question_id": "Q37"
+                    }
+                ],
+                "title": "Last activity you solved few questions. There are few more questions in this activity for you to answer"
+            }
+        ],
+        "activity_id": "A12"
+    },
+    {
+        "activity_name": "Operators and Branching-3 notes",
+        "activity_json": [
+            {
+                "activityType": "notes",
+                "title": "Operators and Branching-3 notes",
+                "text": "Last activity you solved few questions. There are few more questions in this activity for you to answer<br><br>For each of the following expressions, indicate the type of the expression and the value returned, or, if the evaluation would lead to an error, choose the type 'NoneType' and write the word 'error' (note this is a word, not a string, no quotes) as the value returned.<br><br>While you could simply type these expressions into your IDE, we encourage you to answer them directly since this will help reinforce your understanding of basic Python expressions."
+            }
+        ],
+        "activity_id": "A13"
+    },
+    {
+        "activity_name": "Operators and Branching-3",
+        "activity_json": [
+            {
+                "quizDescription": "For each of the following expressions, indicate the type of the expression and the value returned, or, if the evaluation would lead to an error, choose the type 'NoneType' and write the word 'error' (note this is a word, not a string, no quotes) as the value returned.<br><br>While you could simply type these expressions into your IDE, we encourage you to answer them directly since this will help reinforce your understanding of basic Python expressions.",
+                "activityType": "quiz",
+                "questions": [
+                    {
+                        "questionType": "checkbox",
+                        "questionText": [
+                            {
+                                "text": "<code>3 + 5.0</code>"
+                            }
+                        ],
+                        "correct_feedback": "Correct",
+                        "max_marks": 1,
+                        "wrong_feedback": "Incorrect",
+                        "options": [
+                            {
+                                "correct": false,
+                                "option": "8"
+                            },
+                            {
+                                "correct": false,
+                                "option": "3.0"
+                            },
+                            {
+                                "correct": true,
+                                "option": "8.0"
+                            },
+                            {
+                                "correct": false,
+                                "option": "3"
+                            }
+                        ],
+                        "question_id": "Q38"
+                    },
+                    {
+                        "questionType": "checkbox",
+                        "questionText": [
+                            {
+                                "text": "<code>3 + 5.0</code>"
+                            }
+                        ],
+                        "correct_feedback": "Correct",
+                        "max_marks": 1,
+                        "wrong_feedback": "Incorrect",
+                        "options": [
+                            {
+                                "correct": false,
+                                "option": "NoneType"
+                            },
+                            {
+                                "correct": false,
+                                "option": "int"
+                            },
+                            {
+                                "correct": true,
+                                "option": "float"
+                            },
+                            {
+                                "correct": false,
+                                "option": "bool"
+                            }
+                        ],
+                        "question_id": "Q39"
+                    },
+                    {
+                        "questionType": "checkbox",
+                        "questionText": [
+                            {
+                                "text": "<code>5/2</code>"
+                            }
+                        ],
+                        "correct_feedback": "Correct",
+                        "max_marks": 1,
+                        "wrong_feedback": "Incorrect",
+                        "options": [
+                            {
+                                "correct": false,
+                                "option": "2"
+                            },
+                            {
+                                "correct": false,
+                                "option": "2.0"
+                            },
+                            {
+                                "correct": true,
+                                "option": "2.5"
+                            },
+                            {
+                                "correct": false,
+                                "option": "2.25"
+                            }
+                        ],
+                        "question_id": "Q40"
+                    },
+                    {
+                        "questionType": "checkbox",
+                        "questionText": [
+                            {
+                                "text": "<code>5/2</code>"
+                            }
+                        ],
+                        "correct_feedback": "Correct",
+                        "max_marks": 1,
+                        "wrong_feedback": "Incorrect",
+                        "options": [
+                            {
+                                "correct": false,
+                                "option": "NoneType"
+                            },
+                            {
+                                "correct": false,
+                                "option": "int"
+                            },
+                            {
+                                "correct": true,
+                                "option": "float"
+                            },
+                            {
+                                "correct": false,
+                                "option": "bool"
+                            }
+                        ],
+                        "question_id": "Q41"
+                    },
+                    {
+                        "questionType": "checkbox",
+                        "questionText": [
+                            {
+                                "text": "<code>5/2 == 5/2.0</code>"
+                            }
+                        ],
+                        "correct_feedback": "Correct",
+                        "max_marks": 1,
+                        "wrong_feedback": "Incorrect",
+                        "options": [
+                            {
+                                "correct": true,
+                                "option": "True"
+                            },
+                            {
+                                "correct": false,
+                                "option": "False"
+                            },
+                            {
+                                "correct": false,
+                                "option": "1"
+                            },
+                            {
+                                "correct": false,
+                                "option": "0"
+                            }
+                        ],
+                        "question_id": "Q42"
+                    },
+                    {
+                        "questionType": "checkbox",
+                        "questionText": [
+                            {
+                                "text": "<code>5/2 == 5/2.0</code>"
+                            }
+                        ],
+                        "correct_feedback": "Correct",
+                        "max_marks": 1,
+                        "wrong_feedback": "Incorrect",
+                        "options": [
+                            {
+                                "correct": false,
+                                "option": "NoneType"
+                            },
+                            {
+                                "correct": false,
+                                "option": "int"
+                            },
+                            {
+                                "correct": false,
+                                "option": "float"
+                            },
+                            {
+                                "correct": true,
+                                "option": "bool"
+                            }
+                        ],
+                        "question_id": "Q43"
+                    },
+                    {
+                        "questionType": "checkbox",
+                        "questionText": [
+                            {
+                                "text": "<code>5/2.0</code>"
+                            }
+                        ],
+                        "correct_feedback": "Correct",
+                        "max_marks": 1,
+                        "wrong_feedback": "Incorrect",
+                        "options": [
+                            {
+                                "correct": false,
+                                "option": "2"
+                            },
+                            {
+                                "correct": false,
+                                "option": "2.0"
+                            },
+                            {
+                                "correct": true,
+                                "option": "2.5"
+                            },
+                            {
+                                "correct": false,
+                                "option": "2.25"
+                            }
+                        ],
+                        "question_id": "Q44"
+                    },
+                    {
+                        "questionType": "checkbox",
+                        "questionText": [
+                            {
+                                "text": "<code>5/2.0</code>"
+                            }
+                        ],
+                        "correct_feedback": "Correct",
+                        "max_marks": 1,
+                        "wrong_feedback": "Incorrect",
+                        "options": [
+                            {
+                                "correct": false,
+                                "option": "NoneType"
+                            },
+                            {
+                                "correct": false,
+                                "option": "int"
+                            },
+                            {
+                                "correct": true,
+                                "option": "float"
+                            },
+                            {
+                                "correct": false,
+                                "option": "bool"
+                            }
+                        ],
+                        "question_id": "Q45"
+                    },
+                    {
+                        "questionType": "checkbox",
+                        "questionText": [
+                            {
+                                "text": "<code>round(2.6)</code>"
+                            }
+                        ],
+                        "correct_feedback": "Correct",
+                        "max_marks": 1,
+                        "wrong_feedback": "Incorrect",
+                        "options": [
+                            {
+                                "correct": false,
+                                "option": "2.0"
+                            },
+                            {
+                                "correct": false,
+                                "option": "2"
+                            },
+                            {
+                                "correct": false,
+                                "option": "3.0"
+                            },
+                            {
+                                "correct": true,
+                                "option": "3"
+                            }
+                        ],
+                        "question_id": "Q46"
+                    },
+                    {
+                        "questionType": "checkbox",
+                        "questionText": [
+                            {
+                                "text": "<code>round(2.6)</code>"
+                            }
+                        ],
+                        "correct_feedback": "Correct",
+                        "max_marks": 1,
+                        "wrong_feedback": "Incorrect",
+                        "options": [
+                            {
+                                "correct": false,
+                                "option": "NoneType"
+                            },
+                            {
+                                "correct": true,
+                                "option": "int"
+                            },
+                            {
+                                "correct": false,
+                                "option": "float"
+                            },
+                            {
+                                "correct": false,
+                                "option": "bool"
+                            }
+                        ],
+                        "question_id": "Q47"
+                    },
+                    {
+                        "questionType": "checkbox",
+                        "questionText": [
+                            {
+                                "text": "<code>int(2.6)</code>"
+                            }
+                        ],
+                        "correct_feedback": "Correct",
+                        "max_marks": 1,
+                        "wrong_feedback": "Incorrect",
+                        "options": [
+                            {
+                                "correct": false,
+                                "option": "2.0"
+                            },
+                            {
+                                "correct": true,
+                                "option": "2"
+                            },
+                            {
+                                "correct": false,
+                                "option": "3.0"
+                            },
+                            {
+                                "correct": false,
+                                "option": "3"
+                            }
+                        ],
+                        "question_id": "Q48"
+                    },
+                    {
+                        "questionType": "checkbox",
+                        "questionText": [
+                            {
+                                "text": "<code>int(2.6)</code>"
+                            }
+                        ],
+                        "correct_feedback": "Correct",
+                        "max_marks": 1,
+                        "wrong_feedback": "Incorrect",
+                        "options": [
+                            {
+                                "correct": false,
+                                "option": "NoneType"
+                            },
+                            {
+                                "correct": true,
+                                "option": "int"
+                            },
+                            {
+                                "correct": false,
+                                "option": "float"
+                            },
+                            {
+                                "correct": false,
+                                "option": "bool"
+                            }
+                        ],
+                        "question_id": "Q49"
+                    },
+                    {
+                        "questionType": "checkbox",
+                        "questionText": [
+                            {
+                                "text": "<code>2.0 + 5.0</code>"
+                            }
+                        ],
+                        "correct_feedback": "Correct",
+                        "max_marks": 1,
+                        "wrong_feedback": "Incorrect",
+                        "options": [
+                            {
+                                "correct": false,
+                                "option": "2.0"
+                            },
+                            {
+                                "correct": false,
+                                "option": "5.0"
+                            },
+                            {
+                                "correct": false,
+                                "option": "7"
+                            },
+                            {
+                                "correct": true,
+                                "option": "7.0"
+                            }
+                        ],
+                        "question_id": "Q50"
+                    },
+                    {
+                        "questionType": "checkbox",
+                        "questionText": [
+                            {
+                                "text": "<code>2.0 + 5.0</code>"
+                            }
+                        ],
+                        "correct_feedback": "Correct",
+                        "max_marks": 1,
+                        "wrong_feedback": "Incorrect",
+                        "options": [
+                            {
+                                "correct": false,
+                                "option": "NoneType"
+                            },
+                            {
+                                "correct": false,
+                                "option": "int"
+                            },
+                            {
+                                "correct": true,
+                                "option": "float"
+                            },
+                            {
+                                "correct": false,
+                                "option": "bool"
+                            }
+                        ],
+                        "question_id": "Q51"
+                    },
+                    {
+                        "questionType": "checkbox",
+                        "questionText": [
+                            {
+                                "text": "<code>5*2 == 5.0 * 2.0</code>"
+                            }
+                        ],
+                        "correct_feedback": "Correct",
+                        "max_marks": 1,
+                        "wrong_feedback": "Incorrect",
+                        "options": [
+                            {
+                                "correct": true,
+                                "option": "True"
+                            },
+                            {
+                                "correct": false,
+                                "option": "False"
+                            },
+                            {
+                                "correct": false,
+                                "option": "1"
+                            },
+                            {
+                                "correct": false,
+                                "option": "0"
+                            }
+                        ],
+                        "question_id": "Q52"
+                    },
+                    {
+                        "questionType": "checkbox",
+                        "questionText": [
+                            {
+                                "text": "<code>5*2 == 5.0 * 2.0</code>"
+                            }
+                        ],
+                        "correct_feedback": "Correct",
+                        "max_marks": 1,
+                        "wrong_feedback": "Incorrect",
+                        "options": [
+                            {
+                                "correct": false,
+                                "option": "NoneType"
+                            },
+                            {
+                                "correct": false,
+                                "option": "int"
+                            },
+                            {
+                                "correct": false,
+                                "option": "float"
+                            },
+                            {
+                                "correct": true,
+                                "option": "bool"
+                            }
+                        ],
+                        "question_id": "Q53"
+                    }
+                ],
+                "title": "Last activity you solved few questions. There are few more questions in this activity for you to answer"
+            }
+        ],
+        "activity_id": "A14"
+    }
+]

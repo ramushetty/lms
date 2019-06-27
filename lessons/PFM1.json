@@ -1,0 +1,1173 @@
+[
+    {
+        "activity_name": "Computer Basics- What is a Computer",
+        "activity_json": [
+            {
+                "activityType": "video",
+                "videoURL": "http://courseware.msitprogram.net/play/content/cspp1/videos//Computer%20Basics-%20What%20is%20a%20Computer.mp4",
+                "title": "Computer Basics- What is a Computer"
+            }
+        ],
+        "activity_id": "A1"
+    },
+    {
+        "activity_name": "Intro to Algorithms",
+        "activity_json": [
+            {
+                "activityType": "video",
+                "videoURL": "http://courseware.msitprogram.net/play/content/cspp1/videos//Intro%20to%20Algorithms.mp4",
+                "title": "Intro to Algorithms"
+            }
+        ],
+        "activity_id": "A2"
+    },
+    {
+        "activity_name": "Difference Between Compiler and Interpreter",
+        "activity_json": [
+            {
+                "text": "<a href=\"https://techdifferences.com/difference-between-compiler-and-interpreter.html\">Difference Between Compiler and Interpreter</a> ",
+                "activityType": "notes",
+                "title": "Difference Between Compiler and Interpreter"
+            }
+        ],
+        "activity_id": "A3"
+    },
+    {
+        "activity_name": "Debugging",
+        "activity_json": [
+            {
+                "text": "<a href=\"https://searchsoftwarequality.techtarget.com/definition/debugging\">Debugging</a> ",
+                "activityType": "notes",
+                "title": "Debugging"
+            }
+        ],
+        "activity_id": "A4"
+    },
+    {
+        "activity_name": "Computers",
+        "activity_json": [
+            {
+                "activityType": "quiz",
+                "questions": [
+                    {
+                        "questionType": "checkbox",
+                        "questionText": [
+                            {
+                                "text": "Each computer has a built-in instruction set that it knows how to execute by design.<br><br><b>Hints</b>:Recall that we use the term computation to mean \u201cthe execution of a sequence of instructions by a computer with the intention of solving a given problem\u201d.A computer should know how to perform certain basic instructions for it to be able to do any computation at all."
+                            }
+                        ],
+                        "correct_feedback": "Correct",
+                        "points": 1,
+                        "wrong_feedback": "Incorrect",
+                        "options": [
+                            {
+                                "correct": true,
+                                "option": "True"
+                            },
+                            {
+                                "correct": false,
+                                "option": "False."
+                            }
+                        ],
+                        "question_id": "Q1"
+                    },
+                    {
+                        "questionType": "checkbox",
+                        "questionText": [
+                            {
+                                "text": "The computer uses intelligence to execute instructions."
+                            }
+                        ],
+                        "hint": [
+                            "Recall that we said a computer executes the instructions given to it mechanically.Mechanical computation means, automated computation without any thought."
+                        ],
+                        "correct_feedback": "Correct",
+                        "points": 1,
+                        "wrong_feedback": "Incorrect",
+                        "options": [
+                            {
+                                "correct": false,
+                                "option": "True"
+                            },
+                            {
+                                "correct": true,
+                                "option": "False"
+                            }
+                        ],
+                        "question_id": "Q2"
+                    },
+                    {
+                        "questionType": "checkbox",
+                        "questionText": [
+                            {
+                                "text": "In modern computers instructions can be stored and manipulated as other types of data."
+                            }
+                        ],
+                        "hint": [
+                            "Recall the characteristic we singled out as something that makes modern computers especially powerful.",
+                            "We have not discussed in detail how instructions are represented in a computer but we stated that modern computers can store instructions."
+                        ],
+                        "correct_feedback": "Correct",
+                        "points": 1,
+                        "wrong_feedback": "Incorrect",
+                        "options": [
+                            {
+                                "correct": true,
+                                "option": "True"
+                            },
+                            {
+                                "correct": false,
+                                "option": "False"
+                            }
+                        ],
+                        "question_id": "Q3"
+                    },
+                    {
+                        "questionType": "checkbox",
+                        "questionText": [
+                            {
+                                "text": "Computers help humans solve problems by automatically executing a sequence of instructions given to them and storing their results."
+                            }
+                        ],
+                        "correct_feedback": "Correct",
+                        "points": 1,
+                        "wrong_feedback": "Incorrect",
+                        "options": [
+                            {
+                                "correct": true,
+                                "option": "True"
+                            },
+                            {
+                                "correct": false,
+                                "option": "False"
+                            }
+                        ],
+                        "question_id": "Q4"
+                    }
+                ],
+                "title": "Last activity you have an overview of all the concepts we are going to discuss in this Module. In this activity we give you some questions on computers, try to answer those questions."
+            }
+        ],
+        "activity_id": "A5"
+    },
+    {
+        "activity_name": "Algorithms-1",
+        "activity_json": [
+            {
+                "quizDescription": "description Last activity you solved few questions. In this activity we give you some questions on Algorithms-1, try to answer those questions.",
+                "activityType": "quiz",
+                "questions": [
+                    {
+                        "questionType": "checkbox",
+                        "questionText": [
+                            {
+                                "text": "In many cases, an algorithm can be seen as a sequence of computational steps that transform some input to an output."
+                            }
+                        ],
+                        "hint": [
+                            "Many computational problems involve computing some function of a given input (data). Think of our example. We give the algorithm an integer n and it computes 1 + 2 + \u2026 + n.",
+                            "An algorithm describes the sequence of steps to solve a problem."
+                        ],
+                        "correct_feedback": "Correct",
+                        "points": 1,
+                        "wrong_feedback": "Incorrect",
+                        "options": [
+                            {
+                                "correct": true,
+                                "option": "True"
+                            },
+                            {
+                                "correct": false,
+                                "option": "False."
+                            }
+                        ],
+                        "question_id": "Q5"
+                    },
+                    {
+                        "questionType": "checkbox",
+                        "questionText": [
+                            {
+                                "text": "We cannot describe an algorithm without a programming language."
+                            }
+                        ],
+                        "hint": [
+                            "Algorithm is a computational recipe for solving a problem. We can describe it formally or informally using pseudo-code",
+                            "Check how we described the algorithm in Example 1."
+                        ],
+                        "correct_feedback": "Correct",
+                        "points": 1,
+                        "wrong_feedback": "Incorrect",
+                        "options": [
+                            {
+                                "correct": false,
+                                "option": "True"
+                            },
+                            {
+                                "correct": true,
+                                "option": "False."
+                            }
+                        ],
+                        "question_id": "Q6"
+                    },
+                    {
+                        "questionType": "checkbox",
+                        "questionText": [
+                            {
+                                "text": "A program expresses what instructions will be executed in what order by the computer."
+                            }
+                        ],
+                        "hint": [
+                            "Think of a program as an algorithm that has been described using a formal language.",
+                            "Computational algorithms describe steps that are ultimately implementable using instructions from the instruction set of a computer.",
+                            "Ultimately every program amounts to sequence of instructions."
+                        ],
+                        "correct_feedback": "Correct",
+                        "points": 1,
+                        "wrong_feedback": "Incorrect",
+                        "options": [
+                            {
+                                "correct": true,
+                                "option": "True"
+                            },
+                            {
+                                "correct": false,
+                                "option": "False."
+                            }
+                        ],
+                        "question_id": "Q7"
+                    },
+                    {
+                        "questionType": "checkbox",
+                        "questionText": [
+                            {
+                                "text": "Programming languages offer a formal language for creating programs that can be executed by the computer. Programs can be executed by the computer if there are tools that translate programs to those consisting of the built-in instructions of a computer."
+                            }
+                        ],
+                        "correct_feedback": "Correct",
+                        "points": 1,
+                        "wrong_feedback": "Incorrect",
+                        "options": [
+                            {
+                                "correct": true,
+                                "option": "True"
+                            },
+                            {
+                                "correct": false,
+                                "option": "False."
+                            }
+                        ],
+                        "question_id": "Q8"
+                    }
+                ],
+                "title": "Last activity you solved few questions. In this activity we give you some questions on Algorithms-1, try to answer those questions."
+            }
+        ],
+        "activity_id": "A6"
+    },
+    {
+        "activity_name": "Algorithms-2",
+        "activity_json": [
+            {
+                "activityType": "quiz",
+                "questions": [
+                    {
+                        "questionType": "checkbox",
+                        "questionText": [
+                            {
+                                "text": "What is the most important skill for a computer scientist?"
+                            }
+                        ],
+                        "correct_feedback": "Correct",
+                        "points": 1,
+                        "wrong_feedback": "Incorrect",
+                        "options": [
+                            {
+                                "correct": false,
+                                "option": "To think like a computer."
+                            },
+                            {
+                                "correct": false,
+                                "option": "To be able to write code really well."
+                            },
+                            {
+                                "correct": true,
+                                "option": "To be able to solve problems."
+                            },
+                            {
+                                "correct": false,
+                                "option": "To be really good at math."
+                            }
+                        ],
+                        "question_id": "Q9"
+                    },
+                    {
+                        "questionType": "checkbox",
+                        "questionText": [
+                            {
+                                "text": " An algorithm is:"
+                            }
+                        ],
+                        "correct_feedback": "Correct",
+                        "points": 1,
+                        "wrong_feedback": "Incorrect",
+                        "options": [
+                            {
+                                "correct": false,
+                                "option": "A solution to a problem that can be solved by a computer"
+                            },
+                            {
+                                "correct": true,
+                                "option": "A step by step list of instructions that if followed exactly will solve the problem under consideration."
+                            },
+                            {
+                                "correct": false,
+                                "option": " A series of instructions implemented in a programming language."
+                            },
+                            {
+                                "correct": false,
+                                "option": "A special kind of notation used by computer scientists."
+                            }
+                        ],
+                        "question_id": "Q10"
+                    }
+                ],
+                "title": " Last activity you solved few questions. In this activity we give you some questions on Algorithms-1, try to answer those questions."
+            }
+        ],
+        "activity_id": "A7"
+    },
+    {
+        "activity_name": "Interpreters",
+        "activity_json": [
+            {
+                "activityType": "quiz",
+                "questions": [
+                    {
+                        "questionType": "checkbox",
+                        "questionText": [
+                            {
+                                "text": "An interpreter for a language X is a program that executes programs written using the language X."
+                            }
+                        ],
+                        "hint": [
+                            "Programs can take programs as inputs.",
+                            "An interpreter is a program.",
+                            "An input to an interpreter is a high-level program that we want to execute."
+                        ],
+                        "correct_feedback": "Correct",
+                        "points": 1,
+                        "wrong_feedback": "Incorrect",
+                        "options": [
+                            {
+                                "correct": true,
+                                "option": "True"
+                            },
+                            {
+                                "correct": false,
+                                "option": "False."
+                            }
+                        ],
+                        "question_id": "Q11"
+                    },
+                    {
+                        "questionType": "checkbox",
+                        "questionText": [
+                            {
+                                "text": "While writing a program to solve a problem with a high-level programming language, as a programmer, you need to take into consideration the computing platform on which the program is to be executed."
+                            }
+                        ],
+                        "hint": [
+                            "Recall what we said about abstraction and high-level programming languages.",
+                            "An advantage of using a high-level programming language is that it allows one to write programs at an abstraction level higher than the instruction set of the computer.",
+                            "We can execute a program on any platform as long as an interpreter or compiler exists for that platform."
+                        ],
+                        "correct_feedback": "Correct",
+                        "points": 1,
+                        "wrong_feedback": "Incorrect",
+                        "options": [
+                            {
+                                "correct": false,
+                                "option": "True"
+                            },
+                            {
+                                "correct": true,
+                                "option": "False."
+                            }
+                        ],
+                        "question_id": "Q12"
+                    },
+                    {
+                        "questionType": "checkbox",
+                        "questionText": [
+                            {
+                                "text": "An interpreter combines translation and execution."
+                            }
+                        ],
+                        "correct_feedback": "Correct",
+                        "points": 1,
+                        "wrong_feedback": "Incorrect",
+                        "options": [
+                            {
+                                "correct": true,
+                                "option": "True"
+                            },
+                            {
+                                "correct": false,
+                                "option": "False."
+                            }
+                        ],
+                        "question_id": "Q13"
+                    }
+                ],
+                "title": "Last activity you solved few questions. In this activity we give you some questions on Algorithms-1, try to answer those questions."
+            }
+        ],
+        "activity_id": "A8"
+    },
+    {
+        "activity_name": "The Python Programming Language",
+        "activity_json": [
+            {
+                "activityType": "quiz",
+                "questions": [
+                    {
+                        "questionType": "checkbox",
+                        "questionText": [
+                            {
+                                "text": "Source code is another name for:"
+                            }
+                        ],
+                        "correct_feedback": "Correct",
+                        "points": 1,
+                        "wrong_feedback": "Incorrect",
+                        "options": [
+                            {
+                                "correct": true,
+                                "option": "the instructions in a program, stored in a file."
+                            },
+                            {
+                                "correct": false,
+                                "option": "the language that you are programming in (e.g., Python)."
+                            },
+                            {
+                                "correct": false,
+                                "option": "the environment/tool in which you are programming."
+                            },
+                            {
+                                "correct": false,
+                                "option": "the number (or \"code\") that you must input at the top of each program to tell the computer how to execute your program."
+                            }
+                        ],
+                        "question_id": "Q14"
+                    },
+                    {
+                        "questionType": "checkbox",
+                        "questionText": [
+                            {
+                                "text": "What is the difference between a high-level programming language and a low-level programming language?"
+                            }
+                        ],
+                        "correct_feedback": "Correct",
+                        "points": 1,
+                        "wrong_feedback": "Incorrect",
+                        "options": [
+                            {
+                                "correct": false,
+                                "option": "It is high-level if you are standing and low-level if you are sitting."
+                            },
+                            {
+                                "correct": false,
+                                "option": "It is high-level if you are programming for a computer and low-level if you are programming for a phone or mobile device."
+                            },
+                            {
+                                "correct": true,
+                                "option": "It is high-level if the program must be processed before it can run, and low-level if the computer can execute it without additional processing."
+                            },
+                            {
+                                "correct": false,
+                                "option": "It is high-level if it easy to program in and is very short; it is low-level if it is really hard to program in and the programs are really long."
+                            }
+                        ],
+                        "question_id": "Q15"
+                    },
+                    {
+                        "questionType": "checkbox",
+                        "questionText": [
+                            {
+                                "text": "Pick the best replacements for 1 and 2 in the following sentence: When comparing compilers and interpreters, a compiler is like 1 while an interpreter is like 2."
+                            }
+                        ],
+                        "correct_feedback": "Correct",
+                        "points": 1,
+                        "wrong_feedback": "Incorrect",
+                        "options": [
+                            {
+                                "correct": false,
+                                "option": "1 = a process, 2 = a function"
+                            },
+                            {
+                                "correct": true,
+                                "option": "1 = translating an entire book, 2 = translating a line at a time"
+                            },
+                            {
+                                "correct": false,
+                                "option": "1 = software, 2 = hardware "
+                            },
+                            {
+                                "correct": false,
+                                "option": "1 = object code, 2 = byte code"
+                            }
+                        ],
+                        "question_id": "Q16"
+                    }
+                ],
+                "title": "Last activity you solved few questions. In this activity we give you some questions on The python programming language, try to answer those questions"
+            }
+        ],
+        "activity_id": "A9"
+    },
+    {
+        "activity_name": "Programs",
+        "activity_json": [
+            {
+                "activityType": "quiz",
+                "questions": [
+                    {
+                        "questionType": "checkbox",
+                        "questionText": [
+                            {
+                                "text": "A program is:"
+                            }
+                        ],
+                        "correct_feedback": "Correct",
+                        "points": 1,
+                        "wrong_feedback": "Incorrect",
+                        "options": [
+                            {
+                                "correct": true,
+                                "option": "a sequence of instructions that specifies how to perform a computation."
+                            },
+                            {
+                                "correct": false,
+                                "option": "something you follow along at a play or concert."
+                            },
+                            {
+                                "correct": false,
+                                "option": "a computation, even a symbolic computation."
+                            },
+                            {
+                                "correct": false,
+                                "option": "the same thing as an algorithm."
+                            }
+                        ],
+                        "question_id": "Q17"
+                    }
+                ],
+                "title": "Last activity you solved few questions. In this activity we give you some questions on programs, try to answer those questions"
+            }
+        ],
+        "activity_id": "A10"
+    },
+    {
+        "activity_name": "What is Debugging",
+        "activity_json": [
+            {
+                "activityType": "quiz",
+                "questions": [
+                    {
+                        "questionType": "checkbox",
+                        "questionText": [
+                            {
+                                "text": "Debugging is:"
+                            }
+                        ],
+                        "correct_feedback": "Correct",
+                        "points": 1,
+                        "wrong_feedback": "Incorrect",
+                        "options": [
+                            {
+                                "correct": true,
+                                "option": "tracking down programming errors and correcting them."
+                            },
+                            {
+                                "correct": false,
+                                "option": "removing all the bugs from your house."
+                            },
+                            {
+                                "correct": false,
+                                "option": "finding all the bugs in the program."
+                            },
+                            {
+                                "correct": false,
+                                "option": "fixing the bugs in the program."
+                            }
+                        ],
+                        "question_id": "Q18"
+                    }
+                ],
+                "title": "Last activity you solved few questions. In this activity we give you some questions on What is Debugging, try to answer those questions"
+            }
+        ],
+        "activity_id": "A11"
+    },
+    {
+        "activity_name": "Syntax Errors",
+        "activity_json": [
+            {
+                "activityType": "quiz",
+                "questions": [
+                    {
+                        "questionType": "checkbox",
+                        "questionText": [
+                            {
+                                "text": "Which of the following is a syntax error?"
+                            }
+                        ],
+                        "correct_feedback": "Correct",
+                        "points": 1,
+                        "wrong_feedback": "Incorrect",
+                        "options": [
+                            {
+                                "correct": false,
+                                "option": "Attempting to divide by 0."
+                            },
+                            {
+                                "correct": true,
+                                "option": "Forgetting a colon at the end of a statement where one is required."
+                            },
+                            {
+                                "correct": false,
+                                "option": "Forgetting to divide by 100 when printing a percentage amount."
+                            }
+                        ],
+                        "question_id": "Q19"
+                    },
+                    {
+                        "questionType": "checkbox",
+                        "questionText": [
+                            {
+                                "text": "Who or what typically finds syntax errors?"
+                            }
+                        ],
+                        "correct_feedback": "Correct",
+                        "points": 1,
+                        "wrong_feedback": "Incorrect",
+                        "options": [
+                            {
+                                "correct": false,
+                                "option": "The programmer."
+                            },
+                            {
+                                "correct": true,
+                                "option": "The compiler / interpreter."
+                            },
+                            {
+                                "correct": false,
+                                "option": "The computer."
+                            },
+                            {
+                                "correct": false,
+                                "option": "The teacher / instructor."
+                            }
+                        ],
+                        "question_id": "Q20"
+                    }
+                ],
+                "title": "Last activity you solved few questions. In this activity we give you some questions on Syntax Errors, try to answer those questions"
+            }
+        ],
+        "activity_id": "A12"
+    },
+    {
+        "activity_name": "Runtime Errors",
+        "activity_json": [
+            {
+                "activityType": "quiz",
+                "questions": [
+                    {
+                        "questionType": "checkbox",
+                        "questionText": [
+                            {
+                                "text": "Which of the following is a run-time error?"
+                            }
+                        ],
+                        "correct_feedback": "Correct",
+                        "points": 1,
+                        "wrong_feedback": "Incorrect",
+                        "options": [
+                            {
+                                "correct": true,
+                                "option": "Attempting to divide by 0."
+                            },
+                            {
+                                "correct": false,
+                                "option": "Forgetting a colon at the end of a statement where one is required."
+                            },
+                            {
+                                "correct": false,
+                                "option": "Forgetting to divide by 100 when printing a percentage amount."
+                            }
+                        ],
+                        "question_id": "Q21"
+                    }
+                ],
+                "title": "Last activity you solved few questions. In this activity we give you some questions on Runtime Errors, try to answer those questions"
+            }
+        ],
+        "activity_id": "A13"
+    },
+    {
+        "activity_name": "Semantic Errors",
+        "activity_json": [
+            {
+                "activityType": "quiz",
+                "questions": [
+                    {
+                        "questionType": "checkbox",
+                        "questionText": [
+                            {
+                                "text": "Which of the following is a semantic error?"
+                            }
+                        ],
+                        "correct_feedback": "Correct",
+                        "points": 1,
+                        "wrong_feedback": "Incorrect",
+                        "options": [
+                            {
+                                "correct": false,
+                                "option": "Attempting to divide by 0."
+                            },
+                            {
+                                "correct": false,
+                                "option": "Forgetting a colon at the end of a statement where one is required."
+                            },
+                            {
+                                "correct": true,
+                                "option": "Forgetting to divide by 100 when printing a percentage amount."
+                            }
+                        ],
+                        "question_id": "Q22"
+                    }
+                ],
+                "title": "Last activity you solved few questions. In this activity we give you some questions on Semantic Errors, try to answer those questions"
+            }
+        ],
+        "activity_id": "A14"
+    },
+    {
+        "activity_name": "Experimental Debugging",
+        "activity_json": [
+            {
+                "activityType": "quiz",
+                "questions": [
+                    {
+                        "questionType": "checkbox",
+                        "questionText": [
+                            {
+                                "text": "The difference between programming and debugging is:"
+                            }
+                        ],
+                        "correct_feedback": "Correct",
+                        "points": 1,
+                        "wrong_feedback": "Incorrect",
+                        "options": [
+                            {
+                                "correct": true,
+                                "option": "programming is the process of writing and gradually debugging a program until it does what you want."
+                            },
+                            {
+                                "correct": false,
+                                "option": "programming is creative and debugging is routine."
+                            },
+                            {
+                                "correct": false,
+                                "option": "programming is fun and debugging is work."
+                            },
+                            {
+                                "correct": false,
+                                "option": "there is no difference between them."
+                            }
+                        ],
+                        "question_id": "Q23"
+                    }
+                ],
+                "title": "Last activity you solved few questions. In this activity we give you some questions on Experimental Debugging, try to answer those questions"
+            }
+        ],
+        "activity_id": "A15"
+    },
+    {
+        "activity_name": "Formal and Natural Languages",
+        "activity_json": [
+            {
+                "activityType": "quiz",
+                "questions": [
+                    {
+                        "questionType": "checkbox",
+                        "questionText": [
+                            {
+                                "text": "The differences between natural and formal languages include:"
+                            }
+                        ],
+                        "correct_feedback": "Correct",
+                        "points": 1,
+                        "wrong_feedback": "Incorrect",
+                        "options": [
+                            {
+                                "correct": false,
+                                "option": "natural languages can be parsed while formal languages cannot."
+                            },
+                            {
+                                "correct": true,
+                                "option": "ambiguity, redundancy, and literalness."
+                            },
+                            {
+                                "correct": false,
+                                "option": "there are no differences between natural and formal languages."
+                            },
+                            {
+                                "correct": false,
+                                "option": "tokens, structure, syntax, and semantics."
+                            }
+                        ],
+                        "question_id": "Q24"
+                    },
+                    {
+                        "questionType": "checkbox",
+                        "questionText": [
+                            {
+                                "text": "True or False: Reading a program is like reading other kinds of text."
+                            }
+                        ],
+                        "correct_feedback": "Correct",
+                        "points": 1,
+                        "wrong_feedback": "Incorrect",
+                        "options": [
+                            {
+                                "correct": false,
+                                "option": "True"
+                            },
+                            {
+                                "correct": true,
+                                "option": "False"
+                            }
+                        ],
+                        "question_id": "Q25"
+                    }
+                ],
+                "title": "Last activity you solved few questions. In this activity we give you some questions on Formal and Natural Languages, try to answer those questions"
+            }
+        ],
+        "activity_id": "A16"
+    },
+    {
+        "activity_name": "A Typical First Program",
+        "activity_json": [
+            {
+                "activityType": "quiz",
+                "questions": [
+                    {
+                        "questionType": "checkbox",
+                        "questionText": [
+                            {
+                                "text": "The print function: "
+                            }
+                        ],
+                        "correct_feedback": "Correct",
+                        "points": 1,
+                        "wrong_feedback": "Incorrect",
+                        "options": [
+                            {
+                                "correct": false,
+                                "option": "sends information to the printer to be printed on paper."
+                            },
+                            {
+                                "correct": true,
+                                "option": "displays a value on the screen."
+                            },
+                            {
+                                "correct": false,
+                                "option": "tells the computer to put the information in print, rather than cursive, format."
+                            },
+                            {
+                                "correct": false,
+                                "option": "tells the computer to speak the information."
+                            }
+                        ],
+                        "question_id": "Q26"
+                    }
+                ],
+                "title": "Last activity you solved few questions. In this activity we give you some questions on A Typical First Program, try to answer those questions"
+            }
+        ],
+        "activity_id": "A17"
+    },
+    {
+        "activity_name": "Comments",
+        "activity_json": [
+            {
+                "activityType": "quiz",
+                "questions": [
+                    {
+                        "questionType": "checkbox",
+                        "questionText": [
+                            {
+                                "text": "What are comments for?"
+                            }
+                        ],
+                        "correct_feedback": "Correct",
+                        "points": 1,
+                        "wrong_feedback": "Incorrect",
+                        "options": [
+                            {
+                                "correct": false,
+                                "option": "To tell the computer what you mean in your program."
+                            },
+                            {
+                                "correct": true,
+                                "option": "For the people who are reading your code to know, in natural language, what the program is doing."
+                            },
+                            {
+                                "correct": false,
+                                "option": "Nothing, they are extraneous information that is not needed."
+                            },
+                            {
+                                "correct": false,
+                                "option": "Nothing in a short program. They are only needed for really large programs."
+                            }
+                        ],
+                        "question_id": "Q27"
+                    }
+                ],
+                "title": "Last activity you solved few questions. In this activity we give you some questions on Comments, try to answer those questions"
+            }
+        ],
+        "activity_id": "A18"
+    },
+    {
+        "activity_name": "Flow Chart",
+        "activity_json": [
+            {
+                "activityType": "quiz",
+                "questions": [
+                    {
+                        "questionType": "checkbox",
+                        "points": 1,
+                        "questionText": [
+                            {
+                                "text": "A flowchart is a type of diagram that represents an algorithm, workflow or process, showing the steps as boxes of various kinds, and their order by connecting them with arrows."
+                            }
+                        ],
+                        "options": [
+                            {
+                                "option": "Yes",
+                                "correct": true
+                            },
+                            {
+                                "option": "No",
+                                "correct": false
+                            }
+                        ],
+                        "question_id": "Q28"
+                    },
+                    {
+                        "questionType": "checkbox",
+                        "points": 1,
+                        "questionText": [
+                            {
+                                "text": "What is the purpose of this symbol?"
+                            },
+                            {
+                                "image": {
+                                    "imageSRC": "http://courseware.msitprogram.net/content/cspp1/Computer%20Algorithms%20and%20Programs/attachments/start-end.jpg",
+                                    "imageName": ""
+                                }
+                            }
+                        ],
+                        "options": [
+                            {
+                                "option": "Indicates an action or step in the flowchart process.",
+                                "correct": false
+                            },
+                            {
+                                "option": "Indicates the beginning or end of the flowchart (i.e. Start, Quit, or End).",
+                                "correct": true
+                            },
+                            {
+                                "option": "A subroutine by user request, where the user is able to request info, a particular subroutine etc. from the program",
+                                "correct": false
+                            },
+                            {
+                                "option": "Indicates that the program has a save function.",
+                                "correct": false
+                            }
+                        ],
+                        "question_id": "Q29"
+                    },
+                    {
+                        "questionType": "checkbox",
+                        "points": 1,
+                        "questionText": [
+                            {
+                                "text": "What is a diagrammatic representation that illustrates the sequence of operations to be performed to get the solution of a problem?"
+                            }
+                        ],
+                        "options": [
+                            {
+                                "option": "Algorithm",
+                                "correct": false
+                            },
+                            {
+                                "option": "Flowchart",
+                                "correct": true
+                            },
+                            {
+                                "option": "Pseudocode",
+                                "correct": false
+                            },
+                            {
+                                "option": "Programming",
+                                "correct": false
+                            }
+                        ],
+                        "question_id": "Q30"
+                    },
+                    {
+                        "questionType": "checkbox",
+                        "points": 1,
+                        "questionText": [
+                            {
+                                "text": "What is the purpose of this symbol?"
+                            },
+                            {
+                                "image": {
+                                    "imageName": "",
+                                    "imageSRC": "http://courseware.msitprogram.net/content/cspp1/Computer%20Algorithms%20and%20Programs/attachments/decision.jpg"
+                                }
+                            }
+                        ],
+                        "options": [
+                            {
+                                "option": "On-page connector",
+                                "correct": false
+                            },
+                            {
+                                "option": "Terminal Symbol",
+                                "correct": false
+                            },
+                            {
+                                "option": "Decision Symbol",
+                                "correct": true
+                            },
+                            {
+                                "option": "Procedure",
+                                "correct": false
+                            }
+                        ],
+                        "question_id": "Q31"
+                    },
+                    {
+                        "questionType": "checkbox",
+                        "points": 1,
+                        "questionText": [
+                            {
+                                "text": "What is the purpose of this symbol?"
+                            },
+                            {
+                                "image": {
+                                    "imageName": "",
+                                    "imageSRC": "http://courseware.msitprogram.net/content/cspp1/Computer%20Algorithms%20and%20Programs/attachments/direction.jpg"
+                                }
+                            }
+                        ],
+                        "options": [
+                            {
+                                "option": "Represents when something is input into the program or output from the program",
+                                "correct": false
+                            },
+                            {
+                                "option": "Asks a question and then determines which route the program will take",
+                                "correct": false
+                            },
+                            {
+                                "option": "An action done by the program (e.g. calculate the area of a square)",
+                                "correct": false
+                            },
+                            {
+                                "option": "Shows the direction and sequence of processes",
+                                "correct": true
+                            }
+                        ],
+                        "question_id": "Q32"
+                    }
+                ],
+                "title": "Last activity you solved few questions. In this activity we give you some questions on Flowchart, try to answer those questions"
+            }
+        ],
+        "activity_id": "A19"
+    },
+    {
+        "activity_name": "Raptor Installation",
+        "activity_json": [
+            {
+                "activityType": "quiz",
+                "questions": [
+                    {
+                        "questionType": "checkbox",
+                        "points": 1,
+                        "questionText": [
+                            {
+                                "text": "Did you sucessfully install Raptor tool on your machine"
+                            }
+                        ],
+                        "options": [
+                            {
+                                "option": "Yes",
+                                "correct": true
+                            },
+                            {
+                                "option": "No",
+                                "correct": false
+                            }
+                        ],
+                        "question_id": "Q33"
+                    }
+                ],
+                "title": "In this activity you will install Raptor tool which is used to draw flowcharts. After installing answer the questions in the activity"
+            }
+        ],
+        "activity_id": "A20"
+    },
+    {
+        "activity_name": "Python Installation",
+        "activity_json": [
+            {
+                "activityType": "quiz",
+                "questions": [
+                    {
+                        "questionType": "checkbox",
+                        "points": 1,
+                        "questionText": [
+                            {
+                                "text": "Did you sucessfully install Python Interpreter on your machine"
+                            }
+                        ],
+                        "options": [
+                            {
+                                "option": "Yes",
+                                "correct": true
+                            },
+                            {
+                                "option": "No",
+                                "correct": false
+                            }
+                        ],
+                        "question_id": "Q34"
+                    }
+                ],
+                "title": "In this activity you will install python. After installing answer the questions in the activity"
+            }
+        ],
+        "activity_id": "A21"
+    }
+]

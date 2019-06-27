@@ -1,0 +1,342 @@
+[
+    {
+        "activity_name": "Debugging",
+        "activity_json": [
+            {
+                "videoResources": "/Debugging.zip",
+                "activityType": "video",
+                "videoURL": "http://courseware.msitprogram.net/play/content/cspp1/videos//Debugging.mp4",
+                "title": "In this Activity we will discuss Debugging by watching a video"
+            }
+        ],
+        "activity_id": "A1"
+    },
+    {
+        "activity_name": "Testing and Debugging-1 notes",
+        "activity_json": [
+            {
+                "activityType": "notes",
+                "title": "Testing and Debugging-1 notes",
+                "text": "Answer the following Question<br><br>Consider the following function definition:<br><br><a href=\"http://iiitdev.msitprogram.net/images/bsit-100.PNG\">click here for image</a><br>When we call<br><br>rem(2,5)<br>the shell returns 2. When we call <br><br>rem(5,5)<br>the shell returns 0."
+            }
+        ],
+        "activity_id": "A2"
+    },
+    {
+        "activity_name": "Testing and Debugging-1",
+        "activity_json": [
+            {
+                "quizDescription": [
+                    {
+                        "text": "Consider the following function definition:"
+                    },
+                    {
+                        "code": "Exercise6.py"
+                    },
+                    {
+                        "text": "When we call<br><code>rem(2, 5)</code><br>the shell returns 2. When we call<br><code>rem(5, 5)</code><br>the shell returns 0."
+                    }
+                ],
+                "activityType": "quiz",
+                "questions": [
+                    {
+                        "questionType": "checkbox",
+                        "questionText": [
+                            {
+                                "text": "But when we call<br><code>rem(7, 5)</code><br>the shell does not return anything! Using this information, choose what line of code should be changed from the following choices:"
+                            }
+                        ],
+                        "correct_feedback": "Correct",
+                        "max_marks": 1,
+                        "wrong_feedback": "Incorrect",
+                        "options": [
+                            {
+                                "correct": false,
+                                "option": "<code>if x == a:</code>"
+                            },
+                            {
+                                "correct": false,
+                                "option": "<code>return 0 </code>"
+                            },
+                            {
+                                "correct": false,
+                                "option": "<code>elif x < a:</code>"
+                            },
+                            {
+                                "correct": false,
+                                "option": "<code>return x</code>"
+                            },
+                            {
+                                "correct": false,
+                                "option": "<code>else:</code>"
+                            },
+                            {
+                                "correct": true,
+                                "option": "<code>rem(x-a, a) </code>"
+                            }
+                        ],
+                        "question_id": "Q1"
+                    },
+                    {
+                        "questionType": "checkbox",
+                        "questionText": [
+                            {
+                                "text": "How should this line be rewritten?"
+                            }
+                        ],
+                        "correct_feedback": "Correct",
+                        "max_marks": 1,
+                        "wrong_feedback": "Incorrect",
+                        "options": [
+                            {
+                                "correct": false,
+                                "option": "rem(x-a, a)"
+                            },
+                            {
+                                "correct": true,
+                                "option": "return rem(x-a, a)"
+                            },
+                            {
+                                "correct": false,
+                                "option": "return 0"
+                            },
+                            {
+                                "correct": false,
+                                "option": "rem(x-a)"
+                            }
+                        ],
+                        "question_id": "Q2"
+                    }
+                ],
+                "title": "Answer the following Questions"
+            }
+        ],
+        "activity_id": "A3"
+    },
+    {
+        "activity_name": "Testing and Debugging-2 notes",
+        "activity_json": [
+            {
+                "activityType": "notes",
+                "title": "Testing and Debugging-2 notes",
+                "text": "Answer the following Question<br><br>Consider the following function definition:<br><br><a href=\"http://iiitdev.msitprogram.net/images/bsit-101.PNG\">click here for image</a><br>When we call f(3) we expect the result 6, but we get 0.<br>When we call f(1) we expect the result 1, but we get 0.<br>When we call f(0) we expect the result 1, but we get 0"
+            }
+        ],
+        "activity_id": "A4"
+    },
+    {
+        "activity_name": "Testing and Debugging-2",
+        "activity_json": [
+            {
+                "quizDescription": [
+                    {
+                        "text": "Consider the following function definition:"
+                    },
+                    {
+                        "code": "Exercise7.py"
+                    },
+                    {
+                        "text": "When we call f(3) we expect the result 6, but we get 0.<br>When we call f(1) we expect the result 1, but we get 0.<br>When we call f(0) we expect the result 1, but we get 0."
+                    }
+                ],
+                "activityType": "quiz",
+                "questions": [
+                    {
+                        "questionType": "checkbox",
+                        "questionText": [
+                            {
+                                "text": "Using this information, choose what line of code should be changed from the following choices:"
+                            }
+                        ],
+                        "correct_feedback": "Correct",
+                        "max_marks": 1,
+                        "wrong_feedback": "Incorrect",
+                        "options": [
+                            {
+                                "correct": false,
+                                "option": "<code>if n == 0:</code>"
+                            },
+                            {
+                                "correct": true,
+                                "option": "<code>return n</code>"
+                            },
+                            {
+                                "correct": false,
+                                "option": "<code>else:</code>"
+                            },
+                            {
+                                "correct": false,
+                                "option": "<code>return n * f(n-1)</code>"
+                            }
+                        ],
+                        "question_id": "Q3"
+                    },
+                    {
+                        "questionType": "checkbox",
+                        "questionText": [
+                            {
+                                "text": "How should this line be rewritten?"
+                            }
+                        ],
+                        "correct_feedback": "Correct",
+                        "max_marks": 1,
+                        "wrong_feedback": "Incorrect",
+                        "options": [
+                            {
+                                "correct": false,
+                                "option": "rem(x-a, a)"
+                            },
+                            {
+                                "correct": false,
+                                "option": "return rem(x-a, a)"
+                            },
+                            {
+                                "correct": false,
+                                "option": "return 0"
+                            },
+                            {
+                                "correct": true,
+                                "option": "return 1"
+                            }
+                        ],
+                        "question_id": "Q4"
+                    }
+                ],
+                "title": "Answer the following Questions"
+            }
+        ],
+        "activity_id": "A5"
+    },
+    {
+        "activity_name": "Debugging Example",
+        "activity_json": [
+            {
+                "videoResources": "/Debugging Example.zip",
+                "activityType": "video",
+                "videoURL": "http://courseware.msitprogram.net/play/content/cspp1/videos//Debugging%20Example.mp4",
+                "title": "In this Activity we will discuss Debugging example by watching a video"
+            }
+        ],
+        "activity_id": "A6"
+    },
+    {
+        "activity_name": "Question Introduction",
+        "activity_json": [
+            {
+                "text": "In this problem set, you'll implement two versions of a wordgame!<br><br>Don't be intimidated by the length of this problem set. There is a lot of reading, but it can be done with a reasonable amount of thinking and coding. It'll be helpful if you start this problem set a few days before it is due!<br><br>Let's begin by describing the 6.00 wordgame: This game is a lot like Scrabble or Words With Friends, if you've played those. Letters are dealt to players, who then construct one or more words out of their letters. Each <b>valid</b> word receives a score, based on the length of the word and the letters in that word.<br><br>The rules of the game are as follows:<br><br><b>Dealing</b><ul><li>A player is dealt a hand of n letters chosen at random (assume n=7 for now).</li><li>The player arranges the hand into as many words as they want out of the letters, using each letter at most once.</li><li>Some letters may remain unused (these won't be scored).</li></ul><br><br><b>Scoring</b><ul><li>The score for the hand is the sum of the scores for each word formed.</li><li>The score for a word is the sum of the max_marks for letters in the word, multiplied by the length of the word, plus 50 max_marks if all n letters are used on the first word created.</li><li>Letters are scored as in Scrabble; A is worth 1, B is worth 3, C is worth 3, D is worth 2, E is worth 1, and so on. We have defined the dictionary SCRABBLE_LETTER_VALUES that maps each lowercase letter to its Scrabble letter value.</li><li>For example, 'weed' would be worth 32 max_marks ((4+1+1+2) for the four letters, then multiply by len('weed') to get (4+1+1+2)*4 = 32). Be sure to check that the hand actually has 1 'w', 2 'e's, and 1 'd' before scoring the word!</li><li>As another example, if n=7 and you make the word 'waybill' on the first try, it would be worth 155 max_marks (the base score for 'waybill' is (4+1+4+3+1+1+1)*7=105, plus an additional 50 point bonus for using all n letters).</li></ul><br><br><b>Sample Output</b><cod>sampleoutput.txt</code>",
+                "activityType": "notes",
+                "title": "We designed you some Assignments please read the following and solve the Assignments"
+            }
+        ],
+        "activity_id": "A7"
+    },
+    {
+        "activity_name": "Question Getting Started",
+        "activity_json": [
+            {
+                "text": "1.Download and save <a href=\"/ProblemSet4.zip\">Problem Set 4</a>, a zip file of all the skeleton code you'll be filling in. Extract the files from the zip folder and make sure to save all the files  - ps4a.py, ps4b.py, test_ps4a.py and words.txt - in the <b>same folder</b>. We recommend creating a folder in your Documents folder called 6001x, and inside the 6001x folder, creating a separate folder for each problem set. If you don't follow this instruction, you may end up with issues because the files for this problem set depend on one another. <br><br> 2.Run the file ps4a.py, without making any modifications to it, in order to ensure that everything is set up correctly (this means, open the file in IDLE, and use the Run command to load the file into the interpreter). The code we have given you loads a list of valid words from a file and then calls the playGame function. You will implement the functions it needs in order to work. If everything is okay, after a small delay, you should see the following printed out: <br><br> Loading word list from file... <br><br> 83667 words loaded. <br><br> playGame not yet implemented. <br><br> If you see an IOError instead (e.g., \"No such file or directory\"), you should change the value of the WORDLIST_FILENAME constant (defined near the top of the file) to the <b>complete pathname</b> for the file words.txt (This will vary based on where you saved the files). <br><br> For example, if you saved all the files including this words.txt in the directory \"C:/Users/Ana/6001x/PS4\" change the line: <br><br> WORDLIST_FILENAME = \"words.txt\"  to something like <br><br> WORDLIST_FILENAME = \"C:/Users/Ana/6001x/PS4/words.txt\" <br><br> Windows users, if you are copying the file path from Windows Explorer, you will have to change the backslashes to forward slashes. <br><br> 3.The file ps4a.py has a number of already implemented functions you can use while writing up your solution. You can ignore the code between the following comments, though you should read and understand how to use each helper function by reading the docstrings: <br><br> # -----------------------------------<br><br># Helper code<br><br># You don't need to understand this helper code,<br><br># but you will have to know how to use the functions<br><br># (so be sure to read the docstrings!)<br><br>.<br><br>.<br><br>.<br><br># (end of helper code)<br><br># -----------------------------------<br><br>  4.This problem set is structured so that you will write a number of modular functions and then glue them together to form the complete word playing game. Instead of waiting until the entire game is ready, you should test each function you write, individually, before moving on. This approach is known as unit testing, and it will help you debug your code.<br><br>We have provided several test functions to get you started. After you've written each new function, unit test by running the file test_ps4a.py to check your work.<br><br>If your code passes the unit tests you will see a SUCCESS message; otherwise you will see a FAILURE message. These tests aren't exhaustive. You will want to test your code in other ways too.<br><br>Try running test_ps4a.py now (before you modify the ps4a.py skeleton). You should see that all the tests fail, because nothing has been implemented yet.<br><br>These are the provided test functions: <br><br> <b>test_getWordScore()</b>  <br><br> <ul><li>Test the getWordScore() implementation.</li></ul> <br><br> <b>test_updateHand()</b> <br><br> <ul><li>Test the updateHand() implementation.</li></ul> <br><br><b>test_isValidWord()</b> <br><br> <ul><li>Test the isValidWord() implementation.</li></ul>",
+                "activityType": "notes",
+                "title": "Read the following"
+            }
+        ],
+        "activity_id": "A8"
+    },
+    {
+        "activity_name": "Question-1",
+        "activity_json": [
+            {
+                "activityType": "assignment",
+                "questions": [
+                    {
+                        "evaluate": true,
+                        "max_marks": 20,
+                        "questionText": [
+                            {
+                                "text": "The first step is to implement some code that allows us to calculate the score for a single word. The function getWordScore should accept as input a string of lowercase letters (a word) and return the integer score for that word, using the game's scoring rules.<br><br>Scoring<ul><li>The score for the hand is the sum of the scores for each word formed.</li><li>The score for a word is the sum of the max_marks for letters in the word, multiplied by the length of the word, plus 50 max_marks if all n letters are used on the first word created.</li><li>Letters are scored as in Scrabble; A is worth 1, B is worth 3, C is worth 3, D is worth 2, E is worth 1, and so on. We have defined the dictionary SCRABBLE_LETTER_VALUES that maps each lowercase letter to its Scrabble letter value.</li><li>For example, 'weed' would be worth 32 max_marks ((4+1+1+2) for the four letters, then multiply by len('weed') to get (4+1+1+2)*4 = 32). Be sure to check that the hand actually has 1 'w', 2 'e's, and 1 'd' before scoring the word!</li><li>As another example, if n=7 and you make the word 'waybill' on the first try, it would be worth 155 max_marks (the base score for 'waybill' is (4+1+4+3+1+1+1)*7=105, plus an additional 50 point bonus for using all n letters).</li></ul><br><br><br>Hints:<br><ul><li>You may assume that the input word is always either a string of lowercase letters, or the empty string.</li><li>You will want to use the SCRABBLE_LETTER_VALUES dictionary defined at the top of ps4a.py. You should not change its value.</li><li>Do not assume that there are always 7 letters in a hand! The parameter n is the number of letters required for a bonus score (the maximum number of letters in the hand). Our goal is to keep the code modular - if you want to try playing your word game with n=10 or n=4, you will be able to do it by simply changing the value of HAND_SIZE!</li><li>Testing: If this function is implemented properly, and you run test_ps4a.py, you should see that the test_getWordScore() tests pass. Also test your implementation of getWordScore, using some reasonable English words.</li></ul><br><br>Complete the below code and be sure you've passed the appropriate tests in test_ps4a.py<br><br>Check your program against the give test cases below as a Zip file. Submit your Solution(Zip file) when all test cases are passed<br>Download <a href=\"http://courseware.msitprogram.net/submissions/cspp1/Testing%20and%20Debugging-2/attachments/Assignment-1.zip\">Assignment-1.zip"
+                            }
+                        ],
+                        "questionType": "File submission",
+                        "question_id": "Q5"
+                    }
+                ],
+                "title": "Assignment-2"
+            }
+        ],
+        "activity_id": "A9"
+    },
+    {
+        "activity_name": "Question-2",
+        "activity_json": [
+            {
+                "activityType": "assignment",
+                "questions": [
+                    {
+                        "questionType": "filesubmission",
+                        "max_marks": 20,
+                        "evaluate": true,
+                        "questionText": [
+                            {
+                                "text": "<b>**Please read this problem entirely!!**</b> The majority of this problem consists of learning how to read code, which is an incredibly useful and important skill. At the end, you will implement a short function. Be sure to take your time on this problem - it may seem easy, but reading someone else's code can be challenging and this is an important exercise.<br><b>Representing hands</b>A <b>hand</b> is the set of letters held by a player during the game. The player is initially dealt a set of random letters. For example, the player could start out with the following hand: <b>a, q, l, m, u, i, l</b>. In our program, a hand will be represented as a dictionary: the keys are (lowercase) letters and the values are the number of times the particular letter is repeated in that hand. For example, the above hand would be represented as:<br><b>hand = {'a':1, 'q':1, 'l':2, 'm':1, 'u':1, 'i':1}</b><br>Notice how the repeated letter <b>'l'</b> is represented. Remember that with a dictionary, the usual way to access a value is <b>hand['a']</b>, where <b>'a'</b> is the key we want to find. However, this only works if the key is in the dictionary; otherwise, we get a <b>KeyError</b>. To avoid this, we can use the call <b>hand.get('a',0)</b>. This is the \"safe\" way to access a value if we are not sure the key is in the dictionary. <b>d.get(key,default)</b> returns the value for <b>key</b> if <b>key</b> is in the dictionary <b>d</b>, else <b>default</b>. If <b>default</b> is not given, it returns <b>None</b>, so that this method never raises a <b>KeyError</b>. For example:<br><br>>>> hand['e']<br>Traceback (most recent call last):<br>File \"<stdin>\", line 1, in <module><br>KeyError: 'e'<br>>>> <br><br>hand.get('e', 0)<br>0<br><b>Converting words into dictionary representation</b><br>One useful function we've defined for you is <b>getFrequencyDict</b>, defined near the top of <b>ps4a.py</b>. When given a string of letters as an input, it returns a dictionary where the keys are letters and the values are the number of times that letter is represented in the input string. For example:<br><br><br>>>> getFrequencyDict(\"hello\")<br>{'h': 1, 'e': 1, 'l': 2, 'o': 1}<br>As you can see, this is the same kind of dictionary we use to represent hands.<br><b>Displaying a hand</b>Given a hand represented as a dictionary, we want to display it in a user-friendly way. We have provided the implementation for this in the <b>displayHand</b> function. Take a few minutes right now to read through this function carefully and understand what it does and how it works.<br><b>Generating a random hand</b>The hand a player is dealt is a set of letters chosen at random. We provide you with the implementation of a function that generates this random hand, <b>dealHand</b>. The function takes as input a positive integer <b>n</b>, and returns a new object, a hand containing <b>n</b> lowercase letters. Again, take a few minutes (right now!) to read through this function carefully and understand what it does and how it works.<br><b>Removing letters from a hand (you implement this)</b><br>The player starts with a hand, a set of letters. As the player spells out words, letters from this set are used up. For example, the player could start out with the following hand: <b>a, q, l, m, u, i, l</b>. The player could choose to spell the word <b>quail</b> . This would leave the following letters in the player's hand: <b>l, m</b>. Your task is to implement the function <b>updateHand</b>, which takes in two inputs - a <b>hand</b> and a <b>word</b> (string). <b>updateHand</b> uses letters from the <b>hand</b> to spell the word, and then returns a copy of the hand, containing only the letters remaining. For example:<br><br><br>>>> hand = {'a':1, 'q':1, 'l':2, 'm':1, 'u':1, 'i':1}<br>>>> displayHand(hand) # Implemented for you<br>a q l l m u i<br>>>> hand = updateHand(hand, 'quail') # You implement this function!<br>>>> hand{'a':0, 'q':0, 'l':1, 'm':1, 'u':0, 'i':0}<br>>>> displayHand(hand)<br>l m<br><br>Implement the <b>updateHand</b> function. Make sure this function has no side effects: i.e., it must not mutate the hand passed in. Before pasting your function definition here, be sure you've passed the appropriate tests in <b>test_ps4a.py</b>.<br><br><b>Hints</b>:<ul><li><b>Testing:</b> Make sure the <b>test_updateHand()</b> tests pass. You will also want to test your implementation of <b>updateHand</b> with some reasonable inputs.</li><li>You may wish to review the \".copy\" method of Python dictionaries (review this and other Python dictionary methods<a href=\"https://docs.python.org/3/library/stdtypes.html#mapping-types-dict\">here)</a></li></ul><br>Your implementation of updateHand should be short (ours is 4 lines of code). It does not need to call any helper functions.<br>Complete the below code and be sure you've passed the appropriate tests in <b>test_ps4a.py</b><br><br>Check your program against the give test cases below as a Zip file. Submit your Solution(Zip file) when all test cases are passed"
+                            },
+                            {
+                                "attachment": [
+                                    "Assignment-2.zip"
+                                ]
+                            }
+                        ],
+                        "code": "updateHand.py",
+                        "question_id": "Q6"
+                    }
+                ],
+                "title": "Solve the following Problem Dealing with hands"
+            }
+        ],
+        "activity_id": "A10"
+    },
+    {
+        "activity_name": "Question-3",
+        "activity_json": [
+            {
+                "activityType": "assignment",
+                "questions": [
+                    {
+                        "evaluate": true,
+                        "max_marks": 20,
+                        "questionText": [
+                            {
+                                "text": "At this point, we have written code to generate a random hand and display that hand to the user. We can also ask the user for a word (Python's input) and score the word (using your getWordScore). However, at this point we have not written any code to verify that a word given by a player obeys the rules of the game. A valid word is in the word list; and it is composed entirely of letters from the current hand. Implement the isValidWord function.<br><br>Testing:Make sure the test_isValidWord tests pass. In addition, you will want to test your implementation by calling it multiple times on the same hand - what should the correct behavior be? Additionally, the empty string ('') is not a valid word - if you code this function correctly, you shouldn't need an additional check for this condition <br><br>Fill in the code for isValidWord in ps4a.py and be sure you've passed the appropriate tests in test_ps4a.py before pasting your function definition here.<br><br><br>Check your program against the give test cases below as a Zip file. Submit your Solution(Zip file) when all test cases are passed<br><br>Download <a href=\"http://courseware.msitprogram.net/submissions/cspp1/Testing%20and%20Debugging-2/attachments/Assignment-3.zip\">Assignment-3.zip"
+                            }
+                        ],
+                        "questionType": "File submission",
+                        "question_id": "Q7"
+                    }
+                ],
+                "title": "Assignment-2"
+            }
+        ],
+        "activity_id": "A11"
+    },
+    {
+        "activity_name": "Question-4",
+        "activity_json": [
+            {
+                "activityType": "assignment",
+                "questions": [
+                    {
+                        "evaluate": true,
+                        "max_marks": 20,
+                        "questionText": [
+                            {
+                                "text": "We are now ready to begin writing the code that interacts with the player. We'll be implementing the playHand function. This function allows the user to play out a single hand. First, though, you'll need to implement the helper calculateHandlen function, which can be done in under five lines of code.<br><br><br>Check your program against the give test cases below as a Zip file. Submit your Solution(Zip file) when all test cases are passed<br><br><a href=\"http://courseware.msitprogram.net/submissions/cspp1/Testing%20and%20Debugging-2/attachments/Assignment-4.zip\">Assignment-4.zip"
+                            }
+                        ],
+                        "questionType": "File submission",
+                        "question_id": "Q8"
+                    }
+                ],
+                "title": "Assignment-2"
+            }
+        ],
+        "activity_id": "A12"
+    }
+]

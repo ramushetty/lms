@@ -1,0 +1,961 @@
+[
+    {
+        "activity_name": "So Far",
+        "activity_json": [
+            {
+                "videoResources": "/1) So Far.zip",
+                "activityType": "video",
+                "videoURL": "http://courseware.msitprogram.net/play/content/cspp1/videos//1)%20So%20Far.mp4",
+                "title": "Video on So Far"
+            }
+        ],
+        "activity_id": "A1"
+    },
+    {
+        "activity_name": "So Far-1 notes",
+        "activity_json": [
+            {
+                "activityType": "notes",
+                "title": "So Far-1 notes",
+                "text": "So Far Exercise - 1<br><br>Below are some short Python programs. For each program, answer the associated questions.<br><br>Try to answer the questions without running the code. Check your answers, then run the code for the ones you get wrong.<br><a href=\"http://iiitdev.msitprogram.net/images/bsit-113.PNG\">click here for code"
+            }
+        ],
+        "activity_id": "A2"
+    },
+    {
+        "activity_name": "So Far-1",
+        "activity_json": [
+            {
+                "quizDescription": [
+                    {
+                        "text": "Below are some short Python programs. For each program, answer the associated questions.<br><br>Try to answer the questions without running the code. Check your answers, then run the code for the ones you get wrong.<br>"
+                    },
+                    {
+                        "code": "cspp1.7.2.py"
+                    }
+                ],
+                "activityType": "quiz",
+                "questions": [
+                    {
+                        "questionType": "checkbox",
+                        "questionText": [
+                            {
+                                "text": " What is the value of the variable count that is printed out (at the print statement) on iteration 0? "
+                            }
+                        ],
+                        "correct_feedback": "Correct",
+                        "max_marks": 1,
+                        "wrong_feedback": "Incorrect",
+                        "options": [
+                            {
+                                "correct": true,
+                                "option": "12"
+                            },
+                            {
+                                "correct": false,
+                                "option": "24"
+                            },
+                            {
+                                "correct": false,
+                                "option": "36"
+                            },
+                            {
+                                "correct": false,
+                                "option": "48"
+                            },
+                            {
+                                "correct": false,
+                                "option": "60"
+                            }
+                        ],
+                        "question_id": "Q1"
+                    },
+                    {
+                        "questionType": "checkbox",
+                        "questionText": [
+                            {
+                                "text": " What is the value of the variable count that is printed out (at the print statement) on iteration 1? "
+                            }
+                        ],
+                        "correct_feedback": "Correct",
+                        "max_marks": 1,
+                        "wrong_feedback": "Incorrect",
+                        "options": [
+                            {
+                                "correct": true,
+                                "option": "24"
+                            },
+                            {
+                                "correct": false,
+                                "option": "12"
+                            },
+                            {
+                                "correct": false,
+                                "option": "36"
+                            },
+                            {
+                                "correct": false,
+                                "option": "48"
+                            },
+                            {
+                                "correct": false,
+                                "option": "60"
+                            }
+                        ],
+                        "question_id": "Q2"
+                    },
+                    {
+                        "questionType": "checkbox",
+                        "questionText": [
+                            {
+                                "text": "What is the value of the variable count that is printed out (at the print statement) on iteration 2?"
+                            }
+                        ],
+                        "correct_feedback": "Correct",
+                        "max_marks": 1,
+                        "wrong_feedback": "Incorrect",
+                        "options": [
+                            {
+                                "correct": false,
+                                "option": "12"
+                            },
+                            {
+                                "correct": false,
+                                "option": "24"
+                            },
+                            {
+                                "correct": true,
+                                "option": "36"
+                            },
+                            {
+                                "correct": false,
+                                "option": "48"
+                            },
+                            {
+                                "correct": false,
+                                "option": "60"
+                            }
+                        ],
+                        "question_id": "Q3"
+                    },
+                    {
+                        "questionType": "checkbox",
+                        "questionText": [
+                            {
+                                "text": "What is the value of the variable count that is printed out (at the print statement) on iteration 3?"
+                            }
+                        ],
+                        "correct_feedback": "Correct",
+                        "max_marks": 1,
+                        "wrong_feedback": "Incorrect",
+                        "options": [
+                            {
+                                "correct": false,
+                                "option": "12"
+                            },
+                            {
+                                "correct": false,
+                                "option": "24"
+                            },
+                            {
+                                "correct": false,
+                                "option": "36"
+                            },
+                            {
+                                "correct": true,
+                                "option": "48"
+                            },
+                            {
+                                "correct": false,
+                                "option": "60"
+                            }
+                        ],
+                        "question_id": "Q4"
+                    },
+                    {
+                        "questionType": "checkbox",
+                        "questionText": [
+                            {
+                                "text": "What is the value of the variable count that is printed out (at the print statement) on iteration 4?"
+                            }
+                        ],
+                        "correct_feedback": "Correct",
+                        "max_marks": 1,
+                        "wrong_feedback": "Incorrect",
+                        "options": [
+                            {
+                                "correct": false,
+                                "option": "12"
+                            },
+                            {
+                                "correct": false,
+                                "option": "24"
+                            },
+                            {
+                                "correct": false,
+                                "option": "36"
+                            },
+                            {
+                                "correct": false,
+                                "option": "48"
+                            },
+                            {
+                                "correct": true,
+                                "option": "60"
+                            }
+                        ],
+                        "question_id": "Q5"
+                    }
+                ],
+                "title": "So Far Exercise - 1"
+            }
+        ],
+        "activity_id": "A3"
+    },
+    {
+        "activity_name": "So Far-2 notes",
+        "activity_json": [
+            {
+                "activityType": "notes",
+                "title": "So Far-2 notes",
+                "text": "So Far Exercise - 2<br><br>Below are some short Python programs. For each program, answer the associated questions.<br><br>Try to answer the questions without running the code. Check your answers, then run the code for the ones you get wrong.<br><a href=\"http://iiitdev.msitprogram.net/images/bsit-114.PNG\">click here for code"
+            }
+        ],
+        "activity_id": "A4"
+    },
+    {
+        "activity_name": "So Far-2",
+        "activity_json": [
+            {
+                "quizDescription": [
+                    {
+                        "text": "Below are some short Python programs. For each program, answer the associated questions.<br><br>Try to answer the questions without running the code. Check your answers, then run the code for the ones you get wrong.<br>"
+                    },
+                    {
+                        "code": "cspp1.7.3.py"
+                    }
+                ],
+                "activityType": "quiz",
+                "questions": [
+                    {
+                        "questionType": "checkbox",
+                        "questionText": [
+                            {
+                                "text": " What is the value of the variable count that is printed out (at the print statement) on iteration 0? "
+                            }
+                        ],
+                        "correct_feedback": "Correct",
+                        "max_marks": 1,
+                        "wrong_feedback": "Incorrect",
+                        "options": [
+                            {
+                                "correct": true,
+                                "option": "12"
+                            },
+                            {
+                                "correct": false,
+                                "option": "24"
+                            },
+                            {
+                                "correct": false,
+                                "option": "36"
+                            },
+                            {
+                                "correct": false,
+                                "option": "48"
+                            },
+                            {
+                                "correct": false,
+                                "option": "60"
+                            }
+                        ],
+                        "question_id": "Q6"
+                    },
+                    {
+                        "questionType": "checkbox",
+                        "questionText": [
+                            {
+                                "text": " What is the value of the variable count that is printed out (at the print statement) on iteration 1? "
+                            }
+                        ],
+                        "correct_feedback": "Correct",
+                        "max_marks": 1,
+                        "wrong_feedback": "Incorrect",
+                        "options": [
+                            {
+                                "correct": false,
+                                "option": "12"
+                            },
+                            {
+                                "correct": true,
+                                "option": "24"
+                            },
+                            {
+                                "correct": false,
+                                "option": "36"
+                            },
+                            {
+                                "correct": false,
+                                "option": "48"
+                            },
+                            {
+                                "correct": false,
+                                "option": "60"
+                            }
+                        ],
+                        "question_id": "Q7"
+                    },
+                    {
+                        "questionType": "checkbox",
+                        "questionText": [
+                            {
+                                "text": "What is the value of the variable count that is printed out (at the print statement) on iteration 2?"
+                            }
+                        ],
+                        "correct_feedback": "Correct",
+                        "max_marks": 1,
+                        "wrong_feedback": "Incorrect",
+                        "options": [
+                            {
+                                "correct": false,
+                                "option": "12"
+                            },
+                            {
+                                "correct": false,
+                                "option": "24"
+                            },
+                            {
+                                "correct": true,
+                                "option": "36"
+                            },
+                            {
+                                "correct": false,
+                                "option": "48"
+                            },
+                            {
+                                "correct": false,
+                                "option": "60"
+                            }
+                        ],
+                        "question_id": "Q8"
+                    },
+                    {
+                        "questionType": "checkbox",
+                        "questionText": [
+                            {
+                                "text": "What is the value of the variable count that is printed out (at the print statement) on iteration 3?"
+                            }
+                        ],
+                        "correct_feedback": "Correct",
+                        "max_marks": 1,
+                        "wrong_feedback": "Incorrect",
+                        "options": [
+                            {
+                                "correct": false,
+                                "option": "12"
+                            },
+                            {
+                                "correct": false,
+                                "option": "24"
+                            },
+                            {
+                                "correct": false,
+                                "option": "36"
+                            },
+                            {
+                                "correct": true,
+                                "option": "48"
+                            },
+                            {
+                                "correct": false,
+                                "option": "60"
+                            }
+                        ],
+                        "question_id": "Q9"
+                    },
+                    {
+                        "questionType": "checkbox",
+                        "questionText": [
+                            {
+                                "text": "What is the value of the variable count that is printed out (at the print statement) on iteration 4?"
+                            }
+                        ],
+                        "correct_feedback": "Correct",
+                        "max_marks": 1,
+                        "wrong_feedback": "Incorrect",
+                        "options": [
+                            {
+                                "correct": false,
+                                "option": "12"
+                            },
+                            {
+                                "correct": false,
+                                "option": "24"
+                            },
+                            {
+                                "correct": false,
+                                "option": "36"
+                            },
+                            {
+                                "correct": false,
+                                "option": "48"
+                            },
+                            {
+                                "correct": true,
+                                "option": "60"
+                            }
+                        ],
+                        "question_id": "Q10"
+                    }
+                ],
+                "title": "So Far Exercise - 2"
+            }
+        ],
+        "activity_id": "A5"
+    },
+    {
+        "activity_name": "So Far-3 notes",
+        "activity_json": [
+            {
+                "activityType": "notes",
+                "title": "So Far-3 notes",
+                "text": "So Far Exercise - 3<br><br>Below are some short Python programs. For each program, answer the associated questions.<br><br>Try to answer the questions without running the code. Check your answers, then run the code for the ones you get wrong.<br><a href=\"http://iiitdev.msitprogram.net/images/bsit-115.PNG\">click here for code"
+            }
+        ],
+        "activity_id": "A6"
+    },
+    {
+        "activity_name": "So Far-3",
+        "activity_json": [
+            {
+                "quizDescription": [
+                    {
+                        "text": "Below are some short Python programs. For each program, answer the associated questions.<br><br>Try to answer the questions without running the code. Check your answers, then run the code for the ones you get wrong.<br>"
+                    },
+                    {
+                        "code": "cspp1.7.4.py"
+                    }
+                ],
+                "activityType": "quiz",
+                "questions": [
+                    {
+                        "questionType": "checkbox",
+                        "questionText": [
+                            {
+                                "text": " How many times will the print statement be executed? "
+                            }
+                        ],
+                        "correct_feedback": "Correct",
+                        "max_marks": 1,
+                        "wrong_feedback": "Incorrect",
+                        "options": [
+                            {
+                                "correct": false,
+                                "option": "1"
+                            },
+                            {
+                                "correct": false,
+                                "option": "4"
+                            },
+                            {
+                                "correct": true,
+                                "option": "5"
+                            },
+                            {
+                                "correct": false,
+                                "option": "12"
+                            }
+                        ],
+                        "question_id": "Q11"
+                    },
+                    {
+                        "questionType": "checkbox",
+                        "questionText": [
+                            {
+                                "text": " What is the largest value of the variable iteration that will be printed out (at the print statement)? "
+                            }
+                        ],
+                        "correct_feedback": "Correct",
+                        "max_marks": 1,
+                        "wrong_feedback": "Incorrect",
+                        "options": [
+                            {
+                                "correct": false,
+                                "option": "1"
+                            },
+                            {
+                                "correct": true,
+                                "option": "4"
+                            },
+                            {
+                                "correct": false,
+                                "option": "5"
+                            },
+                            {
+                                "correct": false,
+                                "option": "12"
+                            }
+                        ],
+                        "question_id": "Q12"
+                    },
+                    {
+                        "questionType": "checkbox",
+                        "questionText": [
+                            {
+                                "text": "What is the largest value of the variable count that will be printed out (at the print statement)?"
+                            }
+                        ],
+                        "correct_feedback": "Correct",
+                        "max_marks": 1,
+                        "wrong_feedback": "Incorrect",
+                        "options": [
+                            {
+                                "correct": false,
+                                "option": "1"
+                            },
+                            {
+                                "correct": false,
+                                "option": "4"
+                            },
+                            {
+                                "correct": false,
+                                "option": "5"
+                            },
+                            {
+                                "correct": true,
+                                "option": "12"
+                            }
+                        ],
+                        "question_id": "Q13"
+                    },
+                    {
+                        "questionType": "checkbox",
+                        "questionText": [
+                            {
+                                "text": "What is the smallest value of the variable count that will be printed out (at the print statement)?"
+                            }
+                        ],
+                        "correct_feedback": "Correct",
+                        "max_marks": 1,
+                        "wrong_feedback": "Incorrect",
+                        "options": [
+                            {
+                                "correct": true,
+                                "option": "1"
+                            },
+                            {
+                                "correct": false,
+                                "option": "4"
+                            },
+                            {
+                                "correct": false,
+                                "option": "5"
+                            },
+                            {
+                                "correct": false,
+                                "option": "12"
+                            }
+                        ],
+                        "question_id": "Q14"
+                    }
+                ],
+                "title": "So Far Exercise - 3"
+            }
+        ],
+        "activity_id": "A7"
+    },
+    {
+        "activity_name": "Approximate Solutions",
+        "activity_json": [
+            {
+                "videoResources": "2) Approximate Solutions.zip",
+                "activityType": "video",
+                "videoURL": "http://courseware.msitprogram.net/play/content/cspp1/videos//2)%20Approximate%20Solutions.mp4",
+                "title": "Video on Approximate Solutions"
+            }
+        ],
+        "activity_id": "A8"
+    },
+    {
+        "activity_name": "Approximate Solutions-1 notes",
+        "activity_json": [
+            {
+                "activityType": "notes",
+                "title": "Approximate Solutions-1 notes",
+                "text": "Approximate Solutions Exercise<br><br>Consider the following code:<a href=\"http://iiitdev.msitprogram.net/images/bsit-3.PNG\">click here for code</a><br>If this code is executed, it will print succeeded: 4.9999999999998 (or succeeded: 5.0). Remember floating point errors?<br>Now suppose we try the following:"
+            }
+        ],
+        "activity_id": "A9"
+    },
+    {
+        "activity_name": "Approximate Solutions-1",
+        "activity_json": [
+            {
+                "quizDescription": [
+                    {
+                        "text": "Consider the following code:"
+                    },
+                    {
+                        "text": "If this code is executed, it will print succeeded: 4.9999999999998 (or succeeded: 5.0). Remember floating point errors?<br>Now suppose we try the following:"
+                    }
+                ],
+                "activityType": "quiz",
+                "questions": [
+                    {
+                        "questionType": "checkbox",
+                        "max_marks": 1,
+                        "questionText": [
+                            {
+                                "text": "Select the answer that best describes what occurs when the below code is executed:"
+                            },
+                            {
+                                "image": {
+                                    "imageNames": "bsit-79",
+                                    "imageSRC": "http://iiitdev.msitprogram.net/images/bsit-79.PNG"
+                                }
+                            }
+                        ],
+                        "options": [
+                            {
+                                "option": "Script successfully completes, and prints out succeeded: 4.9999999999998 (or succeeded: 5.0)",
+                                "correct": false
+                            },
+                            {
+                                "option": "Script successfully completes, but prints out failed",
+                                "correct": false
+                            },
+                            {
+                                "option": "Script successfully completes, but prints out succeeded: followed by some number not really close to 5.0",
+                                "correct": false
+                            },
+                            {
+                                "option": "Script enters an infinite loop and never terminates correct",
+                                "correct": true
+                            }
+                        ],
+                        "question_id": "Q15"
+                    },
+                    {
+                        "questionType": "checkbox",
+                        "max_marks": 1,
+                        "questionText": [
+                            {
+                                "text": "Now suppose we try<br><br>Select the answer that best describes what occurs when the below code is executed:"
+                            },
+                            {
+                                "image": {
+                                    "imageNames": "bsit-80.PNG",
+                                    "imageSRC": "http://iiitdev.msitprogram.net/images/bsit-80.PNG"
+                                }
+                            }
+                        ],
+                        "options": [
+                            {
+                                "option": "Script successfully completes, and prints out succeeded: 4.9999999999998 (or succeeded: 5.0) ",
+                                "correct": true
+                            },
+                            {
+                                "option": "Script successfully completes, but prints out failed",
+                                "correct": false
+                            },
+                            {
+                                "option": "Script successfully completes, but prints out succeeded: followed by some number not really close to 5.0",
+                                "correct": false
+                            },
+                            {
+                                "option": "Script enters an infinite loop and never terminates",
+                                "correct": false
+                            }
+                        ],
+                        "question_id": "Q16"
+                    },
+                    {
+                        "questionType": "checkbox",
+                        "max_marks": 1,
+                        "questionText": [
+                            {
+                                "text": "Finally, let's use the same code as immediately above, but change the first line to x = 23. Note that the square root of 23 is roughly 4.7958.<br>Select the answer that best describes what occurs when the modified code is executed:"
+                            }
+                        ],
+                        "options": [
+                            {
+                                "option": "Script successfully completes, and prints out succeeded: 4.9999999999998 (or succeeded: 5.0)",
+                                "correct": false
+                            },
+                            {
+                                "option": "Script successfully completes, but prints out failed",
+                                "correct": true
+                            },
+                            {
+                                "option": "Script successfully completes, but prints out succeeded: followed by some number not really close to 5.0",
+                                "correct": false
+                            },
+                            {
+                                "option": "Script enters an infinite loop and never terminates",
+                                "correct": false
+                            }
+                        ],
+                        "question_id": "Q17"
+                    }
+                ],
+                "title": "Approximate Solutions Exercise"
+            }
+        ],
+        "activity_id": "A10"
+    },
+    {
+        "activity_name": "Bisection Search",
+        "activity_json": [
+            {
+                "videoResources": "3) Bisection Search.zip",
+                "activityType": "video",
+                "videoURL": "http://courseware.msitprogram.net/play/content/cspp1/videos//3)%20Bisection%20Search.mp4",
+                "title": "Video on Bisection Search"
+            }
+        ],
+        "activity_id": "A11"
+    },
+    {
+        "activity_name": "Guess My Number-1",
+        "activity_json": [
+            {
+                "activityType": "assignment",
+                "questions": [
+                    {
+                        "evaluate": true,
+                        "max_marks": 20,
+                        "questionText": [
+                            {
+                                "text": "In this problem, you'll create a program that guesses a secret number!<br><br>The program works as follows: you (the user) thinks of an integer between 0 (inclusive) and 100 (not inclusive). The computer makes guesses, and you give it input - is its guess too high or too low? Using bisection search, the computer will guess the user's secret number!<br><br>Here is a transcript of an example session:<a href=\"http://iiitdev.msitprogram.net/images/bsit-4.PNG\">click here for image</a><br>Note: your program should use input to obtain the user's input! Be sure to handle the case when the user's input is not one of h, l, or c.<br><br>When the user enters something invalid, you should print out a message to the user explaining you did not understand their input. Then, you should re-ask the question, and prompt again for input. For example:<a href=\"http://iiitdev.msitprogram.net/images/bsit-5.PNG\">click here for image"
+                            }
+                        ],
+                        "questionType": "File submission",
+                        "question_id": "Q18"
+                    }
+                ],
+                "title": "Assignment-2"
+            }
+        ],
+        "activity_id": "A12"
+    },
+    {
+        "activity_name": "Floats and Fractions",
+        "activity_json": [
+            {
+                "videoResources": "/4) Floats and Fractions.zip",
+                "activityType": "video",
+                "videoURL": "http://courseware.msitprogram.net/play/content/cspp1/videos//4)%20Floats%20and%20Fractions.mp4",
+                "title": "Video on Floats and Fractions"
+            }
+        ],
+        "activity_id": "A13"
+    },
+    {
+        "activity_name": "Floats and Fractions-1",
+        "activity_json": [
+            {
+                "activityType": "quiz",
+                "questions": [
+                    {
+                        "questionType": "checkbox",
+                        "max_marks": 1,
+                        "questionText": [
+                            {
+                                "text": "True or False? The internal computer representation of any number is always an approximation. "
+                            }
+                        ],
+                        "options": [
+                            {
+                                "option": "True",
+                                "correct": false
+                            },
+                            {
+                                "option": "False",
+                                "correct": true
+                            }
+                        ],
+                        "question_id": "Q19"
+                    },
+                    {
+                        "questionType": "checkbox",
+                        "max_marks": 1,
+                        "questionText": [
+                            {
+                                "text": "The decimal 11 is what binary?: "
+                            }
+                        ],
+                        "options": [
+                            {
+                                "option": "11",
+                                "correct": false
+                            },
+                            {
+                                "option": "1011",
+                                "correct": true
+                            },
+                            {
+                                "option": "1101",
+                                "correct": false
+                            },
+                            {
+                                "option": "cannot be converted",
+                                "correct": false
+                            }
+                        ],
+                        "question_id": "Q20"
+                    },
+                    {
+                        "questionType": "checkbox",
+                        "max_marks": 1,
+                        "questionText": [
+                            {
+                                "text": "True or False? The internal representation of the decimal number 1/10 = 0.1 requires an infinite number of digits."
+                            }
+                        ],
+                        "options": [
+                            {
+                                "option": "True",
+                                "correct": true
+                            },
+                            {
+                                "option": "False",
+                                "correct": false
+                            }
+                        ],
+                        "question_id": "Q21"
+                    },
+                    {
+                        "questionType": "checkbox",
+                        "max_marks": 1,
+                        "questionText": [
+                            {
+                                "text": "After many computations, you get two floating numbers stored in variables a and b. Your code compares the numbers with a == b."
+                            }
+                        ],
+                        "options": [
+                            {
+                                "option": "Doing the comparison will always lead to a correct program.",
+                                "correct": false
+                            },
+                            {
+                                "option": "Doing the comparison will sometimes lead to a correct program.",
+                                "correct": true
+                            },
+                            {
+                                "option": "Doing the comparison will never lead to a correct program.",
+                                "correct": false
+                            }
+                        ],
+                        "question_id": "Q22"
+                    }
+                ],
+                "title": "Floats and Fractions Exercise"
+            }
+        ],
+        "activity_id": "A14"
+    },
+    {
+        "activity_name": "Newton Raphson",
+        "activity_json": [
+            {
+                "videoResources": "/5) Newton-Raphson.zip",
+                "activityType": "video",
+                "videoURL": "http://courseware.msitprogram.net/play/content/cspp1/videos//5)%20Newton-Raphson.mp4",
+                "title": "Video on Newton-Raphson"
+            }
+        ],
+        "activity_id": "A15"
+    },
+    {
+        "activity_name": "Question-1",
+        "activity_json": [
+            {
+                "activityType": "assignment",
+                "questions": [
+                    {
+                        "questionType": "filesubmission",
+                        "max_marks": 20,
+                        "evaluate": true,
+                        "questionText": [
+                            {
+                                "text": "Write a python program to find if the given number is a perfect cube or not using guess and check algorithm"
+                            }
+                        ],
+                        "question_id": "Q23"
+                    }
+                ],
+                "title": "Assignment-1"
+            }
+        ],
+        "activity_id": "A16"
+    },
+    {
+        "activity_name": "Question-2",
+        "activity_json": [
+            {
+                "activityType": "assignment",
+                "questions": [
+                    {
+                        "questionType": "filesubmission",
+                        "max_marks": 20,
+                        "evaluate": true,
+                        "questionText": [
+                            {
+                                "text": "Write a python program to find the square root of the given number using approximation method"
+                            }
+                        ],
+                        "question_id": "Q24"
+                    }
+                ],
+                "title": "Assignment-2"
+            }
+        ],
+        "activity_id": "A17"
+    },
+    {
+        "activity_name": "Question-3",
+        "activity_json": [
+            {
+                "activityType": "assignment",
+                "questions": [
+                    {
+                        "questionType": "filesubmission",
+                        "max_marks": 20,
+                        "evaluate": true,
+                        "questionText": [
+                            {
+                                "text": "Write a python program to find the square root of the given number using Bi-section method"
+                            }
+                        ],
+                        "question_id": "Q25"
+                    }
+                ],
+                "title": "Assignment-3"
+            }
+        ],
+        "activity_id": "A18"
+    },
+    {
+        "activity_name": "Question-4",
+        "activity_json": [
+            {
+                "activityType": "assignment",
+                "questions": [
+                    {
+                        "questionType": "filesubmission",
+                        "max_marks": 20,
+                        "evaluate": true,
+                        "questionText": [
+                            {
+                                "text": "Write a python program to find the square root of the number using Newton-Rapson method"
+                            }
+                        ],
+                        "question_id": "Q26"
+                    }
+                ],
+                "title": "Assignment-4"
+            }
+        ],
+        "activity_id": "A19"
+    }
+]

@@ -1,0 +1,376 @@
+[
+    {
+        "activity_name": "Variables and Assignment Operator",
+        "activity_json": [
+            {
+                "activityType": "video",
+                "videoURL": "http://courseware.msitprogram.net/play/content/cspp1/videos/Variables%20and%20Assignment%20operators.mp4",
+                "title": "In this Activity we are going to learn variables and assignment operator by watching a video on swapping of two numbers"
+            }
+        ],
+        "activity_id": "A1"
+    },
+    {
+        "activity_name": "Variables and Assignment Operator Practice",
+        "activity_json": [
+            {
+                "activityType": "assignment",
+                "questions": [
+                    {
+                        "evaluate": true,
+                        "max_marks": 5,
+                        "questionText": [
+                            {
+                                "text": "Trace the following flowchart Submit the trace report. "
+                            },
+                            {
+                                "attachment": [
+                                    "http://courseware.msitprogram.net/submissions/cspp1/Flowcharts%20-%201/attachments/swap.rap"
+                                ]
+                            }
+                        ],
+                        "questionType": "File submission",
+                        "question_id": "Q1"
+                    }
+                ],
+                "title": "Assignment-2"
+            }
+        ],
+        "module_id": 2,
+        "activity_id": "A2"
+    },
+    {
+        "activity_name": "Arithematic Operators and Branching",
+        "activity_json": [
+            {
+                "activityType": "video",
+                "videoURL": "http://courseware.msitprogram.net/play/content/cspp1/videos/Arithematic%20Operators%20and%20Branching.mp4",
+                "title": "Now you all learned and practised the variables and assignment operator, In this Activity, we are going to learn Arithmetic Operators and Branching by watching a video on Profit and Loss."
+            }
+        ],
+        "activity_id": "A3"
+    },
+    {
+        "activity_name": "Arithematic Operators and Branching Practice",
+        "activity_json": [
+            {
+                "activityType": "assignment",
+                "questions": [
+                    {
+                        "evaluate": true,
+                        "max_marks": 5,
+                        "questionText": [
+                            {
+                                "text": "Trace the following flowchart<br><br>Submit the trace report. "
+                            },
+                            {
+                                "attachment": [
+                                    "http://courseware.msitprogram.net/submissions/cspp1/Flowcharts%20-%201/attachments/profitorloss.rap"
+                                ]
+                            }
+                        ],
+                        "questionType": "File submission",
+                        "question_id": "Q2"
+                    }
+                ],
+                "title": "Assignment-2"
+            }
+        ],
+        "module_id": 2,
+        "activity_id": "A4"
+    },
+    {
+        "activity_name": "Loops",
+        "activity_json": [
+            {
+                "activityType": "video",
+                "videoURL": "http://courseware.msitprogram.net/play/content/cspp1/videos/Loops.mp4",
+                "title": "Now you all learned and practiced Arithmetic operators and branching, In this Activity we are going to learn Loops by watching a video on Sum of the digits of given number"
+            }
+        ],
+        "activity_id": "A5"
+    },
+    {
+        "activity_name": "Loops-1 Practice",
+        "activity_json": [
+            {
+                "activityType": "assignment",
+                "questions": [
+                    {
+                        "evaluate": true,
+                        "max_marks": 5,
+                        "questionText": [
+                            {
+                                "text": "Trace the following flowchart<br><br> Submit the trace report. "
+                            },
+                            {
+                                "attachment": [
+                                    "http://courseware.msitprogram.net/submissions/cspp1/Flowcharts%20-%201/attachments/sumofdigits.rap"
+                                ]
+                            }
+                        ],
+                        "questionType": "File submission",
+                        "question_id": "Q3"
+                    }
+                ],
+                "title": "Assignment-2"
+            }
+        ],
+        "module_id": 2,
+        "activity_id": "A6"
+    },
+    {
+        "activity_name": "Loops-2 Practice",
+        "activity_json": [
+            {
+                "activityType": "assignment",
+                "questions": [
+                    {
+                        "evaluate": true,
+                        "max_marks": 5,
+                        "questionText": [
+                            {
+                                "text": "Trace the following flowchart<br><br> Submit the trace report. "
+                            },
+                            {
+                                "attachment": [
+                                    "http://courseware.msitprogram.net/submissions/cspp1/Flowcharts%20-%201/attachments/Factors.rap"
+                                ]
+                            }
+                        ],
+                        "questionType": "File submission",
+                        "question_id": "Q4"
+                    }
+                ],
+                "title": "Assignment-2"
+            }
+        ],
+        "module_id": 2,
+        "activity_id": "A7"
+    },
+    {
+        "activity_name": "Lists",
+        "activity_json": [
+            {
+                "activityType": "video",
+                "videoURL": "http://courseware.msitprogram.net/play/content/cspp1/videos/Arrays(Lists).mp4",
+                "title": "In last activity you learned Loops, In this Activity we are going to learn Lists by watching a video on Count even numbers in a List"
+            }
+        ],
+        "activity_id": "A8"
+    },
+    {
+        "activity_name": "Lists Practice",
+        "activity_json": [
+            {
+                "activityType": "assignment",
+                "questions": [
+                    {
+                        "evaluate": true,
+                        "max_marks": 10,
+                        "questionText": [
+                            {
+                                "text": "Trace the following flowchart<br><br> Submit the trace report. "
+                            },
+                            {
+                                "attachment": [
+                                    "http://courseware.msitprogram.net/submissions/cspp1/Flowcharts%20-%201/attachments/EvensCount.rap"
+                                ]
+                            }
+                        ],
+                        "questionType": "File submission",
+                        "question_id": "Q5"
+                    }
+                ],
+                "title": "Assignment-2"
+            }
+        ],
+        "module_id": 2,
+        "activity_id": "A9"
+    },
+    {
+        "activity_name": "Strings",
+        "activity_json": [
+            {
+                "activityType": "video",
+                "videoURL": "http://courseware.msitprogram.net/play/content/cspp1/videos/Strings.mp4",
+                "title": "In last activity you learned Loops, In this Activity we are going to learn Strings by watching a video on String Reverse"
+            }
+        ],
+        "activity_id": "A10"
+    },
+    {
+        "activity_name": "Strings Practice",
+        "activity_json": [
+            {
+                "activityType": "assignment",
+                "questions": [
+                    {
+                        "evaluate": true,
+                        "max_marks": 5,
+                        "questionText": [
+                            {
+                                "text": "Trace the following flowchart<br><br> Submit the trace report. "
+                            },
+                            {
+                                "attachment": [
+                                    "http://courseware.msitprogram.net/submissions/cspp1/Flowcharts%20-%201/attachments/stringreverse.rap"
+                                ]
+                            }
+                        ],
+                        "questionType": "File submission",
+                        "question_id": "Q6"
+                    }
+                ],
+                "title": "Assignment-2"
+            }
+        ],
+        "module_id": 2,
+        "activity_id": "A11"
+    },
+    {
+        "activity_name": "Question-1",
+        "activity_json": [
+            {
+                "activityType": "assignment",
+                "questions": [
+                    {
+                        "evaluate": true,
+                        "max_marks": 10,
+                        "questionText": [
+                            {
+                                "text": "Read the flow chart given below, write a tracing report and specify what does it convey? "
+                            },
+                            {
+                                "attachment": [
+                                    "http://courseware.msitprogram.net/submissions/cspp1/Flowcharts%20-%201/attachments//cspp1_unit2_assignment1.rap"
+                                ]
+                            }
+                        ],
+                        "questionType": "File submission",
+                        "question_id": "Q7"
+                    }
+                ],
+                "title": "Assignment-2"
+            }
+        ],
+        "module_id": 3,
+        "activity_id": "A12"
+    },
+    {
+        "activity_name": "Question-2",
+        "activity_json": [
+            {
+                "activityType": "assignment",
+                "questions": [
+                    {
+                        "evaluate": true,
+                        "max_marks": 10,
+                        "questionText": [
+                            {
+                                "text": "Read the flow chart given below, write a tracing report and specify what does it convey? "
+                            },
+                            {
+                                "attachment": [
+                                    "http://courseware.msitprogram.net/submissions/cspp1/Flowcharts%20-%201/attachments//cspp1_unit2_assignment4.rap"
+                                ]
+                            }
+                        ],
+                        "questionType": "File submission",
+                        "question_id": "Q8"
+                    }
+                ],
+                "title": "Assignment-2"
+            }
+        ],
+        "module_id": 3,
+        "activity_id": "A13"
+    },
+    {
+        "activity_name": "Question-3",
+        "activity_json": [
+            {
+                "activityType": "assignment",
+                "questions": [
+                    {
+                        "evaluate": true,
+                        "max_marks": 10,
+                        "questionText": [
+                            {
+                                "text": "Read the flow chart given below, write a tracing report and specify what does it convey? "
+                            },
+                            {
+                                "attachment": [
+                                    "http://courseware.msitprogram.net/submissions/cspp1/Flowcharts%20-%201/attachments//cspp1_unit2_assignment3.rap"
+                                ]
+                            }
+                        ],
+                        "questionType": "File submission",
+                        "question_id": "Q9"
+                    }
+                ],
+                "title": "Assignment-2"
+            }
+        ],
+        "module_id": 3,
+        "activity_id": "A14"
+    },
+    {
+        "activity_name": "Question-4",
+        "activity_json": [
+            {
+                "activityType": "assignment",
+                "questions": [
+                    {
+                        "evaluate": true,
+                        "max_marks": 10,
+                        "questionText": [
+                            {
+                                "text": "Read the flow chart given below, write a tracing report and specify what does it convey? "
+                            },
+                            {
+                                "attachment": [
+                                    "http://courseware.msitprogram.net/submissions/cspp1/Flowcharts%20-%201/attachments//cspp1_unit2_assignment2.rap"
+                                ]
+                            }
+                        ],
+                        "questionType": "File submission",
+                        "question_id": "Q10"
+                    }
+                ],
+                "title": "Assignment-2"
+            }
+        ],
+        "module_id": 3,
+        "activity_id": "A15"
+    },
+    {
+        "activity_name": "Question-5",
+        "activity_json": [
+            {
+                "activityType": "assignment",
+                "questions": [
+                    {
+                        "evaluate": true,
+                        "max_marks": 10,
+                        "questionText": [
+                            {
+                                "text": "Read the flow chart given below, write a tracing report and specify what does it convey? "
+                            },
+                            {
+                                "attachment": [
+                                    "http://courseware.msitprogram.net/submissions/cspp1/Flowcharts%20-%201/attachments//cspp1_unit2_assignment5.rap"
+                                ]
+                            }
+                        ],
+                        "questionType": "File submission",
+                        "question_id": "Q11"
+                    }
+                ],
+                "title": "Assignment-2"
+            }
+        ],
+        "module_id": 3,
+        "activity_id": "A16"
+    }
+]

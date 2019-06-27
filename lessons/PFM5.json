@@ -1,0 +1,128 @@
+[
+    {
+        "activity_name": "Problem Solving-1",
+        "activity_json": [
+            {
+                "text": "In this activity you are going to learn construction of flowchart by solving a problem Finding GCD of two numbers.<br><a href=\"https://www.programming9.com/raptor-flowcharts/318-flowchart-for-calculating-gcd-greatest-common-divisor\">Problem Solving-1</a> ",
+                "activityType": "notes",
+                "title": "Problem Solving-1"
+            }
+        ],
+        "activity_id": "A1"
+    },
+    {
+        "activity_name": "Problem Solving-1 Practice",
+        "activity_json": [
+            {
+                "activityType": "assignment",
+                "questions": [
+                    {
+                        "evaluate": true,
+                        "max_marks": 5,
+                        "questionText": [
+                            {
+                                "text": "Draw a flowchart for finding the LCM of two numbers"
+                            }
+                        ],
+                        "questionType": "File submission",
+                        "question_id": "Q1"
+                    }
+                ],
+                "title": "Assignment-2"
+            }
+        ],
+        "module_id": 5,
+        "activity_id": "A2"
+    },
+    {
+        "activity_name": "Problem Solving-2 Practice",
+        "activity_json": [
+            {
+                "activityType": "assignment",
+                "questions": [
+                    {
+                        "evaluate": true,
+                        "max_marks": 5,
+                        "questionText": [
+                            {
+                                "text": "Draw a flowchart to validate the given Credit Card Number Rules:<ul><li>Credit Card Number should not start with zero</li><li>Credit Card Number should contain 16 digits</li></ul>"
+                            }
+                        ],
+                        "questionType": "File submission",
+                        "question_id": "Q2"
+                    }
+                ],
+                "title": "Assignment-2"
+            }
+        ],
+        "module_id": 5,
+        "activity_id": "A3"
+    },
+    {
+        "activity_name": "Question-1",
+        "activity_json": [
+            {
+                "activityType": "assignment",
+                "questions": [
+                    {
+                        "questionType": "filesubmission",
+                        "max_marks": 20,
+                        "questionText": [
+                            {
+                                "text": "Draw a flowchart for finding the biggest sum of two numbers in a given list."
+                            }
+                        ],
+                        "question_id": "Q3"
+                    }
+                ],
+                "title": "We designed some Assignments for you to practice Please solve the Assignments and submit them"
+            }
+        ],
+        "activity_id": "A4"
+    },
+    {
+        "activity_name": "Question-2",
+        "activity_json": [
+            {
+                "activityType": "assignment",
+                "questions": [
+                    {
+                        "questionType": "filesubmission",
+                        "max_marks": 20,
+                        "questionText": [
+                            {
+                                "text": "Draw a flowchart for finding the given string is in lexicographic order or not."
+                            }
+                        ],
+                        "question_id": "Q4"
+                    }
+                ],
+                "title": "I think you completed Assignment-1, Here is the next Assignment"
+            }
+        ],
+        "activity_id": "A5"
+    },
+    {
+        "activity_name": "Question-3",
+        "activity_json": [
+            {
+                "questionType": "filesubmission",
+                "activityType": "assignment",
+                "questions": [
+                    {
+                        "questionType": "filesubmission",
+                        "max_marks": 10,
+                        "questionText": [
+                            {
+                                "text": "Draw a flow chart for finding the minimum number in the list and swap that number with the first index element."
+                            }
+                        ],
+                        "question_id": "Q5"
+                    }
+                ],
+                "title": "Assignment - 3This is the last Assignment in this Unit, Here is your Assignment-3"
+            }
+        ],
+        "activity_id": "A6"
+    }
+]

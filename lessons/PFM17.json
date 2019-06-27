@@ -1,0 +1,623 @@
+[
+    {
+        "activity_name": "Quick Review",
+        "activity_json": [
+            {
+                "VideoResources": "/Quick Review.zip",
+                "activityType": "video",
+                "videoURL": "http://courseware.msitprogram.net/play/content/cspp1/videos//Quick%20Review.mp4",
+                "title": "In this video we will have a quick review of what had been discussed so far in the course"
+            }
+        ],
+        "activity_id": "A1"
+    },
+    {
+        "activity_name": "Dictionaries",
+        "activity_json": [
+            {
+                "videoResources": "/Dictionaries.zip",
+                "activityType": "video",
+                "videoURL": "http://courseware.msitprogram.net/play/content/cspp1/videos//Dictionaries.mp4",
+                "title": "In this Activity we will discuss about python dictionaries by watching a video"
+            }
+        ],
+        "activity_id": "A2"
+    },
+    {
+        "activity_name": "Dictionaries-1 notes",
+        "activity_json": [
+            {
+                "activityType": "notes",
+                "title": "Dictionaries-1 notes",
+                "text": "In Last lecture we learnt about python dictionaries, in this excercise there are few problem on Dictionaries<br><br>Suppose we evaluate the following expressions:<br><br><b>animals = {'a': 'aardvark', 'b': 'baboon', 'c': 'coati'}<br><br>animals['d'] = 'donkey'</b><br><a href=\"http://courseware.msitprogram.net/submissions/cspp1/Dictionaries/attachments/exercise1.py\">Download exercise1.py</a><br><br>We are now going to evaluate a set of expressions, resulting in the following sequence of interactions. Fill in each blank to show what the Python interpreter would print at that point. If an expression below would generate an error, enter 'error'."
+            }
+        ],
+        "activity_id": "A3"
+    },
+    {
+        "activity_name": "Dictionaries-1",
+        "activity_json": [
+            {
+                "quizDescription": [
+                    {
+                        "text": "Suppose we evaluate the following expressions:"
+                    },
+                    {
+                        "code": "exercise1.py"
+                    },
+                    {
+                        "attachment": [
+                            "exercise1.py"
+                        ]
+                    },
+                    {
+                        "text": "We are now going to evaluate a set of expressions, resulting in the following sequence of interactions. Fill in each blank to show what the Python interpreter would print at that point. If an expression below would generate an error, enter 'error'."
+                    }
+                ],
+                "activityType": "quiz",
+                "questions": [
+                    {
+                        "questionType": "checkbox",
+                        "questionText": [
+                            {
+                                "text": "<code>animals</code>"
+                            }
+                        ],
+                        "correct_feedback": "Correct",
+                        "max_marks": 1,
+                        "wrong_feedback": "Incorrect",
+                        "options": [
+                            {
+                                "correct": true,
+                                "option": "{'a': 'aardvark', 'b': 'baboon', 'c': 'coati', 'd': 'donkey'}"
+                            },
+                            {
+                                "correct": false,
+                                "option": "'a': 'aardvark', 'b': 'baboon', 'c': 'coati', 'd': 'donkey'"
+                            },
+                            {
+                                "correct": false,
+                                "option": "'a': {'aardvark'}, 'b': {'baboon'}, 'c': {'coati'}, 'd': {'donkey'}"
+                            },
+                            {
+                                "correct": false,
+                                "option": "error"
+                            }
+                        ],
+                        "question_id": "Q1"
+                    },
+                    {
+                        "questionType": "checkbox",
+                        "questionText": [
+                            {
+                                "text": "<code>animals['c']</code>"
+                            }
+                        ],
+                        "correct_feedback": "Correct",
+                        "max_marks": 1,
+                        "wrong_feedback": "Incorrect",
+                        "options": [
+                            {
+                                "correct": false,
+                                "option": "a"
+                            },
+                            {
+                                "correct": false,
+                                "option": "baboon"
+                            },
+                            {
+                                "correct": false,
+                                "option": "c"
+                            },
+                            {
+                                "correct": true,
+                                "option": "'coati'"
+                            }
+                        ],
+                        "question_id": "Q2"
+                    },
+                    {
+                        "questionType": "checkbox",
+                        "questionText": [
+                            {
+                                "text": "<code>animals['donkey']</code>"
+                            }
+                        ],
+                        "correct_feedback": "Correct",
+                        "max_marks": 1,
+                        "wrong_feedback": "Incorrect",
+                        "options": [
+                            {
+                                "correct": false,
+                                "option": "d"
+                            },
+                            {
+                                "correct": false,
+                                "option": "True"
+                            },
+                            {
+                                "correct": false,
+                                "option": "False"
+                            },
+                            {
+                                "correct": true,
+                                "option": "error"
+                            }
+                        ],
+                        "question_id": "Q3"
+                    },
+                    {
+                        "questionType": "checkbox",
+                        "questionText": [
+                            {
+                                "text": "<code>len(animals)</code>"
+                            }
+                        ],
+                        "correct_feedback": "Correct",
+                        "max_marks": 1,
+                        "wrong_feedback": "Incorrect",
+                        "options": [
+                            {
+                                "correct": true,
+                                "option": "4"
+                            },
+                            {
+                                "correct": false,
+                                "option": "6"
+                            },
+                            {
+                                "correct": false,
+                                "option": "8"
+                            },
+                            {
+                                "correct": false,
+                                "option": "10"
+                            }
+                        ],
+                        "question_id": "Q4"
+                    },
+                    {
+                        "questionType": "checkbox",
+                        "questionText": [
+                            {
+                                "text": "<code>animals['a'] = 'anteater'<br>animals['a']</code>"
+                            }
+                        ],
+                        "correct_feedback": "Correct",
+                        "max_marks": 1,
+                        "wrong_feedback": "Incorrect",
+                        "options": [
+                            {
+                                "correct": false,
+                                "option": "True"
+                            },
+                            {
+                                "correct": false,
+                                "option": "False"
+                            },
+                            {
+                                "correct": true,
+                                "option": "'anteater'"
+                            },
+                            {
+                                "correct": false,
+                                "option": "error"
+                            }
+                        ],
+                        "question_id": "Q5"
+                    },
+                    {
+                        "questionType": "checkbox",
+                        "questionText": [
+                            {
+                                "text": "<code>len(animals['a'])</code>"
+                            }
+                        ],
+                        "correct_feedback": "Correct",
+                        "max_marks": 1,
+                        "wrong_feedback": "Incorrect",
+                        "options": [
+                            {
+                                "correct": false,
+                                "option": "5"
+                            },
+                            {
+                                "correct": false,
+                                "option": "6"
+                            },
+                            {
+                                "correct": false,
+                                "option": "7"
+                            },
+                            {
+                                "correct": true,
+                                "option": "8"
+                            }
+                        ],
+                        "question_id": "Q6"
+                    },
+                    {
+                        "questionType": "checkbox",
+                        "questionText": [
+                            {
+                                "text": "<code>'baboon' in animals</code>"
+                            }
+                        ],
+                        "correct_feedback": "Correct",
+                        "max_marks": 1,
+                        "wrong_feedback": "Incorrect",
+                        "options": [
+                            {
+                                "correct": false,
+                                "option": "True"
+                            },
+                            {
+                                "correct": true,
+                                "option": "False"
+                            },
+                            {
+                                "correct": false,
+                                "option": "error"
+                            },
+                            {
+                                "correct": false,
+                                "option": "None"
+                            }
+                        ],
+                        "question_id": "Q7"
+                    },
+                    {
+                        "questionType": "checkbox",
+                        "questionText": [
+                            {
+                                "text": "<code>'donkey' in animals.values()</code>"
+                            }
+                        ],
+                        "correct_feedback": "Correct",
+                        "max_marks": 1,
+                        "wrong_feedback": "Incorrect",
+                        "options": [
+                            {
+                                "correct": true,
+                                "option": "True"
+                            },
+                            {
+                                "correct": false,
+                                "option": "False"
+                            },
+                            {
+                                "correct": false,
+                                "option": "error"
+                            },
+                            {
+                                "correct": false,
+                                "option": "None"
+                            }
+                        ],
+                        "question_id": "Q8"
+                    },
+                    {
+                        "questionType": "checkbox",
+                        "questionText": [
+                            {
+                                "text": "<code>'b' in animals</code>"
+                            }
+                        ],
+                        "correct_feedback": "Correct",
+                        "max_marks": 1,
+                        "wrong_feedback": "Incorrect",
+                        "options": [
+                            {
+                                "correct": true,
+                                "option": "True"
+                            },
+                            {
+                                "correct": false,
+                                "option": "False"
+                            },
+                            {
+                                "correct": false,
+                                "option": "error"
+                            },
+                            {
+                                "correct": false,
+                                "option": "None"
+                            }
+                        ],
+                        "question_id": "Q9"
+                    },
+                    {
+                        "questionType": "checkbox",
+                        "questionText": [
+                            {
+                                "text": "<code>animals.keys()</code>"
+                            }
+                        ],
+                        "correct_feedback": "Correct",
+                        "max_marks": 1,
+                        "wrong_feedback": "Incorrect",
+                        "options": [
+                            {
+                                "correct": false,
+                                "option": "abcd"
+                            },
+                            {
+                                "correct": false,
+                                "option": "a,b,c,d"
+                            },
+                            {
+                                "correct": false,
+                                "option": "a b c d"
+                            },
+                            {
+                                "correct": true,
+                                "option": "dict_keys(['a', 'b', 'c', 'd'])"
+                            }
+                        ],
+                        "question_id": "Q10"
+                    },
+                    {
+                        "questionType": "checkbox",
+                        "questionText": [
+                            {
+                                "text": "<code>del animals['b'] <br>len(animals)</code>"
+                            }
+                        ],
+                        "correct_feedback": "Correct",
+                        "max_marks": 1,
+                        "wrong_feedback": "Incorrect",
+                        "options": [
+                            {
+                                "correct": false,
+                                "option": "0"
+                            },
+                            {
+                                "correct": false,
+                                "option": "1"
+                            },
+                            {
+                                "correct": false,
+                                "option": "3"
+                            },
+                            {
+                                "correct": true,
+                                "option": "3"
+                            }
+                        ],
+                        "question_id": "Q11"
+                    },
+                    {
+                        "questionType": "checkbox",
+                        "questionText": [
+                            {
+                                "text": "<code>animals.values()</code>"
+                            }
+                        ],
+                        "correct_feedback": "Correct",
+                        "max_marks": 1,
+                        "wrong_feedback": "Incorrect",
+                        "options": [
+                            {
+                                "correct": false,
+                                "option": "Anteater, coati, donkey"
+                            },
+                            {
+                                "correct": false,
+                                "option": "anteatercoatidonkey"
+                            },
+                            {
+                                "correct": true,
+                                "option": "dict_values(['anteater', 'coati', 'donkey'])"
+                            },
+                            {
+                                "correct": false,
+                                "option": "error"
+                            }
+                        ],
+                        "question_id": "Q12"
+                    }
+                ],
+                "title": "In Last lecture we learnt about python dictionaries, in this excercise there are few problem on Dictionaries"
+            }
+        ],
+        "activity_id": "A4"
+    },
+    {
+        "activity_name": "Example with a Dictionary",
+        "activity_json": [
+            {
+                "videoResources": "/Example with a Dictionary.zip",
+                "activityType": "video",
+                "videoURL": "http://courseware.msitprogram.net/play/content/cspp1/videos//Example%20with%20a%20Dictionary.mp4",
+                "title": "In this Activity, we will discuss an example of using a dictionary by watching a video"
+            }
+        ],
+        "activity_id": "A5"
+    },
+    {
+        "activity_name": "Dictionaries How many-1",
+        "activity_json": [
+            {
+                "activityType": "assignment",
+                "questions": [
+                    {
+                        "questionType": "filesubmission",
+                        "max_marks": 10,
+                        "evaluate": true,
+                        "questionText": [
+                            {
+                                "text": "Consider the following sequence of expressions:"
+                            },
+                            {
+                                "code": "howmany_1.py"
+                            },
+                            {
+                                "text": "We want to write some simple procedures that work on dictionaries to return information.<br><br>First, write a procedure, called how_many, which returns the sum of the number of values associated with a dictionary. For example:"
+                            },
+                            {
+                                "code": "howmany2.py"
+                            },
+                            {
+                                "text": "Check your program against the give test cases below as a Zip file. Submit your Solution(Zip file) when all test cases are passed"
+                            },
+                            {
+                                "attachment": [
+                                    "how many.zip"
+                                ]
+                            }
+                        ],
+                        "code": "howmany.py",
+                        "question_id": "Q13"
+                    }
+                ],
+                "title": "Solve the following Excercise on Dictionaries"
+            }
+        ],
+        "activity_id": "A6"
+    },
+    {
+        "activity_name": "Dictionaries Biggest-1",
+        "activity_json": [
+            {
+                "activityType": "assignment",
+                "questions": [
+                    {
+                        "questionType": "filesubmission",
+                        "max_marks": 10,
+                        "evaluate": true,
+                        "questionText": [
+                            {
+                                "text": "Consider the following sequence of expressions:"
+                            },
+                            {
+                                "code": "Biggest1.py"
+                            },
+                            {
+                                "text": "We want to write some simple procedures that work on dictionaries to return information.<br>This time, write a procedure, called biggest, which returns the key corresponding to the entry with the largest number of values associated with it. If there is more than one such entry, return any one of the matching keys.<br><br>Example usage:"
+                            },
+                            {
+                                "code": "Biggest2.py"
+                            },
+                            {
+                                "text": "If there are no values in the dictionary, biggest should return None.<br><br>Check your program against the give test cases below as a Zip file. Submit your Solution(Zip file) when all test cases are passed"
+                            },
+                            {
+                                "attachment": [
+                                    "biggest Exercise.zip"
+                                ]
+                            }
+                        ],
+                        "code": "biggest.py",
+                        "question_id": "Q14"
+                    }
+                ],
+                "title": "Solve the following Excercise on Dictionaries"
+            }
+        ],
+        "activity_id": "A7"
+    },
+    {
+        "activity_name": "Fibonacci and Dictionaries",
+        "activity_json": [
+            {
+                "videoResources": "/Fibonacci and Dictionaries.zip",
+                "activityType": "video",
+                "videoURL": "http://courseware.msitprogram.net/play/content/cspp1/videos//Fibonacci%20and%20Dictionaries.mp4",
+                "title": "In this Activity we will discuss Fibonacci and Dictionaries by watching a video"
+            }
+        ],
+        "activity_id": "A8"
+    },
+    {
+        "activity_name": "Global Variables",
+        "activity_json": [
+            {
+                "videoResources": "/Global Variables.zip",
+                "activityType": "video",
+                "videoURL": "http://courseware.msitprogram.net/play/content/cspp1/videos//Global%20Variables.mp4",
+                "title": "In this Activity we will discuss Global variables by watching a video"
+            }
+        ],
+        "activity_id": "A9"
+    },
+    {
+        "activity_name": "Question-1",
+        "activity_json": [
+            {
+                "activityType": "assignment",
+                "questions": [
+                    {
+                        "questionType": "filesubmissions",
+                        "max_marks": 20,
+                        "evaluate": true,
+                        "questionText": [
+                            {
+                                "text": "Next, implement the function getAvailableLetters that takes in one parameter - a list of letters, lettersGuessed. This function returns a string that is comprised of lowercase English letters - all lowercase English letters that are not in lettersGuessed.<br>Example Usage:"
+                            },
+                            {
+                                "code": "pr3.py"
+                            },
+                            {
+                                "text": "Note that this function should return the letters in alphabetical order, as in the example above.<br>For this function, you may assume that all the letters in lettersGuessed are lowercase."
+                            },
+                            {
+                                "text": "<b>Hints</b>:You might consider using string.ascii_lowercase, which is a string comprised of all lowercase letters:<br><br>Check your program against the give test cases below as a Zip file. Submit your Solution(Zip file) when all test cases are passed"
+                            },
+                            {
+                                "attachment": [
+                                    "Assignment-1.zip"
+                                ]
+                            },
+                            {
+                                "code": "pr31.py"
+                            }
+                        ],
+                        "code": "problem3.py",
+                        "question_id": "Q15"
+                    }
+                ],
+                "title": "Solve the following Assignment pulling out all the available letters on Dictionaries"
+            }
+        ],
+        "activity_id": "A10"
+    },
+    {
+        "activity_name": "Question-2",
+        "activity_json": [
+            {
+                "activityType": "assignment",
+                "questions": [
+                    {
+                        "questionType": "filesubmission",
+                        "max_marks": 20,
+                        "evaluate": true,
+                        "questionText": [
+                            {
+                                "text": "Now you will implement the function hangman, which takes one parameter - the secretWord the user is to guess. This starts up an interactive game of Hangman between the user and the computer. Be sure you take advantage of the three helper functions, isWordGuessed, getGuessedWord, and getAvailableLetters, that you've defined in the previous part.<br><br><b>Hints</b><ul><li>You should start by noticing where we're using the provided functions (at the top of ps3_hangman.py) to load the words and pick a random one. Note that the functions loadWords and chooseWord should only be used on your local machine, not in the tutor. When you enter in your solution in the tutor, you only need to give your hangman function.</li><li>Consider using lower() to convert user input to lower case. For example:<br><code>guess = 'A'</code><br><code>guessInLowerCase = guess.lower()</code></li><li>Consider writing additional helper functions if you need them!</li><li>There are four important pieces of information you may wish to store:<ol><li>secretWord: The word to guess.</li><li>lettersGuessed: The letters that have been guessed so far.</li><li>mistakesMade: The number of incorrect guesses made so far.</li><li>availableLetters: The letters that may still be guessed. Every time a player guesses a letter, the guessed letter must be removed from availableLetters (and if they guess a letter that is not in availableLetters, you should print a message telling them they've already guessed that - so try again!).</li></ol></li></ul><br>Check the below text files for sample output"
+                            },
+                            {
+                                "file": "sampleoutput1.txt"
+                            },
+                            {
+                                "file": "sampleoutput2.txt"
+                            },
+                            {
+                                "text": "Note that if you choose to use the helper functions isWordGuessed, getGuessedWord, or getAvailableLetters, you do not need to paste your definitions in the box. We have supplied our implementations of these functions for your use in this part of the problem. If you use additional helper functions, you will need to paste those definitions here.<br>Your function should include calls to input to get the user's guess.<br><br>Why does my output have None at various places?<br>None is a keyword and it comes from the fact that you are printing the result of a function that does not return anything. For example:"
+                            },
+                            {
+                                "code": "pr4.py"
+                            },
+                            {
+                                "text": "If you just call the function with foo(3), you will see output:<br><code> 3   #-- because the function printed the variable</code><br>However, if you do print(foo(3)), you will see output:<br><code> 3     #-- because the function printed the variable<br>None  #-- because you printed the function (and hence the return)</code><br><br>All functions return something. If a function you write does not return anything (and just prints something to the console), then the default action in Python is to return None"
+                            }
+                        ],
+                        "code": "problem4.py",
+                        "question_id": "Q16"
+                    }
+                ],
+                "title": "Solve the following Assignment The Game on Dictionaries"
+            }
+        ],
+        "activity_id": "A11"
+    }
+]

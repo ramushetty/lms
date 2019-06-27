@@ -1,0 +1,2314 @@
+[
+    {
+        "activity_name": "Bindings",
+        "activity_json": [
+            {
+                "videoResources": "/1) Bindings.zip",
+                "activityType": "video",
+                "videoURL": "http://courseware.msitprogram.net/play/content/cspp1/videos//1)%20Bindings.mp4",
+                "title": "In this activity you will learn about bindings by watching a video"
+            }
+        ],
+        "activity_id": "A1"
+    },
+    {
+        "activity_name": "Strings",
+        "activity_json": [
+            {
+                "videoResources": "/2)  Strings.zip",
+                "activityType": "video",
+                "videoURL": "http://courseware.msitprogram.net/play/content/cspp1/videos//2)%20Strings.mp4",
+                "title": "In last activity we learnt bindings, In this activity, you will learn Strings"
+            }
+        ],
+        "activity_id": "A2"
+    },
+    {
+        "activity_name": "Bindings and Strings-1 notes",
+        "activity_json": [
+            {
+                "activityType": "notes",
+                "title": "Bindings and Strings-1 notes",
+                "text": "In Last two activities we learnt strings and bindings, In this excercise you have problems on Bindings and Strings. For each of the following expressions, indicate the value returned, or if the evaluation would lead to an error, write the word 'error' (note this is a word, not a string, no quotes). While you could simply type these expressions into your IDE, we encourage you to answer them directly since this will help reinforce your understanding of basic Python expressions. <a href=\"http://iiitdev.msitprogram.net/images/bsit-1.PNG\">click here"
+            }
+        ],
+        "activity_id": "A3"
+    },
+    {
+        "activity_name": "Bindings and Strings-1",
+        "activity_json": [
+            {
+                "quizDescription": [
+                    {
+                        "text": "For each of the following expressions, indicate the value returned, or if the evaluation would lead to an error, write the word 'error' (note this is a word, not a string, no quotes). While you could simply type these expressions into your IDE, we encourage you to answer them directly since this will help reinforce your understanding of basic Python expressions."
+                    },
+                    {
+                        "file": "advancedstringslicing.txt"
+                    }
+                ],
+                "activityType": "quiz",
+                "questions": [
+                    {
+                        "questionType": "checkbox",
+                        "questionText": [
+                            {
+                                "text": "<code>\"a\" + \"bc\"</code>"
+                            }
+                        ],
+                        "correct_feedback": "Correct",
+                        "max_marks": 1,
+                        "wrong_feedback": "Incorrect",
+                        "options": [
+                            {
+                                "correct": true,
+                                "option": "abc"
+                            },
+                            {
+                                "correct": false,
+                                "option": "bca"
+                            },
+                            {
+                                "correct": false,
+                                "option": "bac"
+                            },
+                            {
+                                "correct": false,
+                                "option": "cab"
+                            }
+                        ],
+                        "question_id": "Q1"
+                    },
+                    {
+                        "questionType": "checkbox",
+                        "questionText": [
+                            {
+                                "text": "<code>3 * \"bc\"</code>"
+                            }
+                        ],
+                        "correct_feedback": "Correct",
+                        "max_marks": 1,
+                        "wrong_feedback": "Incorrect",
+                        "options": [
+                            {
+                                "correct": false,
+                                "option": "3bc"
+                            },
+                            {
+                                "correct": false,
+                                "option": "bc3"
+                            },
+                            {
+                                "correct": true,
+                                "option": "bcbcbc"
+                            },
+                            {
+                                "correct": false,
+                                "option": "error"
+                            }
+                        ],
+                        "question_id": "Q2"
+                    },
+                    {
+                        "questionType": "checkbox",
+                        "questionText": [
+                            {
+                                "text": "<code>\"3\" * \"bc\"</code>"
+                            }
+                        ],
+                        "correct_feedback": "Correct",
+                        "max_marks": 1,
+                        "wrong_feedback": "Incorrect",
+                        "options": [
+                            {
+                                "correct": false,
+                                "option": "3bc"
+                            },
+                            {
+                                "correct": false,
+                                "option": "bc3"
+                            },
+                            {
+                                "correct": false,
+                                "option": "bcbcbc"
+                            },
+                            {
+                                "correct": true,
+                                "option": "error"
+                            }
+                        ],
+                        "question_id": "Q3"
+                    },
+                    {
+                        "questionType": "checkbox",
+                        "questionText": [
+                            {
+                                "text": "<code>\"abcd\"[2]</code>"
+                            }
+                        ],
+                        "correct_feedback": "Correct",
+                        "max_marks": 1,
+                        "wrong_feedback": "Incorrect",
+                        "options": [
+                            {
+                                "correct": false,
+                                "option": "a"
+                            },
+                            {
+                                "correct": false,
+                                "option": "b"
+                            },
+                            {
+                                "correct": true,
+                                "option": "c"
+                            },
+                            {
+                                "correct": false,
+                                "option": "d"
+                            }
+                        ],
+                        "question_id": "Q4"
+                    },
+                    {
+                        "questionType": "checkbox",
+                        "questionText": [
+                            {
+                                "text": "<code>\"abcd\"[0:2]</code>"
+                            }
+                        ],
+                        "correct_feedback": "Correct",
+                        "max_marks": 1,
+                        "wrong_feedback": "Incorrect",
+                        "options": [
+                            {
+                                "correct": true,
+                                "option": "ab"
+                            },
+                            {
+                                "correct": false,
+                                "option": "bc"
+                            },
+                            {
+                                "correct": false,
+                                "option": "cd"
+                            },
+                            {
+                                "correct": false,
+                                "option": "da"
+                            }
+                        ],
+                        "question_id": "Q5"
+                    },
+                    {
+                        "questionType": "checkbox",
+                        "questionText": [
+                            {
+                                "text": "<code>\"abcd\"[:2]</code>"
+                            }
+                        ],
+                        "correct_feedback": "Correct",
+                        "max_marks": 1,
+                        "wrong_feedback": "Incorrect",
+                        "options": [
+                            {
+                                "correct": true,
+                                "option": "ab"
+                            },
+                            {
+                                "correct": false,
+                                "option": "bc"
+                            },
+                            {
+                                "correct": false,
+                                "option": "cd"
+                            },
+                            {
+                                "correct": false,
+                                "option": "error"
+                            }
+                        ],
+                        "question_id": "Q6"
+                    },
+                    {
+                        "questionType": "checkbox",
+                        "questionText": [
+                            {
+                                "text": "<code>\"abcd\"[2:]</code>"
+                            }
+                        ],
+                        "correct_feedback": "Correct",
+                        "max_marks": 1,
+                        "wrong_feedback": "Incorrect",
+                        "options": [
+                            {
+                                "correct": false,
+                                "option": "ab"
+                            },
+                            {
+                                "correct": false,
+                                "option": "bc"
+                            },
+                            {
+                                "correct": true,
+                                "option": "cd"
+                            },
+                            {
+                                "correct": false,
+                                "option": "error"
+                            }
+                        ],
+                        "question_id": "Q7"
+                    }
+                ],
+                "title": "In Last two activities we learnt strings and bindings, In this excercise you have problems on Bindings and Strings"
+            }
+        ],
+        "activity_id": "A4"
+    },
+    {
+        "activity_name": "Bindings and Strings-2 notes",
+        "activity_json": [
+            {
+                "activityType": "notes",
+                "title": "Bindings and Strings-2 notes",
+                "text": "Last activity you solved few questions. In this activity we give you some questions, try to answer those questions. For each of the expressions below, specify its type and value. If it generates an error, select type 'NoneType' and write the word 'error' (note this is a word, not a string, no quotes) in the box for the value. While you could simply type these expressions into your IDE, we encourage you to answer them directly since this will help reinforce your understand of basic Python expressions. Assume we've made the following questions: <a href=\"http://courseware.msitprogram.net/submissions/cspp1/Core%20Elements-1/attachments/coreelements4.py\">click here <br> <a href=\"http://iiitdev.msitprogram.net/images/bsit-2.PNG\">click here for image"
+            }
+        ],
+        "activity_id": "A5"
+    },
+    {
+        "activity_name": "Bindings and Strings-2",
+        "activity_json": [
+            {
+                "quizDescription": [
+                    {
+                        "text": "For each of the expressions below, specify its type and value. If it generates an error, select type 'NoneType' and write the word 'error' (note this is a word, not a string, no quotes) in the box for the value. While you could simply type these expressions into your IDE, we encourage you to answer them directly since this will help reinforce your understand of basic Python expressions.<br><br>Assume we've made the following assignments:<br> "
+                    },
+                    {
+                        "attachment": [
+                            "http://courseware.msitprogram.net/submissions/cspp1/Core%20Elements-1/attachments/coreelements4.py"
+                        ]
+                    },
+                    {
+                        "file": "pythoninoperator.txt"
+                    }
+                ],
+                "activityType": "quiz",
+                "questions": [
+                    {
+                        "questionType": "checkbox",
+                        "questionText": [
+                            {
+                                "text": "Value of the expression? <br> <code>str1</code>"
+                            }
+                        ],
+                        "correct_feedback": "Correct",
+                        "max_marks": 1,
+                        "wrong_feedback": "Incorrect",
+                        "options": [
+                            {
+                                "correct": true,
+                                "option": "hello"
+                            },
+                            {
+                                "correct": false,
+                                "option": "hello world"
+                            },
+                            {
+                                "correct": false,
+                                "option": "True"
+                            },
+                            {
+                                "correct": false,
+                                "option": "False"
+                            }
+                        ],
+                        "question_id": "Q8"
+                    },
+                    {
+                        "questionType": "checkbox",
+                        "questionText": [
+                            {
+                                "text": "Type of the expression?  <br> <code>str1</code>"
+                            }
+                        ],
+                        "correct_feedback": "Correct",
+                        "max_marks": 1,
+                        "wrong_feedback": "Incorrect",
+                        "options": [
+                            {
+                                "correct": false,
+                                "option": "NoneType"
+                            },
+                            {
+                                "correct": false,
+                                "option": "int"
+                            },
+                            {
+                                "correct": true,
+                                "option": "string"
+                            },
+                            {
+                                "correct": false,
+                                "option": "float"
+                            },
+                            {
+                                "correct": false,
+                                "option": "boolean"
+                            }
+                        ],
+                        "question_id": "Q9"
+                    },
+                    {
+                        "questionType": "checkbox",
+                        "questionText": [
+                            {
+                                "text": "Value of the expression?  <br> <code>str1[0]</code>"
+                            }
+                        ],
+                        "correct_feedback": "Correct",
+                        "max_marks": 1,
+                        "wrong_feedback": "Incorrect",
+                        "options": [
+                            {
+                                "correct": false,
+                                "option": "hellol"
+                            },
+                            {
+                                "correct": true,
+                                "option": "h"
+                            },
+                            {
+                                "correct": false,
+                                "option": "w"
+                            },
+                            {
+                                "correct": false,
+                                "option": "error"
+                            }
+                        ],
+                        "question_id": "Q10"
+                    },
+                    {
+                        "questionType": "checkbox",
+                        "questionText": [
+                            {
+                                "text": "Type of the expression?  <br> <code>str1[0]</code>"
+                            }
+                        ],
+                        "correct_feedback": "Correct",
+                        "max_marks": 1,
+                        "wrong_feedback": "Incorrect",
+                        "options": [
+                            {
+                                "correct": false,
+                                "option": "NoneType"
+                            },
+                            {
+                                "correct": false,
+                                "option": "int"
+                            },
+                            {
+                                "correct": true,
+                                "option": "string"
+                            },
+                            {
+                                "correct": false,
+                                "option": "float"
+                            },
+                            {
+                                "correct": false,
+                                "option": "boolean"
+                            }
+                        ],
+                        "question_id": "Q11"
+                    },
+                    {
+                        "questionType": "checkbox",
+                        "questionText": [
+                            {
+                                "text": "Value of the expression?  <br> <code>str1[1]</code>"
+                            }
+                        ],
+                        "correct_feedback": "Correct",
+                        "max_marks": 1,
+                        "wrong_feedback": "Incorrect",
+                        "options": [
+                            {
+                                "correct": false,
+                                "option": "h"
+                            },
+                            {
+                                "correct": true,
+                                "option": "e"
+                            },
+                            {
+                                "correct": false,
+                                "option": "l"
+                            },
+                            {
+                                "correct": false,
+                                "option": "o"
+                            }
+                        ],
+                        "question_id": "Q12"
+                    },
+                    {
+                        "questionType": "checkbox",
+                        "questionText": [
+                            {
+                                "text": "Type of the expression?  <br> <code>str1[1]</code>"
+                            }
+                        ],
+                        "correct_feedback": "Correct",
+                        "max_marks": 1,
+                        "wrong_feedback": "Incorrect",
+                        "options": [
+                            {
+                                "correct": false,
+                                "option": "NoneType"
+                            },
+                            {
+                                "correct": false,
+                                "option": "int"
+                            },
+                            {
+                                "correct": true,
+                                "option": "string"
+                            },
+                            {
+                                "correct": false,
+                                "option": "float"
+                            },
+                            {
+                                "correct": false,
+                                "option": "boolean"
+                            }
+                        ],
+                        "question_id": "Q13"
+                    },
+                    {
+                        "questionType": "checkbox",
+                        "questionText": [
+                            {
+                                "text": "Value of the expression?  <br> <code>str1[-1]</code>"
+                            }
+                        ],
+                        "correct_feedback": "Correct",
+                        "max_marks": 1,
+                        "wrong_feedback": "Incorrect",
+                        "options": [
+                            {
+                                "correct": false,
+                                "option": "h"
+                            },
+                            {
+                                "correct": false,
+                                "option": "e"
+                            },
+                            {
+                                "correct": false,
+                                "option": "l"
+                            },
+                            {
+                                "correct": true,
+                                "option": "o"
+                            }
+                        ],
+                        "question_id": "Q14"
+                    },
+                    {
+                        "questionType": "checkbox",
+                        "questionText": [
+                            {
+                                "text": "Type of the expression?  <br> <code>str1[-1]</code>"
+                            }
+                        ],
+                        "correct_feedback": "Correct",
+                        "max_marks": 1,
+                        "wrong_feedback": "Incorrect",
+                        "options": [
+                            {
+                                "correct": false,
+                                "option": "NoneType"
+                            },
+                            {
+                                "correct": false,
+                                "option": "int"
+                            },
+                            {
+                                "correct": true,
+                                "option": "string"
+                            },
+                            {
+                                "correct": false,
+                                "option": "float"
+                            },
+                            {
+                                "correct": false,
+                                "option": "boolean"
+                            }
+                        ],
+                        "question_id": "Q15"
+                    },
+                    {
+                        "questionType": "checkbox",
+                        "questionText": [
+                            {
+                                "text": "Value of the expression?  <br> <code>len(str1)</code>"
+                            }
+                        ],
+                        "correct_feedback": "Correct",
+                        "max_marks": 1,
+                        "wrong_feedback": "Incorrect",
+                        "options": [
+                            {
+                                "correct": false,
+                                "option": "hello"
+                            },
+                            {
+                                "correct": false,
+                                "option": "1"
+                            },
+                            {
+                                "correct": false,
+                                "option": "3"
+                            },
+                            {
+                                "correct": true,
+                                "option": "5"
+                            }
+                        ],
+                        "question_id": "Q16"
+                    },
+                    {
+                        "questionType": "checkbox",
+                        "questionText": [
+                            {
+                                "text": "Type of the expression?  <br> <code>len(str1)</code>"
+                            }
+                        ],
+                        "correct_feedback": "Correct",
+                        "max_marks": 1,
+                        "wrong_feedback": "Incorrect",
+                        "options": [
+                            {
+                                "correct": false,
+                                "option": "NoneType"
+                            },
+                            {
+                                "correct": true,
+                                "option": "int"
+                            },
+                            {
+                                "correct": false,
+                                "option": "string"
+                            },
+                            {
+                                "correct": false,
+                                "option": "float"
+                            },
+                            {
+                                "correct": false,
+                                "option": "boolean"
+                            }
+                        ],
+                        "question_id": "Q17"
+                    },
+                    {
+                        "questionType": "checkbox",
+                        "questionText": [
+                            {
+                                "text": "Value of the expression?  <br> <code>str1[len(str1)]</code>"
+                            }
+                        ],
+                        "correct_feedback": "Correct",
+                        "max_marks": 1,
+                        "wrong_feedback": "Incorrect",
+                        "options": [
+                            {
+                                "correct": false,
+                                "option": "h"
+                            },
+                            {
+                                "correct": false,
+                                "option": "e"
+                            },
+                            {
+                                "correct": false,
+                                "option": "o"
+                            },
+                            {
+                                "correct": true,
+                                "option": "error"
+                            }
+                        ],
+                        "question_id": "Q18"
+                    },
+                    {
+                        "questionType": "checkbox",
+                        "questionText": [
+                            {
+                                "text": "Type of the expression?  <br> <code>str1[len(str1)]</code>"
+                            }
+                        ],
+                        "correct_feedback": "Correct",
+                        "max_marks": 1,
+                        "wrong_feedback": "Incorrect",
+                        "options": [
+                            {
+                                "correct": true,
+                                "option": "NoneType"
+                            },
+                            {
+                                "correct": false,
+                                "option": "int"
+                            },
+                            {
+                                "correct": false,
+                                "option": "string"
+                            },
+                            {
+                                "correct": false,
+                                "option": "float"
+                            },
+                            {
+                                "correct": false,
+                                "option": "boolean"
+                            }
+                        ],
+                        "question_id": "Q19"
+                    },
+                    {
+                        "questionType": "checkbox",
+                        "questionText": [
+                            {
+                                "text": "Value of the expression?  <br> <code>str1 + str2 + str3</code>"
+                            }
+                        ],
+                        "correct_feedback": "Correct",
+                        "max_marks": 1,
+                        "wrong_feedback": "Incorrect",
+                        "options": [
+                            {
+                                "correct": false,
+                                "option": "Hello world"
+                            },
+                            {
+                                "correct": true,
+                                "option": "hello,world"
+                            },
+                            {
+                                "correct": false,
+                                "option": "hello,World"
+                            },
+                            {
+                                "correct": false,
+                                "option": "Hello World"
+                            }
+                        ],
+                        "question_id": "Q20"
+                    },
+                    {
+                        "questionType": "checkbox",
+                        "questionText": [
+                            {
+                                "text": "Type of the expression?  <br> <code>str1 + str2 + str3</code>"
+                            }
+                        ],
+                        "correct_feedback": "Correct",
+                        "max_marks": 1,
+                        "wrong_feedback": "Incorrect",
+                        "options": [
+                            {
+                                "correct": false,
+                                "option": "NoneType"
+                            },
+                            {
+                                "correct": false,
+                                "option": "int"
+                            },
+                            {
+                                "correct": true,
+                                "option": "string"
+                            },
+                            {
+                                "correct": false,
+                                "option": "float"
+                            },
+                            {
+                                "correct": false,
+                                "option": "boolean"
+                            }
+                        ],
+                        "question_id": "Q21"
+                    },
+                    {
+                        "questionType": "checkbox",
+                        "questionText": [
+                            {
+                                "text": "Value of the expression?  <br> <code>str1 + str2 + ' ' + str3</code>"
+                            }
+                        ],
+                        "correct_feedback": "Correct",
+                        "max_marks": 1,
+                        "wrong_feedback": "Incorrect",
+                        "options": [
+                            {
+                                "correct": false,
+                                "option": "Hello world"
+                            },
+                            {
+                                "correct": true,
+                                "option": "hello, world"
+                            },
+                            {
+                                "correct": false,
+                                "option": "hello,World"
+                            },
+                            {
+                                "correct": false,
+                                "option": "Hello World"
+                            }
+                        ],
+                        "question_id": "Q22"
+                    },
+                    {
+                        "questionType": "checkbox",
+                        "questionText": [
+                            {
+                                "text": "Type of the expression?  <br> <code>str1 + str2 + ' ' + str3</code>"
+                            }
+                        ],
+                        "correct_feedback": "Correct",
+                        "max_marks": 1,
+                        "wrong_feedback": "Incorrect",
+                        "options": [
+                            {
+                                "correct": false,
+                                "option": "NoneType"
+                            },
+                            {
+                                "correct": false,
+                                "option": "int"
+                            },
+                            {
+                                "correct": true,
+                                "option": "string"
+                            },
+                            {
+                                "correct": false,
+                                "option": "float"
+                            },
+                            {
+                                "correct": false,
+                                "option": "boolean"
+                            }
+                        ],
+                        "question_id": "Q23"
+                    },
+                    {
+                        "questionType": "checkbox",
+                        "questionText": [
+                            {
+                                "text": "Value of the expression?  <br> <code>str3 * 3</code>"
+                            }
+                        ],
+                        "correct_feedback": "Correct",
+                        "max_marks": 1,
+                        "wrong_feedback": "Incorrect",
+                        "options": [
+                            {
+                                "correct": false,
+                                "option": "world3"
+                            },
+                            {
+                                "correct": false,
+                                "option": "3world"
+                            },
+                            {
+                                "correct": true,
+                                "option": "worldworldworld"
+                            },
+                            {
+                                "correct": false,
+                                "option": "error"
+                            }
+                        ],
+                        "question_id": "Q24"
+                    },
+                    {
+                        "questionType": "checkbox",
+                        "questionText": [
+                            {
+                                "text": "Type of the expression?  <br> <code>str3 * 3</code>"
+                            }
+                        ],
+                        "correct_feedback": "Correct",
+                        "max_marks": 1,
+                        "wrong_feedback": "Incorrect",
+                        "options": [
+                            {
+                                "correct": false,
+                                "option": "NoneType"
+                            },
+                            {
+                                "correct": false,
+                                "option": "int"
+                            },
+                            {
+                                "correct": true,
+                                "option": "string"
+                            },
+                            {
+                                "correct": false,
+                                "option": "float"
+                            },
+                            {
+                                "correct": false,
+                                "option": "boolean"
+                            }
+                        ],
+                        "question_id": "Q25"
+                    },
+                    {
+                        "questionType": "checkbox",
+                        "questionText": [
+                            {
+                                "text": "Value of the expression?  <br> <code>'hello' == str1</code>"
+                            }
+                        ],
+                        "correct_feedback": "Correct",
+                        "max_marks": 1,
+                        "wrong_feedback": "Incorrect",
+                        "options": [
+                            {
+                                "correct": true,
+                                "option": "True"
+                            },
+                            {
+                                "correct": false,
+                                "option": "False"
+                            },
+                            {
+                                "correct": false,
+                                "option": "1"
+                            },
+                            {
+                                "correct": false,
+                                "option": "error"
+                            }
+                        ],
+                        "question_id": "Q26"
+                    },
+                    {
+                        "questionType": "checkbox",
+                        "questionText": [
+                            {
+                                "text": "Type of the expression?  <br> <code>'hello' == str1</code>"
+                            }
+                        ],
+                        "correct_feedback": "Correct",
+                        "max_marks": 1,
+                        "wrong_feedback": "Incorrect",
+                        "options": [
+                            {
+                                "correct": false,
+                                "option": "NoneType"
+                            },
+                            {
+                                "correct": false,
+                                "option": "int"
+                            },
+                            {
+                                "correct": false,
+                                "option": "string"
+                            },
+                            {
+                                "correct": false,
+                                "option": "float"
+                            },
+                            {
+                                "correct": true,
+                                "option": "boolean"
+                            }
+                        ],
+                        "question_id": "Q27"
+                    },
+                    {
+                        "questionType": "checkbox",
+                        "questionText": [
+                            {
+                                "text": "Value of the expression?  <br> <code>'HELLO' == str1</code>"
+                            }
+                        ],
+                        "correct_feedback": "Correct",
+                        "max_marks": 1,
+                        "wrong_feedback": "Incorrect",
+                        "options": [
+                            {
+                                "correct": false,
+                                "option": "True"
+                            },
+                            {
+                                "correct": true,
+                                "option": "False"
+                            },
+                            {
+                                "correct": false,
+                                "option": "1"
+                            },
+                            {
+                                "correct": false,
+                                "option": "error"
+                            }
+                        ],
+                        "question_id": "Q28"
+                    },
+                    {
+                        "questionType": "checkbox",
+                        "questionText": [
+                            {
+                                "text": "Type of the expression?  <br> <code>'HELLO' == str1</code>"
+                            }
+                        ],
+                        "correct_feedback": "Correct",
+                        "max_marks": 1,
+                        "wrong_feedback": "Incorrect",
+                        "options": [
+                            {
+                                "correct": false,
+                                "option": "NoneType"
+                            },
+                            {
+                                "correct": false,
+                                "option": "int"
+                            },
+                            {
+                                "correct": false,
+                                "option": "string"
+                            },
+                            {
+                                "correct": false,
+                                "option": "float"
+                            },
+                            {
+                                "correct": true,
+                                "option": "boolean"
+                            }
+                        ],
+                        "question_id": "Q29"
+                    },
+                    {
+                        "questionType": "checkbox",
+                        "questionText": [
+                            {
+                                "text": "Value of the expression?  <br> <code>'a' in str3</code>"
+                            }
+                        ],
+                        "correct_feedback": "Correct",
+                        "max_marks": 1,
+                        "wrong_feedback": "Incorrect",
+                        "options": [
+                            {
+                                "correct": false,
+                                "option": "True"
+                            },
+                            {
+                                "correct": true,
+                                "option": "False"
+                            },
+                            {
+                                "correct": false,
+                                "option": "1"
+                            },
+                            {
+                                "correct": false,
+                                "option": "error"
+                            }
+                        ],
+                        "question_id": "Q30"
+                    },
+                    {
+                        "questionType": "checkbox",
+                        "questionText": [
+                            {
+                                "text": "Type of the expression?  <br> <code>'a' in str3</code>"
+                            }
+                        ],
+                        "correct_feedback": "Correct",
+                        "max_marks": 1,
+                        "wrong_feedback": "Incorrect",
+                        "options": [
+                            {
+                                "correct": false,
+                                "option": "NoneType"
+                            },
+                            {
+                                "correct": false,
+                                "option": "int"
+                            },
+                            {
+                                "correct": false,
+                                "option": "string"
+                            },
+                            {
+                                "correct": false,
+                                "option": "float"
+                            },
+                            {
+                                "correct": true,
+                                "option": "boolean"
+                            }
+                        ],
+                        "question_id": "Q31"
+                    },
+                    {
+                        "questionType": "checkbox",
+                        "questionText": [
+                            {
+                                "text": "Value of the expression?  <br> <code>str4 = str1 + str3<br>'low' in str4</code>"
+                            }
+                        ],
+                        "correct_feedback": "Correct",
+                        "max_marks": 1,
+                        "wrong_feedback": "Incorrect",
+                        "options": [
+                            {
+                                "correct": true,
+                                "option": "True"
+                            },
+                            {
+                                "correct": false,
+                                "option": "False"
+                            },
+                            {
+                                "correct": false,
+                                "option": "1"
+                            },
+                            {
+                                "correct": false,
+                                "option": "error"
+                            }
+                        ],
+                        "question_id": "Q32"
+                    },
+                    {
+                        "questionType": "checkbox",
+                        "questionText": [
+                            {
+                                "text": "Type of the expression?  <br> <code>str4 = str1 + str3<br>'low' in str4</code>"
+                            }
+                        ],
+                        "correct_feedback": "Correct",
+                        "max_marks": 1,
+                        "wrong_feedback": "Incorrect",
+                        "options": [
+                            {
+                                "correct": false,
+                                "option": "NoneType"
+                            },
+                            {
+                                "correct": false,
+                                "option": "int"
+                            },
+                            {
+                                "correct": false,
+                                "option": "string"
+                            },
+                            {
+                                "correct": false,
+                                "option": "float"
+                            },
+                            {
+                                "correct": true,
+                                "option": "boolean"
+                            }
+                        ],
+                        "question_id": "Q33"
+                    },
+                    {
+                        "questionType": "checkbox",
+                        "questionText": [
+                            {
+                                "text": "Value of the expression?  <br> <code>str3[1:3]</code>"
+                            }
+                        ],
+                        "correct_feedback": "Correct",
+                        "max_marks": 1,
+                        "wrong_feedback": "Incorrect",
+                        "options": [
+                            {
+                                "correct": false,
+                                "option": "wo"
+                            },
+                            {
+                                "correct": true,
+                                "option": "or"
+                            },
+                            {
+                                "correct": false,
+                                "option": "rl"
+                            },
+                            {
+                                "correct": false,
+                                "option": "ld"
+                            }
+                        ],
+                        "question_id": "Q34"
+                    },
+                    {
+                        "questionType": "checkbox",
+                        "questionText": [
+                            {
+                                "text": "Type of the expression?  <br> <code>str3[1:3]</code>"
+                            }
+                        ],
+                        "correct_feedback": "Correct",
+                        "max_marks": 1,
+                        "wrong_feedback": "Incorrect",
+                        "options": [
+                            {
+                                "correct": false,
+                                "option": "NoneType"
+                            },
+                            {
+                                "correct": false,
+                                "option": "int"
+                            },
+                            {
+                                "correct": true,
+                                "option": "string"
+                            },
+                            {
+                                "correct": false,
+                                "option": "float"
+                            },
+                            {
+                                "correct": false,
+                                "option": "boolean"
+                            }
+                        ],
+                        "question_id": "Q35"
+                    },
+                    {
+                        "questionType": "checkbox",
+                        "questionText": [
+                            {
+                                "text": "Value of the expression?  <br> <code>str3[:3]</code>"
+                            }
+                        ],
+                        "correct_feedback": "Correct",
+                        "max_marks": 1,
+                        "wrong_feedback": "Incorrect",
+                        "options": [
+                            {
+                                "correct": false,
+                                "option": "or"
+                            },
+                            {
+                                "correct": true,
+                                "option": "wor"
+                            },
+                            {
+                                "correct": false,
+                                "option": "orl"
+                            },
+                            {
+                                "correct": false,
+                                "option": "worl"
+                            }
+                        ],
+                        "question_id": "Q36"
+                    },
+                    {
+                        "questionType": "checkbox",
+                        "questionText": [
+                            {
+                                "text": "Type of the expression?  <br> <code>str3[:3]</code>"
+                            }
+                        ],
+                        "correct_feedback": "Correct",
+                        "max_marks": 1,
+                        "wrong_feedback": "Incorrect",
+                        "options": [
+                            {
+                                "correct": false,
+                                "option": "NoneType"
+                            },
+                            {
+                                "correct": false,
+                                "option": "int"
+                            },
+                            {
+                                "correct": true,
+                                "option": "string"
+                            },
+                            {
+                                "correct": false,
+                                "option": "float"
+                            },
+                            {
+                                "correct": false,
+                                "option": "boolean"
+                            }
+                        ],
+                        "question_id": "Q37"
+                    },
+                    {
+                        "questionType": "checkbox",
+                        "questionText": [
+                            {
+                                "text": "Value of the expression?  <br> <code>str3[:-1]</code>"
+                            }
+                        ],
+                        "correct_feedback": "Correct",
+                        "max_marks": 1,
+                        "wrong_feedback": "Incorrect",
+                        "options": [
+                            {
+                                "correct": false,
+                                "option": "d"
+                            },
+                            {
+                                "correct": false,
+                                "option": "w"
+                            },
+                            {
+                                "correct": false,
+                                "option": "wor"
+                            },
+                            {
+                                "correct": true,
+                                "option": "worl"
+                            }
+                        ],
+                        "question_id": "Q38"
+                    },
+                    {
+                        "questionType": "checkbox",
+                        "questionText": [
+                            {
+                                "text": "Type of the expression?  <br> <code>str3[:-1]</code>"
+                            }
+                        ],
+                        "correct_feedback": "Correct",
+                        "max_marks": 1,
+                        "wrong_feedback": "Incorrect",
+                        "options": [
+                            {
+                                "correct": false,
+                                "option": "NoneType"
+                            },
+                            {
+                                "correct": false,
+                                "option": "int"
+                            },
+                            {
+                                "correct": true,
+                                "option": "string"
+                            },
+                            {
+                                "correct": false,
+                                "option": "float"
+                            },
+                            {
+                                "correct": false,
+                                "option": "boolean"
+                            }
+                        ],
+                        "question_id": "Q39"
+                    },
+                    {
+                        "questionType": "checkbox",
+                        "questionText": [
+                            {
+                                "text": "Value of the expression?  <br> <code>str3[:-1]</code>"
+                            }
+                        ],
+                        "correct_feedback": "Correct",
+                        "max_marks": 1,
+                        "wrong_feedback": "Incorrect",
+                        "options": [
+                            {
+                                "correct": false,
+                                "option": "d"
+                            },
+                            {
+                                "correct": false,
+                                "option": "w"
+                            },
+                            {
+                                "correct": false,
+                                "option": "wor"
+                            },
+                            {
+                                "correct": true,
+                                "option": "worl"
+                            }
+                        ],
+                        "question_id": "Q40"
+                    },
+                    {
+                        "questionType": "checkbox",
+                        "questionText": [
+                            {
+                                "text": "Type of the expression?  <br> <code>str3[:-1]</code>"
+                            }
+                        ],
+                        "correct_feedback": "Correct",
+                        "max_marks": 1,
+                        "wrong_feedback": "Incorrect",
+                        "options": [
+                            {
+                                "correct": false,
+                                "option": "NoneType"
+                            },
+                            {
+                                "correct": false,
+                                "option": "int"
+                            },
+                            {
+                                "correct": true,
+                                "option": "string"
+                            },
+                            {
+                                "correct": false,
+                                "option": "float"
+                            },
+                            {
+                                "correct": false,
+                                "option": "boolean"
+                            }
+                        ],
+                        "question_id": "Q41"
+                    },
+                    {
+                        "questionType": "checkbox",
+                        "questionText": [
+                            {
+                                "text": "Value of the expression?  <br> <code>str1[1:]</code>"
+                            }
+                        ],
+                        "correct_feedback": "Correct",
+                        "max_marks": 1,
+                        "wrong_feedback": "Incorrect",
+                        "options": [
+                            {
+                                "correct": false,
+                                "option": "hello"
+                            },
+                            {
+                                "correct": false,
+                                "option": "llo"
+                            },
+                            {
+                                "correct": false,
+                                "option": "ell"
+                            },
+                            {
+                                "correct": true,
+                                "option": "ello"
+                            }
+                        ],
+                        "question_id": "Q42"
+                    },
+                    {
+                        "questionType": "checkbox",
+                        "questionText": [
+                            {
+                                "text": "Type of the expression?  <br> <code>str1[1:]</code>"
+                            }
+                        ],
+                        "correct_feedback": "Correct",
+                        "max_marks": 1,
+                        "wrong_feedback": "Incorrect",
+                        "options": [
+                            {
+                                "correct": false,
+                                "option": "NoneType"
+                            },
+                            {
+                                "correct": false,
+                                "option": "int"
+                            },
+                            {
+                                "correct": true,
+                                "option": "string"
+                            },
+                            {
+                                "correct": false,
+                                "option": "float"
+                            },
+                            {
+                                "correct": false,
+                                "option": "boolean"
+                            }
+                        ],
+                        "question_id": "Q43"
+                    },
+                    {
+                        "questionType": "checkbox",
+                        "questionText": [
+                            {
+                                "text": "Value of the expression?  <br> <code>str4[1:9]</code>"
+                            }
+                        ],
+                        "correct_feedback": "Correct",
+                        "max_marks": 1,
+                        "wrong_feedback": "Incorrect",
+                        "options": [
+                            {
+                                "correct": true,
+                                "option": "elloworl"
+                            },
+                            {
+                                "correct": false,
+                                "option": "llowor"
+                            },
+                            {
+                                "correct": false,
+                                "option": "lowo"
+                            },
+                            {
+                                "correct": false,
+                                "option": "owo"
+                            }
+                        ],
+                        "question_id": "Q44"
+                    },
+                    {
+                        "questionType": "checkbox",
+                        "questionText": [
+                            {
+                                "text": "Type of the expression?  <br> <code>str4[1:9]</code>"
+                            }
+                        ],
+                        "correct_feedback": "Correct",
+                        "max_marks": 1,
+                        "wrong_feedback": "Incorrect",
+                        "options": [
+                            {
+                                "correct": false,
+                                "option": "NoneType"
+                            },
+                            {
+                                "correct": false,
+                                "option": "int"
+                            },
+                            {
+                                "correct": true,
+                                "option": "string"
+                            },
+                            {
+                                "correct": false,
+                                "option": "float"
+                            },
+                            {
+                                "correct": false,
+                                "option": "boolean"
+                            }
+                        ],
+                        "question_id": "Q45"
+                    },
+                    {
+                        "questionType": "checkbox",
+                        "questionText": [
+                            {
+                                "text": "Value of the expression?  <br> <code>str4[1:9:2]</code>"
+                            }
+                        ],
+                        "correct_feedback": "Correct",
+                        "max_marks": 1,
+                        "wrong_feedback": "Incorrect",
+                        "options": [
+                            {
+                                "correct": false,
+                                "option": "lwr"
+                            },
+                            {
+                                "correct": true,
+                                "option": "elwr"
+                            },
+                            {
+                                "correct": false,
+                                "option": "w"
+                            },
+                            {
+                                "correct": false,
+                                "option": "elw"
+                            }
+                        ],
+                        "question_id": "Q46"
+                    },
+                    {
+                        "questionType": "checkbox",
+                        "questionText": [
+                            {
+                                "text": "Type of the expression?  <br> <code>str4[1:9:2]</code>"
+                            }
+                        ],
+                        "correct_feedback": "Correct",
+                        "max_marks": 1,
+                        "wrong_feedback": "Incorrect",
+                        "options": [
+                            {
+                                "correct": false,
+                                "option": "NoneType"
+                            },
+                            {
+                                "correct": false,
+                                "option": "int"
+                            },
+                            {
+                                "correct": true,
+                                "option": "string"
+                            },
+                            {
+                                "correct": false,
+                                "option": "float"
+                            },
+                            {
+                                "correct": false,
+                                "option": "boolean"
+                            }
+                        ],
+                        "question_id": "Q47"
+                    },
+                    {
+                        "questionType": "checkbox",
+                        "questionText": [
+                            {
+                                "text": "Value of the expression?  <br> <code>str4[::-1]</code>"
+                            }
+                        ],
+                        "correct_feedback": "Correct",
+                        "max_marks": 1,
+                        "wrong_feedback": "Incorrect",
+                        "options": [
+                            {
+                                "correct": true,
+                                "option": "dlrowolleh"
+                            },
+                            {
+                                "correct": false,
+                                "option": "lrowolle"
+                            },
+                            {
+                                "correct": false,
+                                "option": "rowoll"
+                            },
+                            {
+                                "correct": false,
+                                "option": "owol"
+                            }
+                        ],
+                        "question_id": "Q48"
+                    },
+                    {
+                        "questionType": "checkbox",
+                        "questionText": [
+                            {
+                                "text": "Type of the expression?  <br> <code>str4[::-1]</code>"
+                            }
+                        ],
+                        "correct_feedback": "Correct",
+                        "max_marks": 1,
+                        "wrong_feedback": "Incorrect",
+                        "options": [
+                            {
+                                "correct": false,
+                                "option": "NoneType"
+                            },
+                            {
+                                "correct": false,
+                                "option": "int"
+                            },
+                            {
+                                "correct": true,
+                                "option": "string"
+                            },
+                            {
+                                "correct": false,
+                                "option": "float"
+                            },
+                            {
+                                "correct": false,
+                                "option": "boolean"
+                            }
+                        ],
+                        "question_id": "Q49"
+                    }
+                ],
+                "title": "Last activity you solved few questions. In this activity we give you some questions, try to answer those questions"
+            }
+        ],
+        "activity_id": "A6"
+    },
+    {
+        "activity_name": "Input Output",
+        "activity_json": [
+            {
+                "videoResources": "/3) Input Output.zip",
+                "activityType": "video",
+                "videoURL": "http://courseware.msitprogram.net/play/content/cspp1/videos//3)%20Input%20Output.mp4",
+                "title": "In this activity you will learn about input & output by watching a video"
+            }
+        ],
+        "activity_id": "A7"
+    },
+    {
+        "activity_name": "Input Output-1 notes",
+        "activity_json": [
+            {
+                "activityType": "notes",
+                "title": "Input Output-1 notes",
+                "text": "In the last activities we learnt input and output, In this excercise you have problems on input and output<br><br>For each of the following expressions, indicate the value that prints out when the expression is evaluated. If the evaluation would lead to an error, write the word 'error'; if nothing would print out, write the word 'blank'.<br><br>While you could simply type these expressions into your IDE, we encourage you to answer them directly since this will help reinforce your understanding of basic Python expressions.<br>If the temperatures seem weird to you, like most of the world, you probably use the Celsius system."
+            }
+        ],
+        "activity_id": "A8"
+    },
+    {
+        "activity_name": "Input Output-1",
+        "activity_json": [
+            {
+                "quizDescription": "For each of the following expressions, indicate the value that prints out when the expression is evaluated. If the evaluation would lead to an error, write the word 'error'; if nothing would print out, write the word 'blank'.<br><br>While you could simply type these expressions into your IDE, we encourage you to answer them directly since this will help reinforce your understanding of basic Python expressions.<br>If the temperatures seem weird to you, like most of the world, you probably use the Celsius system. <br>",
+                "activityType": "quiz",
+                "questions": [
+                    {
+                        "questionType": "checkbox",
+                        "questionText": [
+                            {
+                                "text": "From this code what is the correct answer"
+                            },
+                            {
+                                "image": {
+                                    "imageName": "bsit-55.PNG",
+                                    "imageSRC": "http://iiitdev.msitprogram.net/images/bsit-55.PNG"
+                                }
+                            }
+                        ],
+                        "correct_feedback": "Correct",
+                        "max_marks": 1,
+                        "wrong_feedback": "Incorrect",
+                        "options": [
+                            {
+                                "correct": false,
+                                "option": "True"
+                            },
+                            {
+                                "correct": false,
+                                "option": "error"
+                            },
+                            {
+                                "correct": false,
+                                "option": "yep"
+                            },
+                            {
+                                "correct": true,
+                                "option": "blank"
+                            }
+                        ],
+                        "question_id": "Q50"
+                    },
+                    {
+                        "questionType": "checkbox",
+                        "questionText": [
+                            {
+                                "text": "What is the output for the below code "
+                            },
+                            {
+                                "image": {
+                                    "imageName": "bsit-56.PNG",
+                                    "imageSRC": "http://iiitdev.msitprogram.net/images/bsit-56.PNG"
+                                }
+                            }
+                        ],
+                        "correct_feedback": "Correct",
+                        "max_marks": 1,
+                        "wrong_feedback": "Incorrect",
+                        "options": [
+                            {
+                                "correct": true,
+                                "option": "Nope"
+                            },
+                            {
+                                "correct": false,
+                                "option": "error"
+                            },
+                            {
+                                "correct": false,
+                                "option": "yep"
+                            },
+                            {
+                                "correct": false,
+                                "option": "Print nothing"
+                            }
+                        ],
+                        "question_id": "Q51"
+                    },
+                    {
+                        "questionType": "checkbox",
+                        "questionText": [
+                            {
+                                "text": "What is the output for the below code"
+                            },
+                            {
+                                "image": {
+                                    "imageName": "bsit-57.PNG",
+                                    "imageSRC": "http://iiitdev.msitprogram.net/images/bsit-57.PNG"
+                                }
+                            }
+                        ],
+                        "correct_feedback": "Correct",
+                        "max_marks": 1,
+                        "wrong_feedback": "Incorrect",
+                        "options": [
+                            {
+                                "correct": false,
+                                "option": "Cute!"
+                            },
+                            {
+                                "correct": true,
+                                "option": "Regal!"
+                            },
+                            {
+                                "correct": false,
+                                "option": "Ugly\u00e2\u20ac\u00a6"
+                            },
+                            {
+                                "correct": false,
+                                "option": "error"
+                            }
+                        ],
+                        "question_id": "Q52"
+                    },
+                    {
+                        "questionType": "checkbox",
+                        "questionText": [
+                            {
+                                "text": "What is the output for the below code"
+                            },
+                            {
+                                "image": {
+                                    "imageName": "bsit-58.PNG",
+                                    "imageSRC": "http://iiitdev.msitprogram.net/images/bsit-58.PNG"
+                                }
+                            }
+                        ],
+                        "correct_feedback": "Correct",
+                        "max_marks": 1,
+                        "wrong_feedback": "Incorrect",
+                        "options": [
+                            {
+                                "correct": true,
+                                "option": "Hot"
+                            },
+                            {
+                                "correct": false,
+                                "option": "REALLY HOT!"
+                            },
+                            {
+                                "correct": false,
+                                "option": "Cold"
+                            },
+                            {
+                                "correct": false,
+                                "option": "Comfortable"
+                            }
+                        ],
+                        "question_id": "Q53"
+                    },
+                    {
+                        "questionType": "checkbox",
+                        "questionText": [
+                            {
+                                "text": "What is the output for the below code"
+                            },
+                            {
+                                "image": {
+                                    "imageName": "bsit-59.PNG",
+                                    "imageSRC": "http://iiitdev.msitprogram.net/images/bsit-60.PNG"
+                                }
+                            }
+                        ],
+                        "correct_feedback": "Correct",
+                        "max_marks": 1,
+                        "wrong_feedback": "Incorrect",
+                        "options": [
+                            {
+                                "correct": false,
+                                "option": "Hot"
+                            },
+                            {
+                                "correct": false,
+                                "option": "REALLY HOT!"
+                            },
+                            {
+                                "correct": true,
+                                "option": "Cold"
+                            },
+                            {
+                                "correct": false,
+                                "option": "Comfortable"
+                            }
+                        ],
+                        "question_id": "Q54"
+                    }
+                ],
+                "title": "In the last activities we learnt input and output, In this excercise you have problems on input and output"
+            }
+        ],
+        "activity_id": "A9"
+    },
+    {
+        "activity_name": "IDEs",
+        "activity_json": [
+            {
+                "videoResources": "/4) IDEs.zip",
+                "activityType": "video",
+                "videoURL": "http://courseware.msitprogram.net/play/content/cspp1/videos//4)%20IDEs.mp4",
+                "title": "In this activity we will discuss about IDE's by watching a video"
+            }
+        ],
+        "activity_id": "A10"
+    },
+    {
+        "activity_name": "Hello World",
+        "activity_json": [
+            {
+                "activityType": "assignment",
+                "questions": [
+                    {
+                        "evaluate": true,
+                        "max_marks": 5,
+                        "questionText": [
+                            {
+                                "text": "Write a piece of Python code that prints out the string hello world"
+                            }
+                        ],
+                        "questionType": "File submission",
+                        "question_id": "Q55"
+                    }
+                ],
+                "title": "Assignment-2"
+            }
+        ],
+        "activity_id": "A11"
+    },
+    {
+        "activity_name": "Control Flow",
+        "activity_json": [
+            {
+                "videoResources": "/5) Control Flow.zip",
+                "activityType": "video",
+                "videoURL": "http://courseware.msitprogram.net/play/content/cspp1/videos//5)%20Control%20Flow.mp4",
+                "title": "In this activity we will discuss about Control flow by watching a video"
+            }
+        ],
+        "activity_id": "A12"
+    },
+    {
+        "activity_name": "Happy-1",
+        "activity_json": [
+            {
+                "activityType": "assignment",
+                "questions": [
+                    {
+                        "questionType": "filesubmission",
+                        "max_marks": 5,
+                        "evaluate": true,
+                        "questionText": [
+                            {
+                                "text": "Write a piece of Python code that prints out the string <b>'hello world'</b> if the value of an integer variable, <b>happy</b>, is strictly greater than 2."
+                            }
+                        ],
+                        "question_id": "Q56"
+                    }
+                ],
+                "title": "Solve the following problem"
+            }
+        ],
+        "activity_id": "A13"
+    },
+    {
+        "activity_name": "VarA varB-1",
+        "activity_json": [
+            {
+                "activityType": "assignment",
+                "questions": [
+                    {
+                        "questionType": "filesubmission",
+                        "max_marks": 5,
+                        "evaluate": true,
+                        "questionText": [
+                            {
+                                "text": "Assume that two variables, <b>varA</b> and <b>varB</b>, are assigned values, either numbers or strings.<br>Write a piece of Python code that evaluates <b>varA</b> and <b>varB</b>, and then prints out one of the following messages:  <ul>   <li>  <code>\"string involved\"</code>  <p>if either <b>varA</b> or <b>varB</b> are strings</p> </li>  <li> <code>\"bigger\"</code> <p> if <b>varA</b> is larger than <b>varB</b> </p>    </li>  <li> <code>\"equal\" </code> <p> if <b>varA</b> is equal to <b>varB</b> </p> </li> <li><code>\"smaller\" </code> <p> if <b>varA</b> is smaller than <b>varB</b> </p> </li> </ul> "
+                            }
+                        ],
+                        "question_id": "Q57"
+                    }
+                ],
+                "title": "Solve the following problem"
+            }
+        ],
+        "activity_id": "A14"
+    },
+    {
+        "activity_name": "Control Flow-1 notes",
+        "activity_json": [
+            {
+                "activityType": "notes",
+                "title": "Control Flow-1 notes",
+                "text": "Answer the following questions on control flow<br><br>Below are some short Python programs. For each program, answer the associated question.Try to answer the questions without running the code. Check your answers, then run the code for the ones you get wrong.This question is going to ask you what some simple loops print out. If you're asked what code like this prints:<br><a href=\"http://iiitdev.msitprogram.net/images/bsit-61.PNG\">click for code</a><br>write what it prints out, separating what appears on a new line by a comma and a space. So the answer for the above code would be: <b>5,4</b> <br><br>If a given loop will not terminate, write the phrase 'infinite loop' (no quotes) in the box. Recall that you can stop an infinite loop in your program by typing CTRL+c in the console.Note: What does +=, -=, *=, /= stand for <br><br> <code>a += b</code> is equivalent to <code>a = a + b</code> <br><br> <code>a -= b</code> is equivalent to <code></code>a = a - b <br><br> <code>a *= b</code> is equivalent to <code>a = a * b</code> <br><br> <code>a /= b</code> is equivalent to <code>a = a / b</code>"
+            }
+        ],
+        "activity_id": "A15"
+    },
+    {
+        "activity_name": "Control Flow-1",
+        "activity_json": [
+            {
+                "quizDescription": [
+                    {
+                        "text": "Below are some short Python programs. For each program, answer the associated question.<br>Try to answer the questions without running the code. Check your answers, then run the code for the ones you get wrong.<br>This question is going to ask you what some simple loops print out. If you're asked what code like this prints:<br>"
+                    },
+                    {
+                        "code": "cspp1.6.12.1.py"
+                    },
+                    {
+                        "text": "write what it prints out, separating what appears on a new line by a comma and a space. So the answer for the above code would be:<br>"
+                    },
+                    {
+                        "code": "controlflow.py"
+                    },
+                    {
+                        "text": "If a given loop will not terminate, write the phrase 'infinite loop' (no quotes) in the box. Recall that you can stop an infinite loop in your program by typing CTRL+c in the console.<br>Note: What does +=, -=, *=, /= stand for<br><br><code>a += b</code> is equivalent to <code>a = a + b</code><br><br><code>a -= b</code> is equivalent to <code>a = a - b</code><br><br><code>a *= b</code> is equivalent to <code>a = a * b</code><br><br><code>a /= b</code> is equivalent to <code>a = a / b</code>"
+                    }
+                ],
+                "activityType": "quiz",
+                "questions": [
+                    {
+                        "questionType": "checkbox",
+                        "questionText": [
+                            {
+                                "text": "What is the output for the below code "
+                            },
+                            {
+                                "image": {
+                                    "imageName": "bsit-62.PNG",
+                                    "imageSRC": "http://iiitdev.msitprogram.net/images/bsit-62.PNG"
+                                }
+                            }
+                        ],
+                        "correct_feedback": "Correct",
+                        "max_marks": 1,
+                        "wrong_feedback": "Incorrect",
+                        "options": [
+                            {
+                                "correct": false,
+                                "option": "0, 1, 2, 3, 4, 5, Outside of loop"
+                            },
+                            {
+                                "correct": false,
+                                "option": "0, 1, 2, 3, 4, 5"
+                            },
+                            {
+                                "correct": true,
+                                "option": "0, 1, 2, 3, 4, 5, Outside of loop, 6"
+                            },
+                            {
+                                "correct": false,
+                                "option": "Outside of loop, 6"
+                            }
+                        ],
+                        "question_id": "Q58"
+                    },
+                    {
+                        "questionType": "checkbox",
+                        "questionText": [
+                            {
+                                "text": "What is the output for the below code"
+                            },
+                            {
+                                "image": {
+                                    "imageName": "bsit-63.PNG",
+                                    "imageSRC": "http://iiitdev.msitprogram.net/images/bsit-63.PNG"
+                                }
+                            }
+                        ],
+                        "correct_feedback": "Correct",
+                        "max_marks": 1,
+                        "wrong_feedback": "Incorrect",
+                        "options": [
+                            {
+                                "correct": false,
+                                "option": "Number of apples: 10"
+                            },
+                            {
+                                "correct": false,
+                                "option": "Number of apples: 0"
+                            },
+                            {
+                                "correct": false,
+                                "option": "error"
+                            },
+                            {
+                                "correct": true,
+                                "option": "infinite loop"
+                            }
+                        ],
+                        "question_id": "Q59"
+                    },
+                    {
+                        "questionType": "checkbox",
+                        "questionText": [
+                            {
+                                "text": "What is the output for the below code"
+                            },
+                            {
+                                "image": {
+                                    "imageName": "bsit-64.PNG",
+                                    "imageSRC": "http://iiitdev.msitprogram.net/images/bsit-64.PNG"
+                                }
+                            }
+                        ],
+                        "correct_feedback": "Correct",
+                        "max_marks": 1,
+                        "wrong_feedback": "Incorrect",
+                        "options": [
+                            {
+                                "correct": true,
+                                "option": "9,8,7,6,5,4,3"
+                            },
+                            {
+                                "correct": false,
+                                "option": "9,8,7,6,5,4"
+                            },
+                            {
+                                "correct": false,
+                                "option": "8,7,6,5,4,3"
+                            },
+                            {
+                                "correct": false,
+                                "option": "7,6,5,4,3"
+                            }
+                        ],
+                        "question_id": "Q60"
+                    },
+                    {
+                        "questionType": "checkbox",
+                        "questionText": [
+                            {
+                                "text": "What is the output for the below code"
+                            },
+                            {
+                                "image": {
+                                    "imageName": "bsit-65.PNG",
+                                    "imageSRC": "http://iiitdev.msitprogram.net/images/bsit-65.PNG"
+                                }
+                            }
+                        ],
+                        "correct_feedback": "Correct",
+                        "max_marks": 1,
+                        "wrong_feedback": "Incorrect",
+                        "options": [
+                            {
+                                "correct": false,
+                                "option": "10, 9, 8, 7"
+                            },
+                            {
+                                "correct": false,
+                                "option": "Outside of loop"
+                            },
+                            {
+                                "correct": false,
+                                "option": "10, 9, 8, 7, Breaking out of loop"
+                            },
+                            {
+                                "correct": true,
+                                "option": "10, 9, 8, 7, Breaking out of loop, Outside of loop"
+                            }
+                        ],
+                        "question_id": "Q61"
+                    },
+                    {
+                        "questionType": "checkbox",
+                        "questionText": [
+                            {
+                                "text": "What is the output for the below code "
+                            },
+                            {
+                                "image": {
+                                    "imageName": "bsit-66.PNG",
+                                    "imageSRC": "http://iiitdev.msitprogram.net/images/bsit-66.PNG"
+                                }
+                            }
+                        ],
+                        "correct_feedback": "Correct",
+                        "max_marks": 1,
+                        "wrong_feedback": "Incorrect",
+                        "options": [
+                            {
+                                "correct": false,
+                                "option": "num is: 100"
+                            },
+                            {
+                                "correct": false,
+                                "option": "num is:  0"
+                            },
+                            {
+                                "correct": false,
+                                "option": "error"
+                            },
+                            {
+                                "correct": true,
+                                "option": "infinite loop"
+                            }
+                        ],
+                        "question_id": "Q62"
+                    }
+                ],
+                "title": "Answer the following questions on control flow"
+            }
+        ],
+        "activity_id": "A16"
+    },
+    {
+        "activity_name": "while-1 problem-1",
+        "activity_json": [
+            {
+                "activityType": "assignment",
+                "questions": [
+                    {
+                        "evaluate": true,
+                        "max_marks": 5,
+                        "questionText": [
+                            {
+                                "text": "In this problem you'll be given a chance to practice writing some while loops.<br><br>Convert the following into code that uses a while loop.<br><br> print 2<br>print 4<br>print 6<br>print 8<br>print 10<br>print Goodbye!"
+                            }
+                        ],
+                        "questionType": "File submission",
+                        "question_id": "Q63"
+                    }
+                ],
+                "title": "Assignment-2"
+            }
+        ],
+        "activity_id": "A17"
+    },
+    {
+        "activity_name": "while-1 problem-2",
+        "activity_json": [
+            {
+                "activityType": "assignment",
+                "questions": [
+                    {
+                        "evaluate": true,
+                        "max_marks": 5,
+                        "questionText": [
+                            {
+                                "text": "In this problem you'll be given a chance to practice writing some while loops.<br><br>Convert the following into code that uses a while loop.<br><br>print Hello!<br>print 10<br>print 8<br>print 6<br>print 4<br>print 2"
+                            }
+                        ],
+                        "questionType": "File submission",
+                        "question_id": "Q64"
+                    }
+                ],
+                "title": "Assignment-2"
+            }
+        ],
+        "activity_id": "A18"
+    },
+    {
+        "activity_name": "while-1 problem-3",
+        "activity_json": [
+            {
+                "activityType": "assignment",
+                "questions": [
+                    {
+                        "evaluate": true,
+                        "max_marks": 5,
+                        "questionText": [
+                            {
+                                "text": "Write a while loop that sums the values 1 through end, inclusive. end is a variable that we define for you. So, for example, if we define end to be 6, your code should print out the result:<br><br>21<br><br>which is 1 + 2 + 3 + 4 + 5 + 6.<br><br>For problems such as these, do not include input statements or define variables we will provide for you. Our automating testing will provide values so write your code in the following box assuming these variables are already defined."
+                            }
+                        ],
+                        "questionType": "File submission",
+                        "question_id": "Q65"
+                    }
+                ],
+                "title": "Assignment-2"
+            }
+        ],
+        "activity_id": "A19"
+    },
+    {
+        "activity_name": "for-1 problem-1",
+        "activity_json": [
+            {
+                "activityType": "assignment",
+                "questions": [
+                    {
+                        "evaluate": true,
+                        "max_marks": 5,
+                        "questionText": [
+                            {
+                                "text": "In this problem you'll be given a chance to practice writing some for loops.<br><br>Convert the following into code that uses a for loop.<br><br> print 2<br>print 4<br>print 6<br>print 8<br>print 10<br>print Goodbye!"
+                            }
+                        ],
+                        "questionType": "File submission",
+                        "question_id": "Q66"
+                    }
+                ],
+                "title": "Assignment-2"
+            }
+        ],
+        "activity_id": "A20"
+    },
+    {
+        "activity_name": "for-1 problem-2",
+        "activity_json": [
+            {
+                "activityType": "assignment",
+                "questions": [
+                    {
+                        "evaluate": true,
+                        "max_marks": 5,
+                        "questionText": [
+                            {
+                                "text": "In this problem you'll be given a chance to practice writing some for loops.<br><br>Convert the following into code that uses a for loop.<br><br>print Hello!<br>print 10<br>print 8<br>print 6<br>print 4<br>print 2"
+                            }
+                        ],
+                        "questionType": "File submission",
+                        "question_id": "Q67"
+                    }
+                ],
+                "title": "Assignment-2"
+            }
+        ],
+        "activity_id": "A21"
+    },
+    {
+        "activity_name": "for-1 problem-3",
+        "activity_json": [
+            {
+                "activityType": "assignment",
+                "questions": [
+                    {
+                        "evaluate": true,
+                        "max_marks": 5,
+                        "questionText": [
+                            {
+                                "text": "Write a for loop that sums the values 1 through end, inclusive. end is a variable that we define for you. So, for example, if we define end to be 6, your code should print out the result:<br><br>21<br><br>which is 1 + 2 + 3 + 4 + 5 + 6.<br><br>For problems such as these, do not include input statements or define variables we will provide for you. Our automating testing will provide values so write your code in the following box assuming these variables are already defined."
+                            }
+                        ],
+                        "questionType": "File submission",
+                        "question_id": "Q68"
+                    }
+                ],
+                "title": "Assignment-2"
+            }
+        ],
+        "activity_id": "A22"
+    }
+]

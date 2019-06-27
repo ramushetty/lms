@@ -1,0 +1,1322 @@
+[
+    {
+        "activity_name": "Decomposition and Abstraction",
+        "activity_json": [
+            {
+                "videoResources": "/1 Decomposition and Abstraction.zip",
+                "activityType": "video",
+                "videoURL": "http://courseware.msitprogram.net/play/content/cspp1/videos//1%20Decomposition%20and%20Abstraction.mp4",
+                "title": "In this activity we will discuss about Decomposition and abstraction by watching a video"
+            }
+        ],
+        "activity_id": "A1"
+    },
+    {
+        "activity_name": "Functions and Scope",
+        "activity_json": [
+            {
+                "videoResources": "/2 Functions and Scope.zip",
+                "activityType": "video",
+                "videoURL": "http://courseware.msitprogram.net/play/content/cspp1/videos//2%20Functions%20and%20Scope.mp4",
+                "title": "In this activity we will discuss about Functions and scope by watching a video"
+            }
+        ],
+        "activity_id": "A2"
+    },
+    {
+        "activity_name": "Functions and Scope-1 notes",
+        "activity_json": [
+            {
+                "activityType": "notes",
+                "title": "Functions and Scope-1 notes",
+                "text": "For each of the following functions, specify the type of its return. You can assume each function is called with an appropriate argument, as specified by its docstring.<br>If the output can be either an int or a float, select num, which isn't a real Python type, but which we'll use to indicate that either basic numeric type is legal.In fact, in Python, booleans True and False can be operated on as if they were the integers 1 and 0; but it is ugly and confusing to take advantage of this fact, and we will resolutely pretend that it isn't true.<br>What are those line under the function definitions?"
+            }
+        ],
+        "activity_id": "A3"
+    },
+    {
+        "activity_name": "Functions and Scope-1",
+        "activity_json": [
+            {
+                "quizDescription": "For each of the following functions, specify the type of its return. You can assume each function is called with an appropriate argument, as specified by its docstring.<br>If the output can be either an int or a float, select num, which isn't a real Python type, but which we'll use to indicate that either basic numeric type is legal.In fact, in Python, booleans True and False can be operated on as if they were the integers 1 and 0; but it is ugly and confusing to take advantage of this fact, and we will resolutely pretend that it isn't true.<br>What are those line under the function definitions?",
+                "activityType": "quiz",
+                "questions": [
+                    {
+                        "questionType": "checkbox",
+                        "questionText": [
+                            {
+                                "text": "<a href=\"http://iiitdev.msitprogram.net/images/bsit-2.PNG\">click here for image</a><br>Indicate the type of the output that the function a will yield."
+                            }
+                        ],
+                        "correct_feedback": "Correct",
+                        "max_marks": 1,
+                        "wrong_feedback": "Incorrect",
+                        "options": [
+                            {
+                                "correct": false,
+                                "option": "NoneType"
+                            },
+                            {
+                                "correct": false,
+                                "option": "int"
+                            },
+                            {
+                                "correct": false,
+                                "option": "float"
+                            },
+                            {
+                                "correct": false,
+                                "option": "boolean"
+                            },
+                            {
+                                "correct": true,
+                                "option": "num"
+                            }
+                        ],
+                        "question_id": "Q1"
+                    },
+                    {
+                        "questionType": "checkbox",
+                        "questionText": [
+                            {
+                                "text": "<a href=\"http://iiitdev.msitprogram.net/images/bsit-7.PNG\">click here for image</a><br>Indicate the type of the output that the function b will yield."
+                            }
+                        ],
+                        "correct_feedback": "Correct",
+                        "max_marks": 1,
+                        "wrong_feedback": "Incorrect",
+                        "options": [
+                            {
+                                "correct": false,
+                                "option": "NoneType"
+                            },
+                            {
+                                "correct": false,
+                                "option": "int"
+                            },
+                            {
+                                "correct": false,
+                                "option": "string"
+                            },
+                            {
+                                "correct": true,
+                                "option": "float"
+                            },
+                            {
+                                "correct": false,
+                                "option": "boolean"
+                            }
+                        ],
+                        "question_id": "Q2"
+                    },
+                    {
+                        "questionType": "checkbox",
+                        "questionText": [
+                            {
+                                "text": "<a href=\"http://iiitdev.msitprogram.net/images/bsit-8.PNG\">click here for image</a><br>Indicate the type of the output that the function c will yield."
+                            }
+                        ],
+                        "correct_feedback": "Correct",
+                        "max_marks": 1,
+                        "wrong_feedback": "Incorrect",
+                        "options": [
+                            {
+                                "correct": false,
+                                "option": "NoneType"
+                            },
+                            {
+                                "correct": false,
+                                "option": "int"
+                            },
+                            {
+                                "correct": true,
+                                "option": "num"
+                            },
+                            {
+                                "correct": false,
+                                "option": "float"
+                            },
+                            {
+                                "correct": false,
+                                "option": "boolean"
+                            }
+                        ],
+                        "question_id": "Q3"
+                    },
+                    {
+                        "questionType": "checkbox",
+                        "questionText": [
+                            {
+                                "text": "<a href=\"http://iiitdev.msitprogram.net/images/bsit-9.PNG\">click here for image</a><br>Indicate the type of the output that the function d will yield."
+                            }
+                        ],
+                        "correct_feedback": "Correct",
+                        "max_marks": 1,
+                        "wrong_feedback": "Incorrect",
+                        "options": [
+                            {
+                                "correct": false,
+                                "option": "NoneType"
+                            },
+                            {
+                                "correct": false,
+                                "option": "int"
+                            },
+                            {
+                                "correct": false,
+                                "option": "string"
+                            },
+                            {
+                                "correct": false,
+                                "option": "float"
+                            },
+                            {
+                                "correct": true,
+                                "option": "boolean"
+                            }
+                        ],
+                        "question_id": "Q4"
+                    },
+                    {
+                        "questionType": "checkbox",
+                        "questionText": [
+                            {
+                                "text": "<a href=\"http://iiitdev.msitprogram.net/images/bsit-10.PNG\">click here for image</a><br>Indicate the type of the output that the function e will yield."
+                            }
+                        ],
+                        "correct_feedback": "Correct",
+                        "max_marks": 1,
+                        "wrong_feedback": "Incorrect",
+                        "options": [
+                            {
+                                "correct": false,
+                                "option": "NoneType"
+                            },
+                            {
+                                "correct": false,
+                                "option": "int"
+                            },
+                            {
+                                "correct": false,
+                                "option": "num"
+                            },
+                            {
+                                "correct": false,
+                                "option": "float"
+                            },
+                            {
+                                "correct": true,
+                                "option": "boolean"
+                            }
+                        ],
+                        "question_id": "Q5"
+                    },
+                    {
+                        "questionType": "checkbox",
+                        "questionText": [
+                            {
+                                "text": "<a href=\"http://iiitdev.msitprogram.net/images/bsit-11.PNG\">click here for image</a><br>Indicate the type of the output that the function f will yield."
+                            }
+                        ],
+                        "correct_feedback": "Correct",
+                        "max_marks": 1,
+                        "wrong_feedback": "Incorrect",
+                        "options": [
+                            {
+                                "correct": true,
+                                "option": "NoneType"
+                            },
+                            {
+                                "correct": false,
+                                "option": "int"
+                            },
+                            {
+                                "correct": false,
+                                "option": "num"
+                            },
+                            {
+                                "correct": false,
+                                "option": "float"
+                            },
+                            {
+                                "correct": false,
+                                "option": "boolean"
+                            }
+                        ],
+                        "question_id": "Q6"
+                    }
+                ],
+                "title": "For each of the following functions, specify the type of its return. You can assume each function is called with an appropriate argument, as specified by its docstring.<br>If the output can be either an int or a float, select num, which isn't a real Python type, but which we'll use to indicate that either basic numeric type is legal.In fact, in Python, booleans True and False can be operated on as if they were the integers 1 and 0; but it is ugly and confusing to take advantage of this fact, and we will resolutely pretend that it isn't true.<br>What are those line under the function definitions?"
+            }
+        ],
+        "activity_id": "A4"
+    },
+    {
+        "activity_name": "Square-1",
+        "activity_json": [
+            {
+                "activityType": "assignment",
+                "questions": [
+                    {
+                        "questionType": "filesubmission",
+                        "max_marks": 5,
+                        "evaluate": true,
+                        "questionText": [
+                            {
+                                "text": "Write a Python function, square, that takes in one number and returns the square of that number.<br>This function takes in one number and returns one number.<br>Check the below sample code for writing the program<br><br>Check your program against the give test cases below as a Zip file. Submit your Solution(Zip file) when all test cases are passed"
+                            },
+                            {
+                                "attachment": [
+                                    "Functions - Square Exercise.zip"
+                                ]
+                            }
+                        ],
+                        "code": "cspp1.8.4.1.py",
+                        "question_id": "Q7"
+                    }
+                ],
+                "title": "Solve the following problem"
+            }
+        ],
+        "activity_id": "A5"
+    },
+    {
+        "activity_name": "Eval Quadratic-1",
+        "activity_json": [
+            {
+                "activityType": "assignment",
+                "questions": [
+                    {
+                        "questionType": "filesubmission",
+                        "max_marks": 5,
+                        "evaluate": true,
+                        "questionText": [
+                            {
+                                "text": "Write a Python function, <code>evalQuadratic(a, b, c, x)</code>, that returns the value of the quadratic<p>a . x <sup>2</sup> + b . x + c</p>This function takes in four numbers and returns a single number.<br>Download the sample code from below<br><br>Check your program against the give test cases below as a Zip file. Submit your Solution(Zip file) when all test cases are passed"
+                            },
+                            {
+                                "attachment": [
+                                    "Functions - Eval Quadratic Exercise.zip"
+                                ]
+                            }
+                        ],
+                        "code": "cspp1.8.5.1.py",
+                        "question_id": "Q8"
+                    }
+                ],
+                "title": "Eval Quadratic Exercise"
+            }
+        ],
+        "activity_id": "A6"
+    },
+    {
+        "activity_name": "Calling Functions",
+        "activity_json": [
+            {
+                "videoResources": "/3 Calling Functions.zip",
+                "activityType": "video",
+                "videoURL": "http://courseware.msitprogram.net/play/content/cspp1/videos//3%20Calling%20Functions.mp4",
+                "title": "In this activity we will discuss about Calling function by watching a video"
+            }
+        ],
+        "activity_id": "A7"
+    },
+    {
+        "activity_name": "Calling Functions- 1 notes",
+        "activity_json": [
+            {
+                "activityType": "notes",
+                "title": "Calling Functions- 1 notes",
+                "text": "You have the following function definitions:<br><a href=\"http://iiitdev.msitprogram.net/images/bsit-12.PNG\">click here for image<br><a href=\"http://courseware.msitprogram.net/submissions/cspp1/Functions-1/attachments/cspp1.8.7.1.py\">click here</a><br><br>Below is a transcript of a session with the Python shell. Provide the type and value of the expressions being evaluated. If evaluating an expression would cause an error, select NoneType and write 'error' in the box. If the value of an expression is a function, select function as the type and write 'function' in the box."
+            }
+        ],
+        "activity_id": "A8"
+    },
+    {
+        "activity_name": "Calling Functions- 1",
+        "activity_json": [
+            {
+                "quizDescription": [
+                    {
+                        "text": "You have the following function definitions:"
+                    },
+                    {
+                        "code": "cspp1.8.7.1.py"
+                    },
+                    {
+                        "attachment": [
+                            "cspp1.8.7.1.py"
+                        ]
+                    },
+                    {
+                        "text": "Below is a transcript of a session with the Python shell. Provide the type and value of the expressions being evaluated. If evaluating an expression would cause an error, select NoneType and write 'error' in the box. If the value of an expression is a function, select function as the type and write 'function' in the box."
+                    }
+                ],
+                "activityType": "quiz",
+                "questions": [
+                    {
+                        "questionType": "checkbox",
+                        "questionText": [
+                            {
+                                "text": "Value of the expression? <br> <code>a(6)</code>"
+                            }
+                        ],
+                        "correct_feedback": "Correct",
+                        "max_marks": 1,
+                        "wrong_feedback": "Incorrect",
+                        "options": [
+                            {
+                                "correct": false,
+                                "option": "4"
+                            },
+                            {
+                                "correct": false,
+                                "option": "5"
+                            },
+                            {
+                                "correct": false,
+                                "option": "6"
+                            },
+                            {
+                                "correct": true,
+                                "option": "7"
+                            }
+                        ],
+                        "question_id": "Q9"
+                    },
+                    {
+                        "questionType": "checkbox",
+                        "questionText": [
+                            {
+                                "text": "Type of the expression? <br> <code>a(6)</code>"
+                            }
+                        ],
+                        "correct_feedback": "Correct",
+                        "max_marks": 1,
+                        "wrong_feedback": "Incorrect",
+                        "options": [
+                            {
+                                "correct": false,
+                                "option": "NoneType"
+                            },
+                            {
+                                "correct": true,
+                                "option": "int"
+                            },
+                            {
+                                "correct": false,
+                                "option": "string"
+                            },
+                            {
+                                "correct": false,
+                                "option": "float"
+                            },
+                            {
+                                "correct": false,
+                                "option": "boolean"
+                            },
+                            {
+                                "correct": false,
+                                "option": "num"
+                            }
+                        ],
+                        "question_id": "Q10"
+                    },
+                    {
+                        "questionType": "checkbox",
+                        "questionText": [
+                            {
+                                "text": "Value of the expression? <br> <code>a(-5.3)</code>"
+                            }
+                        ],
+                        "correct_feedback": "Correct",
+                        "max_marks": 1,
+                        "wrong_feedback": "Incorrect",
+                        "options": [
+                            {
+                                "correct": false,
+                                "option": "4.3"
+                            },
+                            {
+                                "correct": true,
+                                "option": "-4.3"
+                            },
+                            {
+                                "correct": false,
+                                "option": "5"
+                            },
+                            {
+                                "correct": false,
+                                "option": "5.3"
+                            }
+                        ],
+                        "question_id": "Q11"
+                    },
+                    {
+                        "questionType": "checkbox",
+                        "questionText": [
+                            {
+                                "text": "Type of the expression? <br> <code>a(-5.3)</code>"
+                            }
+                        ],
+                        "correct_feedback": "Correct",
+                        "max_marks": 1,
+                        "wrong_feedback": "Incorrect",
+                        "options": [
+                            {
+                                "correct": false,
+                                "option": "NoneType"
+                            },
+                            {
+                                "correct": false,
+                                "option": "int"
+                            },
+                            {
+                                "correct": false,
+                                "option": "string"
+                            },
+                            {
+                                "correct": true,
+                                "option": "float"
+                            },
+                            {
+                                "correct": false,
+                                "option": "boolean"
+                            },
+                            {
+                                "correct": false,
+                                "option": "num"
+                            }
+                        ],
+                        "question_id": "Q12"
+                    },
+                    {
+                        "questionType": "checkbox",
+                        "questionText": [
+                            {
+                                "text": "Value of the expression? <br> <code>a(a(a(6)))</code>"
+                            }
+                        ],
+                        "correct_feedback": "Correct",
+                        "max_marks": 1,
+                        "wrong_feedback": "Incorrect",
+                        "options": [
+                            {
+                                "correct": false,
+                                "option": "7"
+                            },
+                            {
+                                "correct": false,
+                                "option": "8"
+                            },
+                            {
+                                "correct": true,
+                                "option": "9"
+                            },
+                            {
+                                "correct": false,
+                                "option": "10"
+                            }
+                        ],
+                        "question_id": "Q13"
+                    },
+                    {
+                        "questionType": "checkbox",
+                        "questionText": [
+                            {
+                                "text": "Type of the expression? <br> <code>a(a(a(6)))</code>"
+                            }
+                        ],
+                        "correct_feedback": "Correct",
+                        "max_marks": 1,
+                        "wrong_feedback": "Incorrect",
+                        "options": [
+                            {
+                                "correct": false,
+                                "option": "NoneType"
+                            },
+                            {
+                                "correct": true,
+                                "option": "int"
+                            },
+                            {
+                                "correct": false,
+                                "option": "string"
+                            },
+                            {
+                                "correct": false,
+                                "option": "float"
+                            },
+                            {
+                                "correct": false,
+                                "option": "boolean"
+                            },
+                            {
+                                "correct": false,
+                                "option": "num"
+                            }
+                        ],
+                        "question_id": "Q14"
+                    },
+                    {
+                        "questionType": "checkbox",
+                        "questionText": [
+                            {
+                                "text": "Value of the expression? <br> <code>c(a(1), b(1))</code>"
+                            }
+                        ],
+                        "correct_feedback": "Correct",
+                        "max_marks": 1,
+                        "wrong_feedback": "Incorrect",
+                        "options": [
+                            {
+                                "correct": false,
+                                "option": "3.0"
+                            },
+                            {
+                                "correct": true,
+                                "option": "4.0"
+                            },
+                            {
+                                "correct": false,
+                                "option": "5.0"
+                            },
+                            {
+                                "correct": false,
+                                "option": "6.0"
+                            }
+                        ],
+                        "question_id": "Q15"
+                    },
+                    {
+                        "questionType": "checkbox",
+                        "questionText": [
+                            {
+                                "text": "Type of the expression? <br> <code>c(a(1), b(1))</code>"
+                            }
+                        ],
+                        "correct_feedback": "Correct",
+                        "max_marks": 1,
+                        "wrong_feedback": "Incorrect",
+                        "options": [
+                            {
+                                "correct": false,
+                                "option": "NoneType"
+                            },
+                            {
+                                "correct": false,
+                                "option": "int"
+                            },
+                            {
+                                "correct": false,
+                                "option": "string"
+                            },
+                            {
+                                "correct": true,
+                                "option": "float"
+                            },
+                            {
+                                "correct": false,
+                                "option": "boolean"
+                            },
+                            {
+                                "correct": false,
+                                "option": "num"
+                            }
+                        ],
+                        "question_id": "Q16"
+                    },
+                    {
+                        "questionType": "checkbox",
+                        "questionText": [
+                            {
+                                "text": "Value of the expression? <br> <code>d('apple', 11.1)</code>"
+                            }
+                        ],
+                        "correct_feedback": "Correct",
+                        "max_marks": 1,
+                        "wrong_feedback": "Incorrect",
+                        "options": [
+                            {
+                                "correct": false,
+                                "option": "a"
+                            },
+                            {
+                                "correct": false,
+                                "option": "pp"
+                            },
+                            {
+                                "correct": false,
+                                "option": "ppl"
+                            },
+                            {
+                                "correct": true,
+                                "option": "error"
+                            }
+                        ],
+                        "question_id": "Q17"
+                    },
+                    {
+                        "questionType": "checkbox",
+                        "questionText": [
+                            {
+                                "text": "Type of the expression? <br> <code>d('apple', 11.1)</code>"
+                            }
+                        ],
+                        "correct_feedback": "Correct",
+                        "max_marks": 1,
+                        "wrong_feedback": "Incorrect",
+                        "options": [
+                            {
+                                "correct": true,
+                                "option": "NoneType"
+                            },
+                            {
+                                "correct": false,
+                                "option": "int"
+                            },
+                            {
+                                "correct": false,
+                                "option": "string"
+                            },
+                            {
+                                "correct": false,
+                                "option": "float"
+                            },
+                            {
+                                "correct": false,
+                                "option": "boolean"
+                            },
+                            {
+                                "correct": false,
+                                "option": "num"
+                            }
+                        ],
+                        "question_id": "Q18"
+                    },
+                    {
+                        "questionType": "checkbox",
+                        "questionText": [
+                            {
+                                "text": "Value of the expression? <br> <code>e(a(3), b(4), c(3, 4))</code>"
+                            }
+                        ],
+                        "correct_feedback": "Correct",
+                        "max_marks": 1,
+                        "wrong_feedback": "Incorrect",
+                        "options": [
+                            {
+                                "correct": false,
+                                "option": "3"
+                            },
+                            {
+                                "correct": false,
+                                "option": "5"
+                            },
+                            {
+                                "correct": false,
+                                "option": "True"
+                            },
+                            {
+                                "correct": true,
+                                "option": "False"
+                            }
+                        ],
+                        "question_id": "Q19"
+                    },
+                    {
+                        "questionType": "checkbox",
+                        "questionText": [
+                            {
+                                "text": "Type of the expression? <br> <code>e(a(3), b(4), c(3, 4))</code>"
+                            }
+                        ],
+                        "correct_feedback": "Correct",
+                        "max_marks": 1,
+                        "wrong_feedback": "Incorrect",
+                        "options": [
+                            {
+                                "correct": false,
+                                "option": "NoneType"
+                            },
+                            {
+                                "correct": false,
+                                "option": "int"
+                            },
+                            {
+                                "correct": false,
+                                "option": "string"
+                            },
+                            {
+                                "correct": false,
+                                "option": "float"
+                            },
+                            {
+                                "correct": true,
+                                "option": "boolean"
+                            },
+                            {
+                                "correct": false,
+                                "option": "num"
+                            }
+                        ],
+                        "question_id": "Q20"
+                    },
+                    {
+                        "questionType": "checkbox",
+                        "questionText": [
+                            {
+                                "text": "Value of the expression? <br> <code>f</code>"
+                            }
+                        ],
+                        "correct_feedback": "Correct",
+                        "max_marks": 1,
+                        "wrong_feedback": "Incorrect",
+                        "options": [
+                            {
+                                "correct": true,
+                                "option": "function"
+                            },
+                            {
+                                "correct": false,
+                                "option": "True"
+                            },
+                            {
+                                "correct": false,
+                                "option": "False"
+                            },
+                            {
+                                "correct": false,
+                                "option": "error"
+                            }
+                        ],
+                        "question_id": "Q21"
+                    },
+                    {
+                        "questionType": "checkbox",
+                        "questionText": [
+                            {
+                                "text": "Type of the expression? <br> <code>f</code>"
+                            }
+                        ],
+                        "correct_feedback": "Correct",
+                        "max_marks": 1,
+                        "wrong_feedback": "Incorrect",
+                        "options": [
+                            {
+                                "correct": false,
+                                "option": "NoneType"
+                            },
+                            {
+                                "correct": false,
+                                "option": "int"
+                            },
+                            {
+                                "correct": true,
+                                "option": "function"
+                            },
+                            {
+                                "correct": false,
+                                "option": "float"
+                            },
+                            {
+                                "correct": false,
+                                "option": "boolean"
+                            },
+                            {
+                                "correct": false,
+                                "option": "num"
+                            }
+                        ],
+                        "question_id": "Q22"
+                    }
+                ],
+                "title": "Answer the following Questions"
+            }
+        ],
+        "activity_id": "A9"
+    },
+    {
+        "activity_name": "Calling Functions- 2 notes",
+        "activity_json": [
+            {
+                "activityType": "notes",
+                "title": "Calling Functions- 2 notes",
+                "text": "Last activity we solved problems on Calling functions excercise, In this activity given few more problems to solve<br><br>Below is a transcript of a session with the Python shell. Provide the type and value of the expressions being evaluated. If evaluating an expression would cause an error, select NoneType and write 'error' in the box. If the result is a function, select function and write 'function' in the box. As always, try to do this problem by hand before turning to your interpreter.Assume the following definitions have been made:<br><a href=\"http://iiitdev.msitprogram.net/images/bsit-116.PNG\">click here for code"
+            }
+        ],
+        "activity_id": "A10"
+    },
+    {
+        "activity_name": "Calling Functions- 2",
+        "activity_json": [
+            {
+                "quizDescription": [
+                    {
+                        "text": "Below is a transcript of a session with the Python shell. Provide the type and value of the expressions being evaluated. If evaluating an expression would cause an error, select NoneType and write 'error' in the box. If the result is a function, select function and write 'function' in the box. As always, try to do this problem by hand before turning to your interpreter.<br>Assume the following definitions have been made:"
+                    },
+                    {
+                        "code": "cspp1.8.8.1.py"
+                    }
+                ],
+                "activityType": "quiz",
+                "questions": [
+                    {
+                        "questionType": "checkbox",
+                        "questionText": [
+                            {
+                                "text": "Value of the expression? <br> <code>a(False, 2, 3)</code>"
+                            }
+                        ],
+                        "correct_feedback": "Correct",
+                        "max_marks": 1,
+                        "wrong_feedback": "Incorrect",
+                        "options": [
+                            {
+                                "correct": false,
+                                "option": "2"
+                            },
+                            {
+                                "correct": true,
+                                "option": "3"
+                            },
+                            {
+                                "correct": false,
+                                "option": "4"
+                            },
+                            {
+                                "correct": false,
+                                "option": "5"
+                            }
+                        ],
+                        "question_id": "Q23"
+                    },
+                    {
+                        "questionType": "checkbox",
+                        "questionText": [
+                            {
+                                "text": "Type of the expression?  <br> <code>a(False, 2, 3)</code>"
+                            }
+                        ],
+                        "correct_feedback": "Correct",
+                        "max_marks": 1,
+                        "wrong_feedback": "Incorrect",
+                        "options": [
+                            {
+                                "correct": false,
+                                "option": "NoneType"
+                            },
+                            {
+                                "correct": true,
+                                "option": "int"
+                            },
+                            {
+                                "correct": false,
+                                "option": "float"
+                            },
+                            {
+                                "correct": false,
+                                "option": "boolean"
+                            },
+                            {
+                                "correct": false,
+                                "option": "function"
+                            }
+                        ],
+                        "question_id": "Q24"
+                    },
+                    {
+                        "questionType": "checkbox",
+                        "questionText": [
+                            {
+                                "text": "Value of the expression? <br> <code>b(3, 2)</code>"
+                            }
+                        ],
+                        "correct_feedback": "Correct",
+                        "max_marks": 1,
+                        "wrong_feedback": "Incorrect",
+                        "options": [
+                            {
+                                "correct": false,
+                                "option": "2"
+                            },
+                            {
+                                "correct": true,
+                                "option": "3"
+                            },
+                            {
+                                "correct": false,
+                                "option": "4"
+                            },
+                            {
+                                "correct": false,
+                                "option": "5"
+                            }
+                        ],
+                        "question_id": "Q25"
+                    },
+                    {
+                        "questionType": "checkbox",
+                        "questionText": [
+                            {
+                                "text": "Type of the expression?  <br> <code>b(3, 2)</code>"
+                            }
+                        ],
+                        "correct_feedback": "Correct",
+                        "max_marks": 1,
+                        "wrong_feedback": "Incorrect",
+                        "options": [
+                            {
+                                "correct": false,
+                                "option": "NoneType"
+                            },
+                            {
+                                "correct": true,
+                                "option": "int"
+                            },
+                            {
+                                "correct": false,
+                                "option": "float"
+                            },
+                            {
+                                "correct": false,
+                                "option": "boolean"
+                            },
+                            {
+                                "correct": false,
+                                "option": "function"
+                            }
+                        ],
+                        "question_id": "Q26"
+                    },
+                    {
+                        "questionType": "checkbox",
+                        "questionText": [
+                            {
+                                "text": "Value of the expression? <br> <code>a(3>2, a, b)</code>"
+                            }
+                        ],
+                        "correct_feedback": "Correct",
+                        "max_marks": 1,
+                        "wrong_feedback": "Incorrect",
+                        "options": [
+                            {
+                                "correct": true,
+                                "option": "function"
+                            },
+                            {
+                                "correct": false,
+                                "option": "True"
+                            },
+                            {
+                                "correct": false,
+                                "option": "False"
+                            },
+                            {
+                                "correct": false,
+                                "option": "error"
+                            }
+                        ],
+                        "question_id": "Q27"
+                    },
+                    {
+                        "questionType": "checkbox",
+                        "questionText": [
+                            {
+                                "text": "Type of the expression?  <br> <code>a(3>2, a, b)</code>"
+                            }
+                        ],
+                        "correct_feedback": "Correct",
+                        "max_marks": 1,
+                        "wrong_feedback": "Incorrect",
+                        "options": [
+                            {
+                                "correct": false,
+                                "option": "NoneType"
+                            },
+                            {
+                                "correct": false,
+                                "option": "int"
+                            },
+                            {
+                                "correct": false,
+                                "option": "float"
+                            },
+                            {
+                                "correct": false,
+                                "option": "boolean"
+                            },
+                            {
+                                "correct": true,
+                                "option": "function"
+                            }
+                        ],
+                        "question_id": "Q28"
+                    },
+                    {
+                        "questionType": "checkbox",
+                        "questionText": [
+                            {
+                                "text": "Value of the expression? <br> <code>b(a, b)</code>"
+                            }
+                        ],
+                        "correct_feedback": "Correct",
+                        "max_marks": 1,
+                        "wrong_feedback": "Incorrect",
+                        "options": [
+                            {
+                                "correct": false,
+                                "option": "function"
+                            },
+                            {
+                                "correct": false,
+                                "option": "True"
+                            },
+                            {
+                                "correct": false,
+                                "option": "False"
+                            },
+                            {
+                                "correct": true,
+                                "option": "error"
+                            }
+                        ],
+                        "question_id": "Q29"
+                    },
+                    {
+                        "questionType": "checkbox",
+                        "questionText": [
+                            {
+                                "text": "Type of the expression?  <br> <code>b(a, b)</code>"
+                            }
+                        ],
+                        "correct_feedback": "Correct",
+                        "max_marks": 1,
+                        "wrong_feedback": "Incorrect",
+                        "options": [
+                            {
+                                "correct": true,
+                                "option": "NoneType"
+                            },
+                            {
+                                "correct": false,
+                                "option": "int"
+                            },
+                            {
+                                "correct": false,
+                                "option": "float"
+                            },
+                            {
+                                "correct": false,
+                                "option": "boolean"
+                            },
+                            {
+                                "correct": false,
+                                "option": "function"
+                            }
+                        ],
+                        "question_id": "Q30"
+                    }
+                ],
+                "title": "Last activity we solved problems on Calling functions excercise, In this activity given few more problems to solve"
+            }
+        ],
+        "activity_id": "A11"
+    },
+    {
+        "activity_name": "Calling Functions- 3 notes",
+        "activity_json": [
+            {
+                "activityType": "notes",
+                "title": "Calling Functions- 3 notes",
+                "text": "Last activity we solved problems on Calling functions excercise, In this activity given few more problems to solve<br><br>Below is a transcript of a session with the Python shell. Provide the type and value of the expressions being evaluated. If evaluating an expression would cause an error, select NoneType and write 'error' in the box. If the result is a function, select function and write 'function' in the box.<br><br>To get the most out of this problem, try to figure out the answers by reading the code, not running it. Run the code in your interpreter only after you've checked your answers a few times.<br><br><b>Hint:</b> If you are confused, you may find it helpful to draw out an environment diagram similar to what was presented in lecture"
+            }
+        ],
+        "activity_id": "A12"
+    },
+    {
+        "activity_name": "Calling Functions- 3",
+        "activity_json": [
+            {
+                "quizDescription": "Below is a transcript of a session with the Python shell. Provide the type and value of the expressions being evaluated. If evaluating an expression would cause an error, select NoneType and write 'error' in the box. If the result is a function, select function and write 'function' in the box. <br><br>To get the most out of this problem, try to figure out the answers by reading the code, not running it. Run the code in your interpreter only after you've checked your answers a few times.<br><br><b>Hint</b>: If you are confused, you may find it helpful to draw out an environment diagram similar to what was presented in lecture.<br><br>",
+                "activityType": "quiz",
+                "questions": [
+                    {
+                        "questionType": "checkbox",
+                        "questionText": [
+                            {
+                                "text": "Value of the below Code Snippet?<br>"
+                            },
+                            {
+                                "image": {
+                                    "imageName": "bsit-81.PNG",
+                                    "imageSRC": "http://iiitdev.msitprogram.net/images/bsit-81.PNG"
+                                }
+                            }
+                        ],
+                        "correct_feedback": "Correct",
+                        "max_marks": 1,
+                        "wrong_feedback": "Incorrect",
+                        "options": [
+                            {
+                                "correct": false,
+                                "option": "2"
+                            },
+                            {
+                                "correct": false,
+                                "option": "3"
+                            },
+                            {
+                                "correct": true,
+                                "option": "4"
+                            },
+                            {
+                                "correct": false,
+                                "option": "5"
+                            }
+                        ],
+                        "question_id": "Q31"
+                    },
+                    {
+                        "questionType": "checkbox",
+                        "questionText": [
+                            {
+                                "text": "Type of the below Code Snippet?<br>"
+                            },
+                            {
+                                "image": {
+                                    "imageName": "bsit-82.PNG",
+                                    "imageSRC": "http://iiitdev.msitprogram.net/images/bsit-82.PNG"
+                                }
+                            }
+                        ],
+                        "correct_feedback": "Correct",
+                        "max_marks": 1,
+                        "wrong_feedback": "Incorrect",
+                        "options": [
+                            {
+                                "correct": false,
+                                "option": "NoneType"
+                            },
+                            {
+                                "correct": true,
+                                "option": "int"
+                            },
+                            {
+                                "correct": false,
+                                "option": "float"
+                            },
+                            {
+                                "correct": false,
+                                "option": "boolean"
+                            },
+                            {
+                                "correct": false,
+                                "option": "function"
+                            },
+                            {
+                                "correct": false,
+                                "option": "num"
+                            }
+                        ],
+                        "question_id": "Q32"
+                    },
+                    {
+                        "questionType": "checkbox",
+                        "questionText": [
+                            {
+                                "text": "Value of the below Code Snippet?<br>"
+                            },
+                            {
+                                "image": {
+                                    "imageName": "bsit-83.PNG",
+                                    "imageSRC": "http://iiitdev.msitprogram.net/images/bsit-83.PNG"
+                                }
+                            }
+                        ],
+                        "correct_feedback": "Correct",
+                        "max_marks": 1,
+                        "wrong_feedback": "Incorrect",
+                        "options": [
+                            {
+                                "correct": false,
+                                "option": "17"
+                            },
+                            {
+                                "correct": false,
+                                "option": "18"
+                            },
+                            {
+                                "correct": true,
+                                "option": "19"
+                            },
+                            {
+                                "correct": false,
+                                "option": "20"
+                            }
+                        ],
+                        "question_id": "Q33"
+                    },
+                    {
+                        "questionType": "checkbox",
+                        "questionText": [
+                            {
+                                "text": "Type of the below Code Snippet?<br>"
+                            },
+                            {
+                                "image": {
+                                    "imageName": "bsit-84.PNG",
+                                    "imageSRC": "http://iiitdev.msitprogram.net/images/bsit-84.PNG"
+                                }
+                            }
+                        ],
+                        "correct_feedback": "Correct",
+                        "max_marks": 1,
+                        "wrong_feedback": "Incorrect",
+                        "options": [
+                            {
+                                "correct": false,
+                                "option": "NoneType"
+                            },
+                            {
+                                "correct": true,
+                                "option": "int"
+                            },
+                            {
+                                "correct": false,
+                                "option": "float"
+                            },
+                            {
+                                "correct": false,
+                                "option": "boolean"
+                            },
+                            {
+                                "correct": false,
+                                "option": "function"
+                            },
+                            {
+                                "correct": false,
+                                "option": "num"
+                            }
+                        ],
+                        "question_id": "Q34"
+                    }
+                ],
+                "title": "Last activity we solved problems on Calling functions excercise, In this activity given few more problems to solve"
+            }
+        ],
+        "activity_id": "A13"
+    },
+    {
+        "activity_name": "Keyword Arguments",
+        "activity_json": [
+            {
+                "videoResources": "/4 Keyword Arguments.zip",
+                "activityType": "video",
+                "videoURL": "http://courseware.msitprogram.net/play/content/cspp1/videos//4%20Keyword%20Arguments.mp4",
+                "title": "In this activity we will discuss about Keyword arguments by watching a video"
+            }
+        ],
+        "activity_id": "A14"
+    }
+]

@@ -1,0 +1,70 @@
+[
+    {
+        "activity_name": "File Objects - Reading and Writing to Files",
+        "activity_json": [
+            {
+                "videoResources": "/File Objects - Reading and Writing to Files.zip",
+                "activityType": "video",
+                "videoURL": "http://courseware.msitprogram.net/play/content/cspp1/videos//File%20Objects%20-%20Reading%20and%20Writing%20to%20Files.mp4",
+                "title": "File Objects - Reading and Writing to Files"
+            }
+        ],
+        "activity_id": "A1"
+    },
+    {
+        "activity_name": "Files-1",
+        "activity_json": [
+            {
+                "activityType": "assignment",
+                "questions": [
+                    {
+                        "questionType": "filesubmission",
+                        "max_marks": 10,
+                        "evaluate": true,
+                        "questionText": [
+                            {
+                                "text": "Given a file containing n lines, each line of the file contains name of product, quantity, price per unit, tax separated by commas. You need to calculate the final billing amount of each product by applying formula (quantity * price per unit) + ((quantity * price per product* tax)/100) and append it at the end of each line in the given file. Download the input file given below"
+                            },
+                            {
+                                "attachment": [
+                                    "input.txt"
+                                ]
+                            }
+                        ],
+                        "question_id": "Q1"
+                    }
+                ],
+                "title": "Now you all learned how to perform operations on files. Solve the following problem on files"
+            }
+        ],
+        "activity_id": "A2"
+    },
+    {
+        "activity_name": "Question-1",
+        "activity_json": [
+            {
+                "activityType": "assignment",
+                "questions": [
+                    {
+                        "questionType": "filesubmission",
+                        "max_marks": 20,
+                        "evaluate": true,
+                        "questionText": [
+                            {
+                                "text": "Read a file and build a dictionary with word and its frequencies and write the same into output (output.txt) file. Download the input file given below"
+                            },
+                            {
+                                "attachment": [
+                                    "input1.txt"
+                                ]
+                            }
+                        ],
+                        "question_id": "Q2"
+                    }
+                ],
+                "title": "We have designed an Assignment for you, try to solve the following Assignment"
+            }
+        ],
+        "activity_id": "A3"
+    }
+]

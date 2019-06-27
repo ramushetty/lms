@@ -1,0 +1,405 @@
+[
+    {
+        "activity_name": "Programming Challenges",
+        "activity_json": [
+            {
+                "videoResources": "/Programming Challenges.zip",
+                "activityType": "video",
+                "videoURL": "http://courseware.msitprogram.net/play/content/cspp1/videos//Programming%20Challenges.mp4",
+                "title": "In this Activity we will discuss  Programming challenges by watching a video"
+            }
+        ],
+        "activity_id": "A1"
+    },
+    {
+        "activity_name": "Classes of Tests",
+        "activity_json": [
+            {
+                "videoResources": "/Classes of Tests.zip",
+                "activityType": "video",
+                "videoURL": "http://courseware.msitprogram.net/play/content/cspp1/videos//Classes%20of%20Tests.mp4",
+                "title": "In this Activity we will discuss Classes of Tests by watching a video"
+            }
+        ],
+        "activity_id": "A2"
+    },
+    {
+        "activity_name": "Testing and Debugging-1 notes",
+        "activity_json": [
+            {
+                "activityType": "notes",
+                "title": "Testing and Debugging-1 notes",
+                "text": "Answer the following Question<br><br>Consider the following code specification:<br><a href=\"http://iiitdev.msitprogram.net/images/bsit-94.PNG\">click here for code"
+            }
+        ],
+        "activity_id": "A3"
+    },
+    {
+        "activity_name": "Testing and Debugging-1",
+        "activity_json": [
+            {
+                "quizDescription": [
+                    {
+                        "text": "Consider the following code specification:"
+                    },
+                    {
+                        "code": "Exercise1.py"
+                    }
+                ],
+                "activityType": "quiz",
+                "questions": [
+                    {
+                        "questionType": "checkbox",
+                        "questionText": [
+                            {
+                                "text": "Here is a set of possible test cases to include in a black box test suite. Indicate which of the following conditions would make a good black box test suite for the function size by clicking on the appropriate choice(s).<br><br><b>Review:Black box test Suites</b><br>Black-box testing is a method of software testing that tests the functionality of an application. Recall from the lecture that a way to think about black-box testing is to look at both:<ul><li>The possible paths through the specification.</li><li>The possible boundary cases.</li></ul><br>Undoubtably many - if not all - of the listed tests look like they would be pretty good for testing the function size. However, we want you to think critically about the way size is specified - including possible boundary cases - and pick a set of tests that adequately and fully tests all paths and boundary conditions. Be sure the set of tests you pick does not have extraneous, useless, or repetitive tests."
+                            }
+                        ],
+                        "correct_feedback": "Correct",
+                        "max_marks": 1,
+                        "wrong_feedback": "Incorrect",
+                        "options": [
+                            {
+                                "correct": true,
+                                "option": "Empty set correct"
+                            },
+                            {
+                                "correct": true,
+                                "option": "Set of size 1 "
+                            },
+                            {
+                                "correct": false,
+                                "option": "Set of odd size"
+                            },
+                            {
+                                "correct": false,
+                                "option": "Set of even size"
+                            },
+                            {
+                                "correct": true,
+                                "option": "Set of size greater than 1"
+                            },
+                            {
+                                "correct": false,
+                                "option": "Set whose size is a prime number"
+                            }
+                        ],
+                        "question_id": "Q1"
+                    }
+                ],
+                "title": "Answer the following Question"
+            }
+        ],
+        "activity_id": "A4"
+    },
+    {
+        "activity_name": "Testing and Debugging-2",
+        "activity_json": [
+            {
+                "quizDescription": [
+                    {
+                        "text": "Consider the following code specification:"
+                    }
+                ],
+                "activityType": "quiz",
+                "questions": [
+                    {
+                        "questionType": "checkbox",
+                        "questionText": [
+                            {
+                                "text": "Indicate which of the conditions below would combine to make a good black box test suite for the function union by selecting the appropriate choice(s)."
+                            },
+                            {
+                                "image": {
+                                    "imageName": "bsit-20.PNG",
+                                    "imageSRC": "http://iiitdev.msitprogram.net/images/bsit-20.PNG"
+                                }
+                            }
+                        ],
+                        "correct_feedback": "Correct",
+                        "max_marks": 1,
+                        "wrong_feedback": "Incorrect",
+                        "options": [
+                            {
+                                "correct": true,
+                                "option": "set1 is an empty set; set2 is an empty set "
+                            },
+                            {
+                                "correct": true,
+                                "option": "set1 is an empty set; set2 is of size greater than or equal to 1"
+                            },
+                            {
+                                "correct": true,
+                                "option": "set1 is of size greater than or equal to 1; set2 is an empty set correct"
+                            },
+                            {
+                                "correct": true,
+                                "option": "set1 and set2 are both nonempty sets which do not contain any objects in common correct"
+                            },
+                            {
+                                "correct": true,
+                                "option": "set1 and set2 are both nonempty sets which contain objects in common correct"
+                            }
+                        ],
+                        "question_id": "Q2"
+                    }
+                ],
+                "title": "Answer the following Question"
+            }
+        ],
+        "activity_id": "A5"
+    },
+    {
+        "activity_name": "Testing and Debugging-3 notes",
+        "activity_json": [
+            {
+                "activityType": "notes",
+                "title": "Testing and Debugging-3 notes",
+                "text": "Answer the following Question<br><br>Consider the following function definition:<br><br><a href=\"http://iiitdev.msitprogram.net/images/bsit-95.PNG\">click here for image</a><br>Assume that maxOfThree is called with numbers as arguments"
+            }
+        ],
+        "activity_id": "A6"
+    },
+    {
+        "activity_name": "Testing and Debugging-3",
+        "activity_json": [
+            {
+                "quizDescription": [
+                    {
+                        "text": "Consider the following function definition:"
+                    },
+                    {
+                        "code": "Exercise3.py"
+                    },
+                    {
+                        "text": "Assume that maxOfThree is called with numbers as arguments."
+                    }
+                ],
+                "activityType": "quiz",
+                "questions": [
+                    {
+                        "questionType": "checkbox",
+                        "questionText": [
+                            {
+                                "text": "Which of the following test suites would make a path-complete glass box test suite for maxOfThree?<br><br><b>Review:Glass Box Test Suites</b><br>Recall from the lecture that a path-complete glass box test suite would find test cases that go through every possible path in the code. This is different from black-box testing, because in black-box testing you only have the function specification. For glass-box testing, you actually know how the function you are testing is defined. Thus you can use this definition to figure out how many different paths through the code exist, and then pick a test suite based on that knowledge.<br>Undoubtably many - if not all - of the listed tests look like they would be pretty good for testing the function maxOfThree. However, we want you to think critically about the way maxOfThree is defined - including possible boundary cases - and pick a set of tests that adequetly and fully tests all paths and boundary conditions. A good first step will be to look at the function definition and figure out what paths through the code exist. Then, look through the suggested test suites one test at a time and see if the suite tests every single path."
+                            }
+                        ],
+                        "correct_feedback": "Correct",
+                        "max_marks": 1,
+                        "wrong_feedback": "Incorrect",
+                        "options": [
+                            {
+                                "correct": true,
+                                "option": "Test Suite A: maxOfThree(2, -10, 100), maxOfThree(7, 9, 10), maxOfThree(6, 1, 5), maxOfThree(0, 40, 20)"
+                            },
+                            {
+                                "correct": false,
+                                "option": "Test Suite B: maxOfThree(10, 100, -20), maxOfThree(99, 0, 20), maxOfThree(1, 60, 300)"
+                            },
+                            {
+                                "correct": false,
+                                "option": "Test Suite C: maxOfThree(0, 0, 0), maxOfThree(-3, -10, -1), maxOfThree(10, 30, 100), maxOfThree(0, -9, 11), maxOfThree(-10, 0, 30)"
+                            }
+                        ],
+                        "question_id": "Q3"
+                    }
+                ],
+                "title": "Answer the following Question"
+            }
+        ],
+        "activity_id": "A7"
+    },
+    {
+        "activity_name": "Testing and Debugging-4 notes",
+        "activity_json": [
+            {
+                "activityType": "notes",
+                "title": "Testing and Debugging-4 notes",
+                "text": "Answer the following Question<br><br>Consider the following function definition:<br><br><a href=\"http://iiitdev.msitprogram.net/images/bsit-96.PNG\">click here for image</a><br>Assume that union is called with strings as arguments."
+            }
+        ],
+        "activity_id": "A8"
+    },
+    {
+        "activity_name": "Testing and Debugging-4",
+        "activity_json": [
+            {
+                "quizDescription": [
+                    {
+                        "text": "Consider the following function definition:"
+                    },
+                    {
+                        "code": "Exercise4.py"
+                    },
+                    {
+                        "text": "Assume that union is called with strings as arguments."
+                    }
+                ],
+                "activityType": "quiz",
+                "questions": [
+                    {
+                        "questionType": "checkbox",
+                        "questionText": [
+                            {
+                                "text": "Please select the best glass box test suite for the function union from the following options:"
+                            }
+                        ],
+                        "correct_feedback": "Correct",
+                        "max_marks": 1,
+                        "wrong_feedback": "Incorrect",
+                        "options": [
+                            {
+                                "correct": false,
+                                "option": "Test Suite A: union('',''), union('','a'), union('','ab'), union('a',''), union('a','b'), union('c','ab'), union('de',''), union('ab','c'), union('cd','ab')"
+                            },
+                            {
+                                "correct": false,
+                                "option": "Test Suite B: union('abc',''), union('abc','a'), union('abc','ab'), union('abc','d'), union('abc', 'abcd')"
+                            },
+                            {
+                                "correct": false,
+                                "option": "Test Suite C: union('','abc'), union('a','abc'), union('ab','abc'), union('abc','abc')"
+                            },
+                            {
+                                "correct": true,
+                                "option": "Test Suite D: union('','abc'), union('a','abc'), union('ab','abc'), union('d','abc')"
+                            }
+                        ],
+                        "question_id": "Q4"
+                    }
+                ],
+                "title": "Answer the following Question"
+            }
+        ],
+        "activity_id": "A9"
+    },
+    {
+        "activity_name": "Testing and Debugging-5 notes",
+        "activity_json": [
+            {
+                "activityType": "notes",
+                "title": "Testing and Debugging-5 notes",
+                "text": "Answer the following Question<br><br>Consider the following function definition:<br><br><a href=\"http://iiitdev.msitprogram.net/images/bsit-97.PNG\">click here for image"
+            }
+        ],
+        "activity_id": "A10"
+    },
+    {
+        "activity_name": "Testing and Debugging-5",
+        "activity_json": [
+            {
+                "quizDescription": [
+                    {
+                        "text": "Consider the following function definition:"
+                    },
+                    {
+                        "code": "Exercise5.py"
+                    }
+                ],
+                "activityType": "quiz",
+                "questions": [
+                    {
+                        "questionType": "checkbox",
+                        "questionText": [
+                            {
+                                "text": "Please select the best glass box test suite for the function foo from the following options."
+                            }
+                        ],
+                        "correct_feedback": "Correct",
+                        "max_marks": 1,
+                        "wrong_feedback": "Incorrect",
+                        "options": [
+                            {
+                                "correct": false,
+                                "option": "Test Suite A: foo(2, 5), foo(5, 6), foo(9, 7)"
+                            },
+                            {
+                                "correct": true,
+                                "option": "Test Suite B: foo(10, 3), foo(1, 4), foo(10, 6)"
+                            },
+                            {
+                                "correct": false,
+                                "option": "Test Suite C: foo(100, 5), foo(96, 5), foo(22, 5)"
+                            }
+                        ],
+                        "question_id": "Q5"
+                    }
+                ],
+                "title": "Answer the following Question"
+            }
+        ],
+        "activity_id": "A11"
+    },
+    {
+        "activity_name": "Bugs",
+        "activity_json": [
+            {
+                "videoResources": "/Bugs.zip",
+                "activityType": "video",
+                "videoURL": "http://courseware.msitprogram.net/play/content/cspp1/videos//Bugs.mp4",
+                "title": "In this Activity we will discuss Bugs by watching a video"
+            }
+        ],
+        "activity_id": "A12"
+    },
+    {
+        "activity_name": "Integer Division-1 notes",
+        "activity_json": [
+            {
+                "activityType": "notes",
+                "title": "Integer Division-1 notes",
+                "text": "Answer the following Question<br><br>Consider the following function definition:<br><br><a href=\"http://iiitdev.msitprogram.net/images/bsit-98.PNG\">click here for image</a><br>When we call<br><br><b>print(integerDivision(5, 3))</b><br>we get the following error message:<a href=\"http://iiitdev.msitprogram.net/images/bsit-99.PNG\">click here for image"
+            }
+        ],
+        "activity_id": "A13"
+    },
+    {
+        "activity_name": "Integer Division-1",
+        "activity_json": [
+            {
+                "quizDescription": [
+                    {
+                        "text": "Consider the following function definition:"
+                    },
+                    {
+                        "code": "integerdivision.py"
+                    },
+                    {
+                        "text": "When we call<br>"
+                    },
+                    {
+                        "code": "integerdivisionprint.py"
+                    },
+                    {
+                        "text": "we get the following error message:"
+                    },
+                    {
+                        "code": "integerdivision1.py"
+                    }
+                ],
+                "activityType": "assignment",
+                "questions": [
+                    {
+                        "questionType": "filesubmission",
+                        "max_marks": 5,
+                        "evaluate": true,
+                        "questionText": [
+                            {
+                                "text": "Your task is to modify the code for integerDivision so that this error does not occur.<br><br>Check your program against the give test cases below as a Zip file. Submit your Solution(Zip file) when all test cases are passed"
+                            },
+                            {
+                                "attachment": [
+                                    "Integer Division Exercise.zip"
+                                ]
+                            }
+                        ],
+                        "code": "integerdivision2.py",
+                        "question_id": "Q6"
+                    }
+                ],
+                "title": "Solve the following problem Integer division Exercise"
+            }
+        ],
+        "activity_id": "A14"
+    }
+]

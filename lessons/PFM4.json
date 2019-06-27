@@ -1,0 +1,176 @@
+[
+    {
+        "activity_name": "Problem Solving-1",
+        "activity_json": [
+            {
+                "raptorURL": "/degresstofarhenheit.rap",
+                "activityType": "video",
+                "videoURL": "http://courseware.msitprogram.net/play/content/cspp1/videos//CENTIGRADE%20TO%20FARENHEIT.mp4",
+                "title": " In this activity, you are going to learn how to draw a flowchart by solving a problem converting Celsius to Fahrenheit."
+            }
+        ],
+        "activity_id": "A1"
+    },
+    {
+        "activity_name": "Problem Solving-1 Practice",
+        "activity_json": [
+            {
+                "activityType": "assignment",
+                "questions": [
+                    {
+                        "evaluate": true,
+                        "max_marks": 5,
+                        "questionText": [
+                            {
+                                "text": "Draw the flow chart to convert temperature from Fahrenheit to Celcius"
+                            }
+                        ],
+                        "questionType": "File submission",
+                        "question_id": "Q1"
+                    }
+                ],
+                "title": "Assignment-2"
+            }
+        ],
+        "module_id": 4,
+        "activity_id": "A2"
+    },
+    {
+        "activity_name": "Problem Solving-2",
+        "activity_json": [
+            {
+                "text": "In this activity, you are going to learn how to draw a flowchart by solving a problem Finding grades based on the percentage.<br><a href=\"https://www.programming9.com/raptor-flowcharts/79-raptor-flow-chart-to-calculate-grade-of-a-student\">Problem Solving-2</a> ",
+                "activityType": "notes",
+                "title": "Problem Solving-2"
+            }
+        ],
+        "activity_id": "A3"
+    },
+    {
+        "activity_name": "Problem Solving-2 Practice",
+        "activity_json": [
+            {
+                "activityType": "assignment",
+                "questions": [
+                    {
+                        "evaluate": true,
+                        "max_marks": 5,
+                        "questionText": [
+                            {
+                                "text": "Draw the flow chart for finding the grades(extension of previous activity)."
+                            }
+                        ],
+                        "questionType": "File submission",
+                        "question_id": "Q2"
+                    }
+                ],
+                "title": "Assignment-2"
+            }
+        ],
+        "module_id": 4,
+        "activity_id": "A4"
+    },
+    {
+        "activity_name": "Problem Solving-3",
+        "activity_json": [
+            {
+                "text": "In this activity you are going to learn how to draw a flowchart by solving a problem Prime Number palindrome<br><a href=\"https://bharatrparmar.blogspot.com/2014/07/draw-flowchart-to-enter-number-and.html\">Problem Solving-3</a> ",
+                "activityType": "notes",
+                "title": "Problem Solving-3"
+            }
+        ],
+        "activity_id": "A5"
+    },
+    {
+        "activity_name": "Problem Solving-3 Practice",
+        "activity_json": [
+            {
+                "activityType": "assignment",
+                "questions": [
+                    {
+                        "evaluate": true,
+                        "max_marks": 10,
+                        "questionText": [
+                            {
+                                "text": "Draw the Flowchart to check given number is Armstrong number or not.<br>An Armstrong number of three digits is an integer such that the sum of the cubes of its digits is equal to the number itself.<br>For example, 371 is an Armstrong number since 3**3 + 7**3 + 1**3 = 371."
+                            }
+                        ],
+                        "questionType": "File submission",
+                        "question_id": "Q3"
+                    }
+                ],
+                "title": "Assignment-2"
+            }
+        ],
+        "module_id": 4,
+        "activity_id": "A6"
+    },
+    {
+        "activity_name": "Question-1",
+        "activity_json": [
+            {
+                "activityType": "assignment",
+                "questions": [
+                    {
+                        "evaluate": true,
+                        "max_marks": 5,
+                        "questionText": [
+                            {
+                                "text": "Draw a flow chart that displays the Multiplication table of given number."
+                            }
+                        ],
+                        "questionType": "File submission",
+                        "question_id": "Q4"
+                    }
+                ],
+                "title": "Assignment-2"
+            }
+        ],
+        "module_id": 4,
+        "activity_id": "A7"
+    },
+    {
+        "activity_name": "Question-2",
+        "activity_json": [
+            {
+                "activityType": "assignment",
+                "questions": [
+                    {
+                        "questionType": "filesubmission",
+                        "max_marks": 5,
+                        "questionText": [
+                            {
+                                "text": "Draw a flow chart that computes the factorial of a given number"
+                            }
+                        ],
+                        "question_id": "Q5"
+                    }
+                ],
+                "title": "I think you completed Assignment-1, Here is the next Assignment"
+            }
+        ],
+        "activity_id": "A8"
+    },
+    {
+        "activity_name": "Question-3",
+        "activity_json": [
+            {
+                "activityType": "assignment",
+                "questions": [
+                    {
+                        "questionType": "filesubmission",
+                        "max_marks": 10,
+                        "questionText": [
+                            {
+                                "text": "Draw a Flowchart that checks if  the even digits and odd digits sum are equal or not for a given number?"
+                            }
+                        ],
+                        "question_id": "Q6"
+                    }
+                ],
+                "title": "This is the last Assignment in this Unit, Here is your Assignment-3"
+            }
+        ],
+        "activity_id": "A9"
+    }
+]

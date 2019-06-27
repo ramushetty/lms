@@ -1,0 +1,433 @@
+[
+    {
+        "activities": [
+            "Computer Basics- What is a Computer",
+            "Intro to Algorithms",
+            "Difference Between Compiler and Interpreter",
+            "Debugging",
+            "Computers",
+            "Algorithms-1",
+            "Algorithms-2",
+            "Interpreters",
+            "The Python Programming Language",
+            "Programs",
+            "What is Debugging",
+            "Syntax Errors",
+            "Runtime Errors",
+            "Semantic Errors",
+            "Experimental Debugging",
+            "Formal and Natural Languages",
+            "A Typical First Program",
+            "Comments",
+            "Flow Chart",
+            "Raptor Installation",
+            "Python Installation"
+        ],
+        "desc": "<p>On day - 1 you will learn the following topics from the unit - 1  given in the module descriptor</p><b>Unit I: Fundamentals to Computational Thinking and Building blocks</b><br>1.1 Computational thinking techniques (decomposition, pattern matching, abstraction, and algorithmic thinking)<br>",
+        "id": 100,
+        "name": "Computer Algorithms and Programs",
+        "module_id": "PFM1"
+    },
+    {
+        "activities": [
+            "Computational thinking techniques",
+            "Pseudocode Definition and example",
+            "Algorithm Definition, characteristics and examples",
+            "Flowchart Definition, symbols and example",
+            "Question-1",
+            "Question-2"
+        ],
+        "desc": "<p>On day - 2 you will learn the following topics from the unit - 1  given in the module descriptor</p><b>Unit I: Fundamentals to Computational Thinking and Building blocks</b><br>1.1 Computational thinking techniques (decomposition, pattern matching, abstraction, and algorithmic thinking)<br>1.2 Algorithm: Definition, characteristics, and examples<br>1.3 Flowcharts: Definition, symbols, and problem solving<br>1.4 Algorithm vs flowchart vs pseudocode<br>",
+        "id": 101,
+        "name": "Fundamentals to Computational Thinking and Building blocks",
+        "module_id": "PFM2"
+    },
+    {
+        "activities": [
+            "Variables and Assignment Operator",
+            "Variables and Assignment Operator Practice",
+            "Arithematic Operators and Branching",
+            "Arithematic Operators and Branching Practice",
+            "Loops",
+            "Loops-1 Practice",
+            "Loops-2 Practice",
+            "Lists",
+            "Lists Practice",
+            "Strings",
+            "Strings Practice",
+            "Question-1",
+            "Question-2",
+            "Question-3",
+            "Question-4",
+            "Question-5"
+        ],
+        "desc": "<p>On day - 3 you will learn the following topics from the unit - 1  given in the module descriptor</p><b>Unit I: Fundamentals to Computational Thinking and Building blocks</b><br>1.3 Flowcharts: Definition, symbols, and problem solving<br>1.5 Problem statement definition, input and output determination, algorithm/flowchart development, and trace table composition.<br>1.6 Building blocks for problem-solving (branching, looping, subroutine, functions)<br>",
+        "id": 102,
+        "name": "Flowcharts - 1",
+        "module_id": "PFM3"
+    },
+    {
+        "activities": [
+            "Problem Solving-1",
+            "Problem Solving-1 Practice",
+            "Problem Solving-2",
+            "Problem Solving-2 Practice",
+            "Problem Solving-3",
+            "Problem Solving-3 Practice",
+            "Question-1",
+            "Question-2",
+            "Question-3"
+        ],
+        "desc": "<p>On day - 4 you will learn the following topics from the unit - 1  given in the module descriptor</p><b>Unit I: Fundamentals to Computational Thinking and Building blocks</b><br>1.3 Flowcharts: Definition, symbols, and problem solving<br>1.5 Problem statement definition, input and output determination, algorithm/flowchart development, and trace table composition.<br>1.6 Building blocks for problem-solving (branching, looping, subroutine, functions)<br>",
+        "id": 103,
+        "name": "Flowcharts - 2",
+        "module_id": "PFM4"
+    },
+    {
+        "activities": [
+            "Problem Solving-1",
+            "Problem Solving-1 Practice",
+            "Problem Solving-2 Practice",
+            "Question-1",
+            "Question-2",
+            "Question-3"
+        ],
+        "desc": "<p>On day - 5 you will learn the following topics from the unit - 1  given in the module descriptor</p><b>Unit I: Fundamentals to Computational Thinking and Building blocks</b><br>1.3 Flowcharts: Definition, symbols, and problem solving<br>1.5 Problem statement definition, input and output determination, algorithm/flowchart development, and trace table composition.<br>1.6 Building blocks for problem-solving (branching, looping, subroutine, functions)<br>",
+        "id": 104,
+        "name": "Flowcharts - 3",
+        "module_id": "PFM5"
+    },
+    {
+        "activities": [
+            "Question-1",
+            "Question-2",
+            "Question-3",
+            "Question-4",
+            "Question-5",
+            "Question-6",
+            "Question-7",
+            "Question-8",
+            "Question-9"
+        ],
+        "desc": " ",
+        "id": 105,
+        "name": "Assignment-1",
+        "module_id": "PFM6"
+    },
+    {
+        "activities": [
+            "Introduction to Python",
+            "Knowledge",
+            "Knowledge-1",
+            "Knowledge-2",
+            "Machines",
+            "Machines-1",
+            "Languages",
+            "Languages-1"
+        ],
+        "desc": "<p>On day - 6 you will learn the following topics from the unit - 2  given in the module descriptor</p><b>Unit II: Introduction to Python</b><br>2.1 Different types of knowledge (declarative and imperative knowledge)<br>2.2 Definitions of computer architecture, machine language, assembly and high level language, assembler, compiler interpreter, editor, operating system<br>2.3 Identifiers, keywords, data types, operators, types of operators, variables, expressions, statements<br>",
+        "id": 106,
+        "name": "Introduction to Python Programming-1",
+        "module_id": "PFM7"
+    },
+    {
+        "activities": [
+            "Types",
+            "Types-1",
+            "Types-2",
+            "Variables",
+            "Variables-1",
+            "Operators and Branching",
+            "Operators and Branching-1",
+            "Operators and Branching-2",
+            "Operators and Branching-3"
+        ],
+        "desc": "<p>On day - 7 you will learn the following topics from the unit - 2  given in the module descriptor</p><b>Unit II: Introduction to Python</b><br>2.5 Control statements: branching (if-elif-else statement), looping (while, do-while, for statement)<br>",
+        "id": 107,
+        "name": "Introduction to Python Programming-2",
+        "module_id": "PFM8"
+    },
+    {
+        "activities": [
+            "Bindings",
+            "Strings",
+            "Bindings and Strings-1",
+            "Bindings and Strings-2",
+            "Input Output",
+            "Input Output-1",
+            "IDEs",
+            "Hello World",
+            "Control Flow",
+            "Happy-1",
+            "VarA varB-1",
+            "Control Flow-1",
+            "while-1",
+            "for-1"
+        ],
+        "desc": "<p>On day - 8 you will learn the following topics from the unit - 2 and unit - 6  given in the module descriptor</p><b>Unit II: Introduction to Python</b><br>2.4 Data input and output: print(), input(), library functions<br><b>Unit VI: String Operations</b><br>6.1 Concepts of string<br>6.2 String related library function<br>6.3 String handling and manipulation<br>",
+        "id": 108,
+        "name": "Core Elements-1",
+        "module_id": "PFM9"
+    },
+    {
+        "activities": [
+            "Iteration",
+            "Iteration-1",
+            "Iteration-2",
+            "Iteration-3",
+            "Iteration-4",
+            "Guess and Check",
+            "Guess and Check-1",
+            "Question-1",
+            "Question-2",
+            "Question-3"
+        ],
+        "desc": "<p>On day - 9 you will learn the following topics from the unit - 2 given in the module descriptor</p><b>Unit II: Introduction to Python</b><br>2.6 Guess-check algorithm, approximate solutions, bisection search<br>",
+        "id": 109,
+        "name": "Core Elements-2",
+        "module_id": "PFM10"
+    },
+    {
+        "activities": [
+            "So Far",
+            "So Far-1",
+            "So Far-2",
+            "So Far-3",
+            "Approximate Solutions",
+            "Approximate Solutions-1",
+            "Bisection Search",
+            "Guess My Number-1",
+            "Floats and Fractions",
+            "Floats and Fractions-1",
+            "Newton Raphson",
+            "Question-1",
+            "Question-2",
+            "Question-3",
+            "Question-4"
+        ],
+        "desc": "<p>On day - 10 you will learn the following topics from the unit - 2  given in the module descriptor</p><b>Unit II: Introduction to Python</b><br>2.6 Guess-check algorithm, approximate solutions, bisection search<br>",
+        "id": 110,
+        "name": "Simple Algorithms",
+        "module_id": "PFM11"
+    },
+    {
+        "activities": [
+            "Decomposition and Abstraction",
+            "Functions and Scope",
+            "Functions and Scope-1",
+            "Square-1",
+            "Eval Quadratic-1",
+            "Calling Functions",
+            "Calling Functions- 1",
+            "Calling Functions- 2",
+            "Calling Functions- 3",
+            "Keyword Arguments"
+        ],
+        "desc": "<p>On day - 11 you will learn the following topics from the unit - 3  given in the module descriptor</p><b>Unit III: Functions</b><br>3.1 Fundamental concepts of function: function scope, calling function, passing data to and from a function, and default values<br>3.2 Predefined, user-defined function<br>",
+        "id": 111,
+        "name": "Functions-1",
+        "module_id": "PFM12"
+    },
+    {
+        "activities": [
+            "Specification",
+            "Specification- 1",
+            "Specification- 2",
+            "Fourth Power-1",
+            "Odd-1",
+            "Question Introduction",
+            "Question-1",
+            "Question-2",
+            "Question-3"
+        ],
+        "desc": "<p>On day - 12 you will learn the following topics from the unit - 3  given in the module descriptor</p><b>Unit III: Functions</b><br>3.1 Fundamental concepts of function: function scope, calling function, passing data to and from a function, and default values<br>3.2 Predefined, user-defined function<br>",
+        "id": 112,
+        "name": "Functions-2",
+        "module_id": "PFM13"
+    },
+    {
+        "activities": [
+            "Iteration vs Recursion",
+            "PowerIter-1",
+            "PowerRecr-2",
+            "Inductive Reasoning",
+            "Towers of Hanoi",
+            "GCDIter-1",
+            "GCDRecr-2",
+            "Fibonacci",
+            "Recursion on Non-Numerics",
+            "IsIn-1",
+            "Files",
+            "Recursion -1",
+            "Question-1",
+            "Question-2"
+        ],
+        "desc": "<p>On day - 13 you will learn the following topics from the unit - 3  given in the module descriptor</p><b>Unit III: Functions</b><br>3.3 Iteration vs recursion<br>",
+        "id": 113,
+        "name": "Recursions",
+        "module_id": "PFM14"
+    },
+    {
+        "activities": [
+            "Question-1",
+            "Question-2",
+            "Question-3",
+            "Question-4",
+            "Question-5",
+            "Question-6"
+        ],
+        "desc": " ",
+        "id": 114,
+        "name": "Assignment-2",
+        "module_id": "PFM15"
+    },
+    {
+        "activities": [
+            "Tuples",
+            "Tuples-1",
+            "Odd Tuples-1",
+            "Lists",
+            "Lists-1",
+            "List Operations",
+            "List Operations-1",
+            "Mutation, Aliasing and Cloning",
+            "Mutation, Aliasing and Cloning-1",
+            "Functions as Objects",
+            "Functions as Objects-1",
+            "Functions as Objects-2",
+            "Functions as Objects-3",
+            "Functions as Objects-4",
+            "Question Introduction",
+            "Question-1",
+            "Question-2"
+        ],
+        "desc": "<p>On day - 14 you will learn the following topics from the unit - 4  given in the module descriptor</p><b>Unit IV: Tuples, Lists and Dictionaries</b><br>4.1 Concepts of sets, tuples, tuple assignment, list, and dictionaries<br>4.2 List operations, list slices and deletion, mutation, aliasing, cloning, nested lists<br>4.3 Sets, tuples, list and dictionaries examples<br>",
+        "id": 115,
+        "name": "Tuples and Lists",
+        "module_id": "PFM16"
+    },
+    {
+        "activities": [
+            "Quick Review",
+            "Dictionaries",
+            "Dictionaries-1",
+            "Example with a Dictionary",
+            "Dictionaries How many-1",
+            "Dictionaries Biggest-1",
+            "Fibonacci and Dictionaries",
+            "Global Variables",
+            "Question-1",
+            "Question-2"
+        ],
+        "desc": "<p>On day - 15 you will learn the following topics from the unit - 4  given in the module descriptor</p><b>Unit IV: Tuples, Lists and Dictionaries</b><br>4.1 Concepts of sets, tuples, tuple assignment, list, and dictionaries<br>4.3 Sets, tuples, list and dictionaries examples<br>",
+        "id": 116,
+        "name": "Dictionaries",
+        "module_id": "PFM17"
+    },
+    {
+        "activities": [
+            "Programming Challenges",
+            "Classes of Tests",
+            "Testing and Debugging-1",
+            "Testing and Debugging-2",
+            "Testing and Debugging-3",
+            "Testing and Debugging-4",
+            "Testing and Debugging-5",
+            "Bugs",
+            "Integer Division-1"
+        ],
+        "desc": "<p>On day - 16 you will learn the following topics from the unit - 5  given in the module descriptor</p><b>Unit V: Testing, Debugging and Assertions</b><br>5.1 Programming challenges, bugs, debugging<br>",
+        "id": 117,
+        "name": "Testing and Debugging-1",
+        "module_id": "PFM18"
+    },
+    {
+        "activities": [
+            "Debugging",
+            "Testing and Debugging-1",
+            "Testing and Debugging-2",
+            "Debugging Example",
+            "Question Introduction",
+            "Question Getting Started",
+            "Question-1",
+            "Question-2",
+            "Question-3",
+            "Question-4"
+        ],
+        "desc": "<p>On day - 17 you will learn the following topics from the unit - 5  given in the module descriptor</p><b>Unit V: Testing, Debugging and Assertions</b><br>5.1 Programming challenges, bugs, debugging<br>",
+        "id": 118,
+        "name": "Testing and Debugging-2",
+        "module_id": "PFM19"
+    },
+    {
+        "activities": [
+            "Exceptions",
+            "Exception-1",
+            "Exception Example",
+            "Exceptions as Control Flow",
+            "Exceptions Activity-1",
+            "Exceptions Activity-2",
+            "Exceptions Activity-3",
+            "Exceptions Activity-4",
+            "Exceptions Activity-5",
+            "Simple Divide-1",
+            "Assertions",
+            "Assertions Activity-1",
+            "Assertions Activity-2",
+            "Question-1",
+            "Question-2",
+            "Computer Choosing a Word and Playing a Hand",
+            "Question-3"
+        ],
+        "desc": "<p>On day - 18 you will learn the following topics from the unit - 5  given in the module descriptor</p><b>Unit V: Testing, Debugging and Assertions</b><br>5.2 Assertions, exceptions in python, exception classes, built-in exceptions, try and catch statement, multiple catch statements, throw and throws statement<br>5.3 Exceptions: Creating and handling exceptions<br>",
+        "id": 119,
+        "name": "Assertions and Exception handling",
+        "module_id": "PFM20"
+    },
+    {
+        "activities": [
+            "Question-1"
+        ],
+        "desc": " ",
+        "id": 120,
+        "name": "Assignment-3",
+        "module_id": "PFM21"
+    },
+    {
+        "activities": [
+            "Introduction to python packages",
+            "Question-1",
+            "Pandas Intro and usage",
+            "Question-2",
+            "Matplotlib Intro and usage",
+            "Matplotlib legends titles and labels",
+            "Question-3",
+            "NumPy intro and usage",
+            "Question-4"
+        ],
+        "desc": "<p>On day - 19 you will learn the following topics from the unit - 7  given in the module descriptor</p><b>Unit VII: Introduction to python packages</b><br>7.1 Pandas: Definition, example, usage<br>7.2 Matplotlib: Definition, example, usage<br>7.3 NumPy: Definition, example, usage<br>",
+        "id": 121,
+        "name": "Python packages",
+        "module_id": "PFM22"
+    },
+    {
+        "activities": [
+            "File Objects - Reading and Writing to Files",
+            "Files-1",
+            "Question-1"
+        ],
+        "desc": "<p>On day - 20 you will learn the following topics from the unit - 8  given in the module descriptor</p><b>Unit VIII: Files</b><br>8.1 The file object, opening and closing a file (writing to and reading from a file)<br>8.2 Processing files (library functions related to file- open(), read(), readlines(), write(), seek(), etc)<br>",
+        "id": 122,
+        "name": "File Input Output",
+        "module_id": "PFM23"
+    },
+    {
+        "activities": [
+            "Question-1"
+        ],
+        "desc": " ",
+        "id": 123,
+        "name": "Assignment-4",
+        "module_id": "PFM24"
+    }
+]

@@ -1,0 +1,30 @@
+[
+    {
+        "activity_name": "Question-1",
+        "activity_json": [
+            {
+                "activityType": "assignment",
+                "questions": [
+                    {
+                        "questionType": "filesubmission",
+                        "max_marks": 20,
+                        "evaluate": true,
+                        "questionText": [
+                            {
+                                "text": "Read a file and build a dictionary with word and its frequencies and write the same into output (output.txt) file. Download the input file given below"
+                            },
+                            {
+                                "attachment": [
+                                    "input1.txt"
+                                ]
+                            }
+                        ],
+                        "question_id": "Q1"
+                    }
+                ],
+                "title": "Question-1"
+            }
+        ],
+        "activity_id": "A1"
+    }
+]

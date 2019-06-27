@@ -1,0 +1,209 @@
+[
+    {
+        "activity_name": "Question-1",
+        "activity_json": [
+            {
+                "activityType": "assignment",
+                "questions": [
+                    {
+                        "questionType": "filesubmission",
+                        "max_marks": 20,
+                        "evaulate": true,
+                        "questionText": [
+                            {
+                                "text": "Draw the flowchart to convert temperature from Fahrenheit to Celsius"
+                            }
+                        ],
+                        "question_id": "Q1"
+                    }
+                ],
+                "title": "We designed some Assignments for you to practice Please solve the Assignments and submit them"
+            }
+        ],
+        "activity_id": "A1"
+    },
+    {
+        "activity_name": "Question-2",
+        "activity_json": [
+            {
+                "activityType": "assignment",
+                "questions": [
+                    {
+                        "questionType": "filesubmission",
+                        "max_marks": 20,
+                        "evaulate": true,
+                        "questionText": [
+                            {
+                                "text": "Draw the flowchart for finding the grades(extension of previous activity)."
+                            }
+                        ],
+                        "question_id": "Q2"
+                    }
+                ],
+                "title": "We designed some Assignments for you to practice Please solve the Assignments and submit them"
+            }
+        ],
+        "activity_id": "A2"
+    },
+    {
+        "activity_name": "Question-3",
+        "activity_json": [
+            {
+                "activityType": "assignment",
+                "questions": [
+                    {
+                        "questionType": "filesubmission",
+                        "max_marks": 20,
+                        "evaulate": true,
+                        "questionText": [
+                            {
+                                "text": "Draw the Flowchart to check given number is Armstrong number or not."
+                            }
+                        ],
+                        "question_id": "Q3"
+                    }
+                ],
+                "title": "We designed some Assignments for you to practice Please solve the Assignments and submit them"
+            }
+        ],
+        "activity_id": "A3"
+    },
+    {
+        "activity_name": "Question-4",
+        "activity_json": [
+            {
+                "activityType": "assignment",
+                "questions": [
+                    {
+                        "questionType": "filesubmission",
+                        "max_marks": 20,
+                        "evaulate": true,
+                        "questionText": [
+                            {
+                                "text": "Draw a flowchart that displays the Multiplication table of given number."
+                            }
+                        ],
+                        "question_id": "Q4"
+                    }
+                ],
+                "title": "We designed some Assignments for you to practice Please solve the Assignments and submit them"
+            }
+        ],
+        "activity_id": "A4"
+    },
+    {
+        "activity_name": "Question-5",
+        "activity_json": [
+            {
+                "activityType": "assignment",
+                "questions": [
+                    {
+                        "questionType": "filesubmission",
+                        "max_marks": 20,
+                        "evaulate": true,
+                        "questionText": [
+                            {
+                                "text": "Draw a flowchart that computes the factorial of a given number"
+                            }
+                        ],
+                        "question_id": "Q5"
+                    }
+                ],
+                "title": "We designed some Assignments for you to practice Please solve the Assignments and submit them"
+            }
+        ],
+        "activity_id": "A5"
+    },
+    {
+        "activity_name": "Question-6",
+        "activity_json": [
+            {
+                "activityType": "assignment",
+                "questions": [
+                    {
+                        "questionType": "filesubmission",
+                        "max_marks": 20,
+                        "evaulate": true,
+                        "questionText": [
+                            {
+                                "text": "Draw a Flowchart that checks if the even digits and odd digits sum are equal or not for a given number?"
+                            }
+                        ],
+                        "question_id": "Q6"
+                    }
+                ],
+                "title": "We designed some Assignments for you to practice Please solve the Assignments and submit them"
+            }
+        ],
+        "activity_id": "A6"
+    },
+    {
+        "activity_name": "Question-7",
+        "activity_json": [
+            {
+                "activityType": "assignment",
+                "questions": [
+                    {
+                        "questionType": "filesubmission",
+                        "max_marks": 20,
+                        "evaulate": true,
+                        "questionText": [
+                            {
+                                "text": "Draw a flowchart for finding the biggest sum of two numbers in a given list"
+                            }
+                        ],
+                        "question_id": "Q7"
+                    }
+                ],
+                "title": "We designed some Assignments for you to practice Please solve the Assignments and submit them"
+            }
+        ],
+        "activity_id": "A7"
+    },
+    {
+        "activity_name": "Question-8",
+        "activity_json": [
+            {
+                "activityType": "assignment",
+                "questions": [
+                    {
+                        "questionType": "filesubmission",
+                        "max_marks": 20,
+                        "evaulate": true,
+                        "questionText": [
+                            {
+                                "text": "Draw a flowchart for finding the given string is in lexicographic order or not."
+                            }
+                        ],
+                        "question_id": "Q8"
+                    }
+                ],
+                "title": "We designed some Assignments for you to practice Please solve the Assignments and submit them"
+            }
+        ],
+        "activity_id": "A8"
+    },
+    {
+        "activity_name": "Question-9",
+        "activity_json": [
+            {
+                "activityType": "assignment",
+                "questions": [
+                    {
+                        "questionType": "filesubmission",
+                        "max_marks": 20,
+                        "evaulate": true,
+                        "questionText": [
+                            {
+                                "text": "Draw a flowchart for finding the minimum number in the list and swap that number with the first index element."
+                            }
+                        ],
+                        "question_id": "Q9"
+                    }
+                ],
+                "title": "We designed some Assignments for you to practice Please solve the Assignments and submit them"
+            }
+        ],
+        "activity_id": "A9"
+    }
+]

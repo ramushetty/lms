@@ -1,0 +1,381 @@
+[
+    {
+        "activity_name": "Iteration vs Recursion",
+        "activity_json": [
+            {
+                "videoResources": "/iterationvsrecursion.zip",
+                "activityType": "video",
+                "videoURL": "http://courseware.msitprogram.net/play/content/cspp1/videos//iterationvsrecursion.mp4",
+                "title": "In this activity we will discuss about Iteration vs recursion by watching a video"
+            }
+        ],
+        "activity_id": "A1"
+    },
+    {
+        "activity_name": "PowerIter-1",
+        "activity_json": [
+            {
+                "activityType": "assignment",
+                "questions": [
+                    {
+                        "evaluate": true,
+                        "max_marks": 5,
+                        "questionText": [
+                            {
+                                "text": "Write an iterative function iterPower(base, exp) that calculates the exponential baseexp by simply using successive multiplication. For example, iterPower(base, exp) should compute baseexp by multiplying base times itself exp times. Write such a function below.<br>This function should take in two values - base can be a float or an integer; exp will be an integer >= 0. It should return one numerical value. Your code must be iterative - use of the ** operator is not allowed.<br><br>Check your program against the give test cases below as a Zip file. Submit your Solution(Zip file) when all test cases are passed<br><br>Download <a href=\"http://courseware.msitprogram.net/submissions/cspp1/Recursions/attachments/power%20using%20Iteration.zip\">power using Iteration.zip</a><br><a href=\"http://iiitdev.msitprogram.net/images/bsit-2.PNG\">click here for image"
+                            }
+                        ],
+                        "questionType": "File submission",
+                        "question_id": "Q1"
+                    }
+                ],
+                "title": "Assignment-2"
+            }
+        ],
+        "activity_id": "A2"
+    },
+    {
+        "activity_name": "PowerRecr-2",
+        "activity_json": [
+            {
+                "activityType": "assignment",
+                "questions": [
+                    {
+                        "questionType": "filesubmission",
+                        "evaluate": true,
+                        "max_marks": 10,
+                        "questionText": [
+                            {
+                                "text": "Write a function recurPower(base, exp) which computes base<sup>exp</sup> by recursively calling itself to solve a smaller version of the same problem, and then multiplying the result by base to solve the initial problem.<br>This function should take in two values - base can be a float or an integer; exp will be an integer >=0 . It should return one numerical value. Your code must be recursive - use of the ** operator or looping constructs is not allowed.<br>Note: In programming there are many ways to solve a problem. For your code to check correctly here, though, you must write your recursive function such that you make a recursive call directly to the function recurPower. Thank you for understanding.<br><br><b>Hints</b>:To figure out what base case to use, think about what the smallest value of exp can be.<br>Recall that exp will be an integer greater than or equal to zero - so, the smallest value of exp is zero. What is the value of base<sup>exp</sup> when exp equals zero, for any value of base?<br>A good way to think about recursion is that recursion is the process of solving a given problem with a smaller instance of the same problem.So, how could we express base<sup>exp</sup> as a smaller instance of an exponential equation?<br>base<sup>exp</sup> = base.base<sup>exp-1</sup>To convince yourself this is true, put in real numbers for base and exp; then, work through the recursion over and over until you reach your base case.<br><br>Check your program against the give test cases below as a Zip file. Submit your Solution(Zip file) when all test cases are passed"
+                            },
+                            {
+                                "attachment": [
+                                    "power using recursion.zip"
+                                ]
+                            }
+                        ],
+                        "code": "powerrecr.py",
+                        "question_id": "Q2"
+                    }
+                ],
+                "title": "Solve the following problem on Recursion"
+            }
+        ],
+        "activity_id": "A3"
+    },
+    {
+        "activity_name": "Inductive Reasoning",
+        "activity_json": [
+            {
+                "videoResources": "/Inductive Reasoning.zip",
+                "activityType": "video",
+                "videoURL": "http://courseware.msitprogram.net/play/content/cspp1/videos//Inductive%20Reasoning.mp4",
+                "title": "In this activity we will discuss about inductive reasoning by watching a video"
+            }
+        ],
+        "activity_id": "A4"
+    },
+    {
+        "activity_name": "Towers of Hanoi",
+        "activity_json": [
+            {
+                "videoResources": "/Towers of Hanoi.zip",
+                "activityType": "video",
+                "videoURL": "http://courseware.msitprogram.net/play/content/cspp1/videos//Towers%20of%20Hanoi.mp4",
+                "title": "In this activity we will discuss about Towers of Hanoi by watching a video"
+            }
+        ],
+        "activity_id": "A5"
+    },
+    {
+        "activity_name": "GCDIter-1",
+        "activity_json": [
+            {
+                "activityType": "assignment",
+                "questions": [
+                    {
+                        "questionType": "filesubmission",
+                        "max_marks": 5,
+                        "evaluate": true,
+                        "questionText": [
+                            {
+                                "text": "The greatest common divisor of two positive integers is the largest integer that divides each of them without remainder. For example,<ul><li>gcd(2, 12) = 2</li><li>gcd(6, 12) = 6</li><li>gcd(9, 12) = 3</li><li>gcd(17, 12) = 1</li></ul><br>Write an iterative function, gcdIter(a, b), that implements this idea. One easy way to do this is to begin with a test value equal to the smaller of the two input arguments, and iteratively reduce this test value by 1 until you either reach a case where the test divides both a and b without remainder, or you reach 1.<br><br>Check your program against the give test cases below as a Zip file. Submit your Solution(Zip file) when all test cases are passed"
+                            },
+                            {
+                                "attachment": [
+                                    "GCD using Iteration.zip"
+                                ]
+                            }
+                        ],
+                        "code": "gcditer.py",
+                        "question_id": "Q3"
+                    }
+                ],
+                "title": "Solve the following problem on Iteration"
+            }
+        ],
+        "activity_id": "A6"
+    },
+    {
+        "activity_name": "GCDRecr-2",
+        "activity_json": [
+            {
+                "activityType": "assignment",
+                "questions": [
+                    {
+                        "questionType": "filesubmission",
+                        "max_marks": 10,
+                        "evaluate": true,
+                        "questionText": [
+                            {
+                                "text": "The greatest common divisor of two positive integers is the largest integer that divides each of them without remainder. For example,<ul><li>gcd(2, 12) = 2</li><li>gcd(6, 12) = 6</li><li>gcd(9, 12) = 3</li><li>gcd(17, 12) = 1</li></ul>A clever mathematical trick (due to Euclid) makes it easy to find greatest common divisors. Suppose that a and b are two positive integers:<ul><li>If b = 0, then the answer is a</li><li>Otherwise, gcd(a, b) is the same as gcd(b, a % b)</li></ul><br>Note: In programming there are many ways to solve a problem. For your code to check correctly here, though, you must write your recursive function such that you make a recursive call directly to the function gcdRecur. Thank you for understanding.<br><a href=\"https://en.wikipedia.org/wiki/Euclidean_algorithm#Worked_example\">See this website for an example of Euclid's algorithm being used to find the gcd.</a><br>Write a function gcdRecur(a, b) that implements this idea recursively. This function takes in two positive integers and returns one integer.<br><br>Check your program against the give test cases below as a Zip file. Submit your Solution(Zip file) when all test cases are passed"
+                            },
+                            {
+                                "attachment": [
+                                    "GCD using Recursion.zip"
+                                ]
+                            }
+                        ],
+                        "code": "gcdrecr.py",
+                        "question_id": "Q4"
+                    }
+                ],
+                "title": "Solve the following problem on Recursion"
+            }
+        ],
+        "activity_id": "A7"
+    },
+    {
+        "activity_name": "Fibonacci",
+        "activity_json": [
+            {
+                "videoResources": "/Fibonacci.zip",
+                "activityType": "video",
+                "videoURL": "http://courseware.msitprogram.net/play/content/cspp1/videos//Fibonacci.mp4",
+                "title": "In this activity we will discuss about fibnocci in recursion by watching a video"
+            }
+        ],
+        "activity_id": "A8"
+    },
+    {
+        "activity_name": "Recursion on Non-Numerics",
+        "activity_json": [
+            {
+                "videoResources": "/Recursion on non-numerics.zip",
+                "activityType": "video",
+                "videoURL": "http://courseware.msitprogram.net/play/content/cspp1/videos//Recursion%20on%20non-numerics.mp4",
+                "title": "In this activity we will discuss about recursion on non numerics by watching a video"
+            }
+        ],
+        "activity_id": "A9"
+    },
+    {
+        "activity_name": "IsIn-1",
+        "activity_json": [
+            {
+                "activityType": "assignment",
+                "questions": [
+                    {
+                        "questionType": "filesubmission",
+                        "max_marks": 10,
+                        "evaluate": true,
+                        "questionText": [
+                            {
+                                "text": "We can use the idea of bisection search to determine if a character is in a string, so long as the string is sorted in alphabetical order.<br><br>First, test the middle character of a string against the character you're looking for (the \"test character\"). If they are the same, we are done - we've found the character we're looking for!<br><br>If they're not the same, check if the test character is \"smaller\" than the middle character. If so, we need only consider the lower half of the string; otherwise, we only consider the upper half of the string. (Note that you can compare characters using Python's < function.)<br><br><b>Note</b>: In programming there are many ways to solve a problem. For your code to check correctly here, though, you must write your recursive function such that you make a recursive call directly to the function isIn. Thank you for understanding.<br><br>Implement the function isIn(char, aStr) which implements the above idea recursively to test if char is in aStr. char will be a single character and aStr will be a string that is in alphabetical order. The function should return a boolean value.<br><br>As you design the function, think very carefully about what the base cases should be.<br><br><b>Hints</b>:Be very careful about how you slice the string in the recursive cases! Before you execute the recursive cases, you test the middle character - so if you reach the recursive cases, you know the middle character cannot be a match, right? So be careful to not include this character when you make your recursive call!<br><br>You should be thinking about 3 situations:<ul><li>What happens when the string is empty?</li><li>What happens when the string is of length 1?</li><li>What happens when the test character equals the middle character?</li></ul><br><br>You should be thinking about 2 situations:<ul><li>What happens when the test character is smaller than the middle character?</li><li>What happens when it is larger?</li></ul><br><br>Check your program against the give test cases below as a Zip file. Submit your Solution(Zip file) when all test cases are passed"
+                            },
+                            {
+                                "attachment": [
+                                    "Is In Exercise.zip"
+                                ]
+                            }
+                        ],
+                        "code": "isin.py",
+                        "question_id": "Q5"
+                    }
+                ],
+                "title": "Solve the following IsIn Excercise"
+            }
+        ],
+        "activity_id": "A10"
+    },
+    {
+        "activity_name": "Files",
+        "activity_json": [
+            {
+                "videoResources": "/Files.zip",
+                "activityType": "video",
+                "videoURL": "http://courseware.msitprogram.net/play/content/cspp1/videos//Files.mp4",
+                "title": "In this activity we will discuss about files by watching a video"
+            }
+        ],
+        "activity_id": "A11"
+    },
+    {
+        "activity_name": "Recursion -1",
+        "activity_json": [
+            {
+                "activityType": "quiz",
+                "questions": [
+                    {
+                        "questionType": "checkbox",
+                        "max_marks": 1,
+                        "questionText": [
+                            {
+                                "text": "Assume the two files below are in the same folder. You run inventory.py. What happens? <a href=\"http://iiitdev.msitprogram.net/images/bsit-19.PNG\">click here for image"
+                            }
+                        ],
+                        "options": [
+                            {
+                                "option": "prints aa",
+                                "correct": true
+                            },
+                            {
+                                "option": "prints AA",
+                                "correct": false
+                            },
+                            {
+                                "option": "There is an error",
+                                "correct": false
+                            }
+                        ],
+                        "question_id": "Q6"
+                    },
+                    {
+                        "questionType": "checkbox",
+                        "max_marks": 1,
+                        "questionText": [
+                            {
+                                "text": "Assume the two files below are in the same folder. You run inventory.py. What happens? <a href=\"http://iiitdev.msitprogram.net/images/bsit-24.PNG\">click here for image"
+                            }
+                        ],
+                        "options": [
+                            {
+                                "option": "prints aa",
+                                "correct": false
+                            },
+                            {
+                                "option": "prints AA",
+                                "correct": false
+                            },
+                            {
+                                "option": "There is an error",
+                                "correct": true
+                            }
+                        ],
+                        "question_id": "Q7"
+                    },
+                    {
+                        "questionType": "checkbox",
+                        "max_marks": 1,
+                        "questionText": [
+                            {
+                                "text": "Assume the two files below are in the same folder. You run inventory.py. What happens? <a href=\"http://iiitdev.msitprogram.net/images/bsit-25.PNG\">click here for image"
+                            }
+                        ],
+                        "options": [
+                            {
+                                "option": "prints aa",
+                                "correct": false
+                            },
+                            {
+                                "option": "prints AA",
+                                "correct": true
+                            },
+                            {
+                                "option": "There is an error",
+                                "correct": false
+                            }
+                        ],
+                        "question_id": "Q8"
+                    },
+                    {
+                        "questionType": "checkbox",
+                        "max_marks": 1,
+                        "questionText": [
+                            {
+                                "text": "Assume the two files below are in the same folder. You run inventory.py. What happens? <a href=\"http://iiitdev.msitprogram.net/images/bsit-26.PNG\">click here for image"
+                            }
+                        ],
+                        "options": [
+                            {
+                                "option": "prints AA AAA C D",
+                                "correct": false
+                            },
+                            {
+                                "option": "prints aa aaa c d",
+                                "correct": false
+                            },
+                            {
+                                "option": "prints aa AAA C D",
+                                "correct": true
+                            },
+                            {
+                                "option": "There is an error.",
+                                "correct": false
+                            }
+                        ],
+                        "question_id": "Q9"
+                    }
+                ],
+                "title": "Answer the following questions on recursion"
+            }
+        ],
+        "activity_id": "A12"
+    },
+    {
+        "activity_name": "Question-1",
+        "activity_json": [
+            {
+                "activityType": "assignment",
+                "questions": [
+                    {
+                        "questionType": "filesubmission",
+                        "max_marks": 10,
+                        "evaluate": true,
+                        "questionText": [
+                            {
+                                "text": "Write a program that calculate the factorial of a number using Recursion<br><br>Check your program against the give test cases below as a Zip file. Submit your Solution(Zip file) when all test cases are passed"
+                            },
+                            {
+                                "attachment": [
+                                    "Assignment-1.zip"
+                                ]
+                            }
+                        ],
+                        "question_id": "Q10"
+                    }
+                ],
+                "title": "Solve the following Assignment using recursion"
+            }
+        ],
+        "activity_id": "A13"
+    },
+    {
+        "activity_name": "Question-2",
+        "activity_json": [
+            {
+                "activityType": "assignment",
+                "questions": [
+                    {
+                        "questionType": "filesubmission",
+                        "max_marks": 20,
+                        "evaluate": true,
+                        "questionText": [
+                            {
+                                "text": "Write a program that calculate the sum of individual digits of a given number<br><br>Check your program against the give test cases below as a Zip file. Submit your Solution(Zip file) when all test cases are passed"
+                            },
+                            {
+                                "attachment": [
+                                    "Assignment-2.zip"
+                                ]
+                            }
+                        ],
+                        "question_id": "Q11"
+                    }
+                ],
+                "title": "Solve the following Assignment using recursion"
+            }
+        ],
+        "activity_id": "A14"
+    }
+]

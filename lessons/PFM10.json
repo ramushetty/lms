@@ -1,0 +1,1037 @@
+[
+    {
+        "activity_name": "Iteration",
+        "activity_json": [
+            {
+                "videoResources": "/6) Iteration.zip",
+                "activityType": "video",
+                "videoURL": "http://courseware.msitprogram.net/play/content/cspp1/videos//6)%20Iteration.mp4",
+                "title": "In this activity we will discuss about Iterations by watching a video"
+            }
+        ],
+        "activity_id": "A1"
+    },
+    {
+        "activity_name": "Iteration-1 notes",
+        "activity_json": [
+            {
+                "activityType": "notes",
+                "title": "Iteration-1 notes",
+                "text": "Solve the following problems on iterations<br><br>Below are some short Python programs. For each program, answer the associated question.Try to answer the questions without running the code. Check your answers, then run the code for the ones you get wrong.This question is going to ask you what some simple loops print out. If you're asked what code like this prints:<br><a href=\"http://iiitdev.msitprogram.net/images/bsit-67.PNG\">click for code</a><br>write what it prints out, separating what appears on a new line by a comma and a space. So the answer for the above code would be: <b>5,4</b><br>If a given loop will not terminate, write the phrase 'infinite loop' (no quotes) in the box. Recall that you can stop an infinite loop in your program by typing CTRL+c in the console"
+            }
+        ],
+        "activity_id": "A2"
+    },
+    {
+        "activity_name": "Iteration-1",
+        "activity_json": [
+            {
+                "quizDescription": [
+                    {
+                        "text": "Below are some short Python programs. For each program, answer the associated question.<br>Try to answer the questions without running the code. Check your answers, then run the code for the ones you get wrong.<br>This question is going to ask you what some simple loops print out. If you're asked what code like this prints:"
+                    },
+                    {
+                        "code": "cspp1.6.16.1.py"
+                    },
+                    {
+                        "text": "write what it prints out, separating what appears on a new line by a comma and a space. So the answer for the above code would be:"
+                    },
+                    {
+                        "code": "controlflow.py"
+                    },
+                    {
+                        "text": "If a given loop will not terminate, write the phrase 'infinite loop' (no quotes) in the box. Recall that you can stop an infinite loop in your program by typing CTRL+c in the console.<br>Note: Using the 'range' built-in function."
+                    }
+                ],
+                "activityType": "quiz",
+                "questions": [
+                    {
+                        "questionType": "checkbox",
+                        "questionText": [
+                            {
+                                "text": "What is the output for the below code"
+                            },
+                            {
+                                "image": {
+                                    "imageName": "bsit-68.PNG",
+                                    "imageSRC": "http://iiitdev.msitprogram.net/images/bsit-68.PNG"
+                                }
+                            }
+                        ],
+                        "correct_feedback": "Correct",
+                        "max_marks": 1,
+                        "wrong_feedback": "Incorrect",
+                        "options": [
+                            {
+                                "correct": true,
+                                "option": "0, 1, 2, 3, 4, 4"
+                            },
+                            {
+                                "correct": false,
+                                "option": "0, 1, 2, 3, 4, 4"
+                            },
+                            {
+                                "correct": false,
+                                "option": "Error"
+                            },
+                            {
+                                "correct": false,
+                                "option": "Infinity loop"
+                            }
+                        ],
+                        "question_id": "Q1"
+                    },
+                    {
+                        "questionType": "checkbox",
+                        "questionText": [
+                            {
+                                "text": "What is the output for the below code"
+                            },
+                            {
+                                "image": {
+                                    "imageName": "bsit-69.PNG",
+                                    "imageSRC": "http://iiitdev.msitprogram.net/images/bsit-69.PNG"
+                                }
+                            }
+                        ],
+                        "correct_feedback": "Correct",
+                        "max_marks": 1,
+                        "wrong_feedback": "Incorrect",
+                        "options": [
+                            {
+                                "correct": true,
+                                "option": "0.0, 1.0, 2.0, 3.0, 4.0"
+                            },
+                            {
+                                "correct": false,
+                                "option": "0.0, 1.0, 2.0, 3.0"
+                            },
+                            {
+                                "correct": false,
+                                "option": "Error"
+                            },
+                            {
+                                "correct": false,
+                                "option": "Infinity loop"
+                            }
+                        ],
+                        "question_id": "Q2"
+                    },
+                    {
+                        "questionType": "checkbox",
+                        "questionText": [
+                            {
+                                "text": "What is the output for the below code"
+                            },
+                            {
+                                "image": {
+                                    "imageName": "bsit-70.PNG",
+                                    "imageSRC": "http://iiitdev.msitprogram.net/images/bsit-70.PNG"
+                                }
+                            }
+                        ],
+                        "correct_feedback": "Correct",
+                        "max_marks": 1,
+                        "wrong_feedback": "Incorrect",
+                        "options": [
+                            {
+                                "correct": true,
+                                "option": "0, 'Foo!', 4, 8, 12, 16, Foo!"
+                            },
+                            {
+                                "correct": false,
+                                "option": "'Foo!', 4, 8, 12, 16, Foo!"
+                            },
+                            {
+                                "correct": false,
+                                "option": "0, 'Foo!', 4, 8, 12, 16"
+                            },
+                            {
+                                "correct": false,
+                                "option": "4, 8, 12, 16, Foo!"
+                            }
+                        ],
+                        "question_id": "Q3"
+                    },
+                    {
+                        "questionType": "checkbox",
+                        "questionText": [
+                            {
+                                "text": "What is the output for the below code"
+                            },
+                            {
+                                "image": {
+                                    "imageName": "bsit-71.PNG",
+                                    "imageSRC": "http://iiitdev.msitprogram.net/images/bsit-71.PNG"
+                                }
+                            }
+                        ],
+                        "correct_feedback": "Correct",
+                        "max_marks": 1,
+                        "wrong_feedback": "Incorrect",
+                        "options": [
+                            {
+                                "correct": false,
+                                "option": "hola"
+                            },
+                            {
+                                "correct": true,
+                                "option": "h, o, l, a"
+                            },
+                            {
+                                "correct": false,
+                                "option": "h o l a"
+                            },
+                            {
+                                "correct": false,
+                                "option": "h"
+                            }
+                        ],
+                        "question_id": "Q4"
+                    },
+                    {
+                        "questionType": "checkbox",
+                        "questionText": [
+                            {
+                                "text": "What is the output for the below code"
+                            },
+                            {
+                                "image": {
+                                    "imageName": "bsit-72.PNG",
+                                    "imageSRC": "http://iiitdev.msitprogram.net/images/bsit-72.PNG"
+                                }
+                            }
+                        ],
+                        "correct_feedback": "Correct",
+                        "max_marks": 1,
+                        "wrong_feedback": "Incorrect",
+                        "options": [
+                            {
+                                "correct": true,
+                                "option": "Letter # 0 is S, 1"
+                            },
+                            {
+                                "correct": false,
+                                "option": "Letter # 0 is S, 2"
+                            },
+                            {
+                                "correct": false,
+                                "option": "Letter # 0 is S, 3"
+                            },
+                            {
+                                "correct": false,
+                                "option": "Letter # 0 is S, 4"
+                            }
+                        ],
+                        "question_id": "Q5"
+                    }
+                ],
+                "title": "Solve the following problems on iterations"
+            }
+        ],
+        "activity_id": "A3"
+    },
+    {
+        "activity_name": "Iteration-2 notes",
+        "activity_json": [
+            {
+                "activityType": "notes",
+                "title": "Iteration-2 notes",
+                "text": "Solve the following problems on iterations<br><br>Below are some short Python programs. For each program, answer the associated questions.<br><br>Try to answer the questions without running the code. Check your answers, then run the code for the ones you get wrong. You'll learn the most this way, by figuring things out, instead of just running the code and reading off the answers.<br><a href=\"http://iiitdev.msitprogram.net/images/bsit-110.PNG\">click here for code"
+            }
+        ],
+        "activity_id": "A4"
+    },
+    {
+        "activity_name": "Iteration-2",
+        "activity_json": [
+            {
+                "quizDescription": [
+                    {
+                        "text": "Below are some short Python programs. For each program, answer the associated questions.<br><br>Try to answer the questions without running the code. Check your answers, then run the code for the ones you get wrong. You'll learn the most this way, by figuring things out, instead of just running the code and reading off the answers."
+                    },
+                    {
+                        "code": "cspp1.6.17.py"
+                    }
+                ],
+                "activityType": "quiz",
+                "questions": [
+                    {
+                        "questionType": "checkbox",
+                        "questionText": [
+                            {
+                                "text": "How many times does 6 print out?"
+                            }
+                        ],
+                        "correct_feedback": "Correct",
+                        "max_marks": 1,
+                        "wrong_feedback": "Incorrect",
+                        "options": [
+                            {
+                                "correct": false,
+                                "option": "0"
+                            },
+                            {
+                                "correct": true,
+                                "option": "1"
+                            },
+                            {
+                                "correct": false,
+                                "option": "2"
+                            },
+                            {
+                                "correct": false,
+                                "option": "3"
+                            }
+                        ],
+                        "question_id": "Q6"
+                    },
+                    {
+                        "questionType": "checkbox",
+                        "questionText": [
+                            {
+                                "text": "How many times does . print out?"
+                            }
+                        ],
+                        "correct_feedback": "Correct",
+                        "max_marks": 1,
+                        "wrong_feedback": "Incorrect",
+                        "options": [
+                            {
+                                "correct": true,
+                                "option": "1"
+                            },
+                            {
+                                "correct": false,
+                                "option": "0"
+                            },
+                            {
+                                "correct": false,
+                                "option": "2"
+                            },
+                            {
+                                "correct": false,
+                                "option": "3"
+                            }
+                        ],
+                        "question_id": "Q7"
+                    },
+                    {
+                        "questionType": "checkbox",
+                        "questionText": [
+                            {
+                                "text": "How many times does 0 print out?"
+                            }
+                        ],
+                        "correct_feedback": "Correct",
+                        "max_marks": 1,
+                        "wrong_feedback": "Incorrect",
+                        "options": [
+                            {
+                                "correct": false,
+                                "option": "0"
+                            },
+                            {
+                                "correct": false,
+                                "option": "1"
+                            },
+                            {
+                                "correct": true,
+                                "option": "2"
+                            },
+                            {
+                                "correct": false,
+                                "option": "3"
+                            }
+                        ],
+                        "question_id": "Q8"
+                    },
+                    {
+                        "questionType": "checkbox",
+                        "questionText": [
+                            {
+                                "text": "How many times does x print out?"
+                            }
+                        ],
+                        "correct_feedback": "Correct",
+                        "max_marks": 1,
+                        "wrong_feedback": "Incorrect",
+                        "options": [
+                            {
+                                "correct": false,
+                                "option": "0"
+                            },
+                            {
+                                "correct": true,
+                                "option": "1"
+                            },
+                            {
+                                "correct": false,
+                                "option": "2"
+                            },
+                            {
+                                "correct": false,
+                                "option": "3"
+                            }
+                        ],
+                        "question_id": "Q9"
+                    },
+                    {
+                        "questionType": "checkbox",
+                        "questionText": [
+                            {
+                                "text": "How many times does done print out?"
+                            }
+                        ],
+                        "correct_feedback": "Correct",
+                        "max_marks": 1,
+                        "wrong_feedback": "Incorrect",
+                        "options": [
+                            {
+                                "correct": false,
+                                "option": "0"
+                            },
+                            {
+                                "correct": true,
+                                "option": "1"
+                            },
+                            {
+                                "correct": false,
+                                "option": "2"
+                            },
+                            {
+                                "correct": false,
+                                "option": "3"
+                            }
+                        ],
+                        "question_id": "Q10"
+                    }
+                ],
+                "title": "Solve the following problems on iterations"
+            }
+        ],
+        "activity_id": "A5"
+    },
+    {
+        "activity_name": "Iteration-3 notes",
+        "activity_json": [
+            {
+                "activityType": "notes",
+                "title": "Iteration-3 notes",
+                "text": "Solve the following problems on iterations<br><br>Below are some short Python programs. For each program, answer the associated questions.<br><br>Try to answer the questions without running the code. Check your answers, then run the code for the ones you get wrong. You'll learn the most this way, by figuring things out, instead of just running the code and reading off the answers.<br><a href=\"http://iiitdev.msitprogram.net/images/bsit-111.PNG\">click here for code"
+            }
+        ],
+        "activity_id": "A6"
+    },
+    {
+        "activity_name": "Iteration-3",
+        "activity_json": [
+            {
+                "quizDescription": [
+                    {
+                        "text": "Below are some short Python programs. For each program, answer the associated questions.<br><br>Try to answer the questions without running the code. Check your answers, then run the code for the ones you get wrong. You'll learn the most this way, by figuring things out, instead of just running the code and reading off the answers."
+                    },
+                    {
+                        "code": "cspp1.6.18.py"
+                    }
+                ],
+                "activityType": "quiz",
+                "questions": [
+                    {
+                        "questionType": "checkbox",
+                        "questionText": [
+                            {
+                                "text": " How many times does H print out? "
+                            }
+                        ],
+                        "correct_feedback": "Correct",
+                        "max_marks": 1,
+                        "wrong_feedback": "Incorrect",
+                        "options": [
+                            {
+                                "correct": false,
+                                "option": "0"
+                            },
+                            {
+                                "correct": true,
+                                "option": "1"
+                            },
+                            {
+                                "correct": false,
+                                "option": "2"
+                            },
+                            {
+                                "correct": false,
+                                "option": "3"
+                            }
+                        ],
+                        "question_id": "Q11"
+                    },
+                    {
+                        "questionType": "checkbox",
+                        "questionText": [
+                            {
+                                "text": " How many times does e print out? Disregard the letters in the word done. "
+                            }
+                        ],
+                        "correct_feedback": "Correct",
+                        "max_marks": 1,
+                        "wrong_feedback": "Incorrect",
+                        "options": [
+                            {
+                                "correct": false,
+                                "option": "0"
+                            },
+                            {
+                                "correct": false,
+                                "option": "1"
+                            },
+                            {
+                                "correct": true,
+                                "option": "2"
+                            },
+                            {
+                                "correct": false,
+                                "option": "3"
+                            }
+                        ],
+                        "question_id": "Q12"
+                    },
+                    {
+                        "questionType": "checkbox",
+                        "questionText": [
+                            {
+                                "text": "How many times does l print out?"
+                            }
+                        ],
+                        "correct_feedback": "Correct",
+                        "max_marks": 1,
+                        "wrong_feedback": "Incorrect",
+                        "options": [
+                            {
+                                "correct": false,
+                                "option": "0"
+                            },
+                            {
+                                "correct": false,
+                                "option": "1"
+                            },
+                            {
+                                "correct": false,
+                                "option": "2"
+                            },
+                            {
+                                "correct": true,
+                                "option": "3"
+                            }
+                        ],
+                        "question_id": "Q13"
+                    },
+                    {
+                        "questionType": "checkbox",
+                        "questionText": [
+                            {
+                                "text": "How many times does o print out? Disregard the letters in the word done."
+                            }
+                        ],
+                        "correct_feedback": "Correct",
+                        "max_marks": 1,
+                        "wrong_feedback": "Incorrect",
+                        "options": [
+                            {
+                                "correct": false,
+                                "option": "0"
+                            },
+                            {
+                                "correct": true,
+                                "option": "1"
+                            },
+                            {
+                                "correct": false,
+                                "option": "2"
+                            },
+                            {
+                                "correct": false,
+                                "option": "3"
+                            }
+                        ],
+                        "question_id": "Q14"
+                    },
+                    {
+                        "questionType": "checkbox",
+                        "questionText": [
+                            {
+                                "text": "How many times does ! print out?"
+                            }
+                        ],
+                        "correct_feedback": "Correct",
+                        "max_marks": 1,
+                        "wrong_feedback": "Incorrect",
+                        "options": [
+                            {
+                                "correct": false,
+                                "option": "0"
+                            },
+                            {
+                                "correct": false,
+                                "option": "1"
+                            },
+                            {
+                                "correct": true,
+                                "option": "2"
+                            },
+                            {
+                                "correct": false,
+                                "option": "3"
+                            }
+                        ],
+                        "question_id": "Q15"
+                    },
+                    {
+                        "questionType": "checkbox",
+                        "questionText": [
+                            {
+                                "text": "How many times does done print out?"
+                            }
+                        ],
+                        "correct_feedback": "Correct",
+                        "max_marks": 1,
+                        "wrong_feedback": "Incorrect",
+                        "options": [
+                            {
+                                "correct": false,
+                                "option": "0"
+                            },
+                            {
+                                "correct": true,
+                                "option": "1"
+                            },
+                            {
+                                "correct": false,
+                                "option": "2"
+                            },
+                            {
+                                "correct": false,
+                                "option": "3"
+                            }
+                        ],
+                        "question_id": "Q16"
+                    }
+                ],
+                "title": "Solve the following problems on iterations"
+            }
+        ],
+        "activity_id": "A7"
+    },
+    {
+        "activity_name": "Iteration-4 notes",
+        "activity_json": [
+            {
+                "activityType": "notes",
+                "title": "Iteration-4 notes",
+                "text": "Solve the following problems on iterations<br><br>Below are some short Python programs. For each program, answer the associated questions.<br><br>Try to answer the questions without running the code. Check your answers, then run the code for the ones you get wrong. You'll learn the most this way, by figuring things out, instead of just running the code and reading off the answers.<br><a href=\"http://iiitdev.msitprogram.net/images/bsit-112.PNG\">click here for code"
+            }
+        ],
+        "activity_id": "A8"
+    },
+    {
+        "activity_name": "Iteration-4",
+        "activity_json": [
+            {
+                "quizDescription": [
+                    {
+                        "text": "Below are some short Python programs. For each program, answer the associated questions.<br>Try to answer the questions without running the code. Check your answers, then run the code for the ones you get wrong. You'll learn the most this way, by figuring things out, instead of just running the code and reading off the answers."
+                    },
+                    {
+                        "code": "cspp1.6.19.py"
+                    }
+                ],
+                "activityType": "quiz",
+                "questions": [
+                    {
+                        "questionType": "checkbox",
+                        "questionText": [
+                            {
+                                "text": "How many times does o print out? Disregard the o's in last two print statements. "
+                            }
+                        ],
+                        "correct_feedback": "Correct",
+                        "max_marks": 1,
+                        "wrong_feedback": "Incorrect",
+                        "options": [
+                            {
+                                "correct": true,
+                                "option": "0"
+                            },
+                            {
+                                "correct": false,
+                                "option": "1"
+                            },
+                            {
+                                "correct": false,
+                                "option": "11"
+                            },
+                            {
+                                "correct": false,
+                                "option": "-25"
+                            }
+                        ],
+                        "question_id": "Q17"
+                    },
+                    {
+                        "questionType": "checkbox",
+                        "questionText": [
+                            {
+                                "text": " How many times does M print out? "
+                            }
+                        ],
+                        "correct_feedback": "Correct",
+                        "max_marks": 1,
+                        "wrong_feedback": "Incorrect",
+                        "options": [
+                            {
+                                "correct": false,
+                                "option": "0"
+                            },
+                            {
+                                "correct": true,
+                                "option": "1"
+                            },
+                            {
+                                "correct": false,
+                                "option": "11"
+                            },
+                            {
+                                "correct": false,
+                                "option": "-25"
+                            }
+                        ],
+                        "question_id": "Q18"
+                    },
+                    {
+                        "questionType": "checkbox",
+                        "questionText": [
+                            {
+                                "text": "What will the value of the variable numVowels be?"
+                            }
+                        ],
+                        "correct_feedback": "Correct",
+                        "max_marks": 1,
+                        "wrong_feedback": "Incorrect",
+                        "options": [
+                            {
+                                "correct": false,
+                                "option": "0"
+                            },
+                            {
+                                "correct": false,
+                                "option": "1"
+                            },
+                            {
+                                "correct": true,
+                                "option": "11"
+                            },
+                            {
+                                "correct": false,
+                                "option": "-25"
+                            }
+                        ],
+                        "question_id": "Q19"
+                    },
+                    {
+                        "questionType": "checkbox",
+                        "questionText": [
+                            {
+                                "text": "What will the value of the variable numCons be?"
+                            }
+                        ],
+                        "correct_feedback": "Correct",
+                        "max_marks": 1,
+                        "wrong_feedback": "Incorrect",
+                        "options": [
+                            {
+                                "correct": false,
+                                "option": "0"
+                            },
+                            {
+                                "correct": false,
+                                "option": "1"
+                            },
+                            {
+                                "correct": false,
+                                "option": "11"
+                            },
+                            {
+                                "correct": true,
+                                "option": "-25"
+                            }
+                        ],
+                        "question_id": "Q20"
+                    }
+                ],
+                "title": "Solve the following problems on iterations"
+            }
+        ],
+        "activity_id": "A9"
+    },
+    {
+        "activity_name": "Guess and Check",
+        "activity_json": [
+            {
+                "videoResources": "7) Guess and Check.zip",
+                "activityType": "video",
+                "videoURL": "http://courseware.msitprogram.net/play/content/cspp1/videos/7)%20Guess%20and%20Check.mp4",
+                "title": "In this activity we will discuss about Guess and Check method by watching a video"
+            }
+        ],
+        "activity_id": "A10"
+    },
+    {
+        "activity_name": "Guess and Check-1 notes",
+        "activity_json": [
+            {
+                "activityType": "notes",
+                "title": "Guess and Check-1 notes",
+                "text": "Solve the following problems on guess and check method<br><br>Here is some code:<br><a href=\"http://iiitdev.msitprogram.net/images/bsit-73.PNG\">click for Code Sample</a> <br>We wish to re-write the above code, but instead of nesting a for loop inside a while loop, we want to nest a while loop inside a for loop. Which of the following loops gives the same output as the Code Sample?<br><br>Try to answer the following questions by just reading the code. Reading code is a very good skill to have (and will help you both in your programming career and on your exams!). It is okay to check your answers that you obtain from just reading the code, then in your interpreter run the code for the ones you got wrong on your first attempt."
+            }
+        ],
+        "activity_id": "A11"
+    },
+    {
+        "activity_name": "Guess and Check-1",
+        "activity_json": [
+            {
+                "quizDescription": [
+                    {
+                        "text": "Here is some code:<br><b>Code Sample</b>"
+                    },
+                    {
+                        "code": "cspp1.6.21.1.py"
+                    },
+                    {
+                        "text": "We wish to re-write the above code, but instead of nesting a for loop inside a while loop, we want to nest a while loop inside a for loop. Which of the following loops gives the same output as the Code Sample?<br><br>Try to answer the following questions by just reading the code. Reading code is a very good skill to have (and will help you both in your programming career and on your exams!). It is okay to check your answers that you obtain from just reading the code, then in your interpreter run the code for the ones you got wrong on your first attempt."
+                    }
+                ],
+                "activityType": "quiz",
+                "questions": [
+                    {
+                        "questionType": "checkbox",
+                        "max_marks": 1,
+                        "questionText": [
+                            {
+                                "text": "<b>Test 1:</b>"
+                            },
+                            {
+                                "image": {
+                                    "imageName": "bsit-74.PNG",
+                                    "imageSRC": "http://iiitdev.msitprogram.net/images/bsit-74.PNG"
+                                }
+                            }
+                        ],
+                        "options": [
+                            {
+                                "option": "Yes, Test 1 gives the same output as the Code Sample",
+                                "correct": false
+                            },
+                            {
+                                "option": "No, Test 1 does not give the same output as the Code Sample",
+                                "correct": true
+                            }
+                        ],
+                        "question_id": "Q21"
+                    },
+                    {
+                        "questionType": "checkbox",
+                        "max_marks": 1,
+                        "questionText": [
+                            {
+                                "text": "<b>Test 2:</b><br>"
+                            },
+                            {
+                                "image": {
+                                    "imageName": "bsit-75.PNG",
+                                    "imageSRC": "http://iiitdev.msitprogram.net/images/bsit-75.PNG"
+                                }
+                            }
+                        ],
+                        "options": [
+                            {
+                                "option": "Yes, Test 2 gives the same output as the Code Sample",
+                                "correct": false
+                            },
+                            {
+                                "option": "No, Test 2 does not give the same output as the Code Sample",
+                                "correct": true
+                            }
+                        ],
+                        "question_id": "Q22"
+                    },
+                    {
+                        "questionType": "checkbox",
+                        "max_marks": 1,
+                        "questionText": [
+                            {
+                                "text": "<b>Test 3:</b><br>"
+                            },
+                            {
+                                "image": {
+                                    "imageName": "bsit-76.PNG",
+                                    "imageSRC": "http://iiitdev.msitprogram.net/images/bsit-76.PNG"
+                                }
+                            }
+                        ],
+                        "options": [
+                            {
+                                "option": "Yes, Test 3 gives the same output as the Code Sample",
+                                "correct": true
+                            },
+                            {
+                                "option": "No, Test 3 does not give the same output as the Code Sample",
+                                "correct": false
+                            }
+                        ],
+                        "question_id": "Q23"
+                    },
+                    {
+                        "questionType": "checkbox",
+                        "max_marks": 1,
+                        "questionText": [
+                            {
+                                "text": "<b>Test 4:</b><br>"
+                            },
+                            {
+                                "image": {
+                                    "imageName": "bsit-77.PNG",
+                                    "imageSRC": "http://iiitdev.msitprogram.net/images/bsit-77.PNG"
+                                }
+                            }
+                        ],
+                        "options": [
+                            {
+                                "option": "Yes, Test 4 gives the same output as the Code Sample correct",
+                                "correct": true
+                            },
+                            {
+                                "option": "No, Test 4 does not give the same output as the Code Sample",
+                                "correct": false
+                            }
+                        ],
+                        "question_id": "Q24"
+                    },
+                    {
+                        "questionType": "checkbox",
+                        "max_marks": 1,
+                        "questionText": [
+                            {
+                                "text": "<b>Test 5:</b><br>"
+                            },
+                            {
+                                "image": {
+                                    "imageName": "bsit-78.PNG",
+                                    "imageSRC": "http://iiitdev.msitprogram.net/images/bsit-78.PNG"
+                                }
+                            }
+                        ],
+                        "options": [
+                            {
+                                "option": "Yes, Test 5 gives the same output as the Code Sample correct",
+                                "correct": true
+                            },
+                            {
+                                "option": "No, Test 5 does not give the same output as the Code Sample incorrect",
+                                "correct": false
+                            }
+                        ],
+                        "question_id": "Q25"
+                    }
+                ],
+                "title": "Solve the following problems on guess and check method"
+            }
+        ],
+        "activity_id": "A12"
+    },
+    {
+        "activity_name": "Question-1",
+        "activity_json": [
+            {
+                "activityType": "assignment",
+                "questions": [
+                    {
+                        "questionType": "filesubmission",
+                        "max_marks": 10,
+                        "evaluate": true,
+                        "questionText": [
+                            {
+                                "text": "Assume <b>s</b> is a string of lower case characters.<br><br>Write a program that counts up the number of vowels contained in the string <b>s</b>. Valid vowels are: 'a', 'e', 'i', 'o', and 'u'. For example, if s = 'azcbobobegghakl', your program should print:<br><br>Number of vowels: 5<br><br>Check your program against the given test cases below as a zip file. Submit your Solution(zip file) when all the test cases are passed."
+                            },
+                            {
+                                "attachment": [
+                                    "Assignment-1.zip"
+                                ]
+                            }
+                        ],
+                        "question_id": "Q26"
+                    }
+                ],
+                "title": "Solve the following Assignment problem"
+            }
+        ],
+        "activity_id": "A13"
+    },
+    {
+        "activity_name": "Question-2",
+        "activity_json": [
+            {
+                "activityType": "assignment",
+                "questions": [
+                    {
+                        "questionType": "filesubmission",
+                        "max_marks": 20,
+                        "evaluate": true,
+                        "questionText": [
+                            {
+                                "text": "Assume <b>s</b> is a string of lower case characters.<br><br>Write a program that prints the number of times the string 'bob' occurs in <b>s</b>. For example, if s = 'azcbobobegghakl', then your program should print<br><br>Number of times bob occurs is: 2<br><br>Check your program against the given test cases below as a zip file. Submit your Solution(zip file) when all the test cases are passed."
+                            },
+                            {
+                                "attachment": [
+                                    "Assignment-2.zip"
+                                ]
+                            }
+                        ],
+                        "question_id": "Q27"
+                    }
+                ],
+                "title": "Solve the following Assignment problem"
+            }
+        ],
+        "activity_id": "A14"
+    },
+    {
+        "activity_name": "Question-3",
+        "activity_json": [
+            {
+                "activityType": "assignment",
+                "questions": [
+                    {
+                        "questionType": "filesubmission",
+                        "max_marks": 20,
+                        "evaluate": true,
+                        "questionText": [
+                            {
+                                "text": "Assume <b>s</b> is a string of lower case characters.<br><br>Write a program that prints the longest substring of <b>s</b> in which the letters occur in alphabetical order. For example, if s = 'azcbobobegghakl', then your program should print<br><br>Longest substring in alphabetical order is: beggh<br><br>In the case of ties, print the first substring. For example, if s = 'abcbcd', then your program should print<br><br>Longest substring in alphabetical order is: abc<br><br>Note: This problem may be challenging. We encourage you to work smart. If you've spent more than a few hours on this problem, we suggest that you move on to a different part of the course. If you have time, come back to this problem after you've had a break and cleared your head.<br><br>Check your program against the given test cases below as a zip file. Submit your Solution(zip file) when all the test cases are passed."
+                            },
+                            {
+                                "attachment": [
+                                    "Assignment-3.zip"
+                                ]
+                            }
+                        ],
+                        "question_id": "Q28"
+                    }
+                ],
+                "title": "Solve the following Assignment problem"
+            }
+        ],
+        "activity_id": "A15"
+    }
+]

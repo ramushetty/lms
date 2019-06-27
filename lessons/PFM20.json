@@ -1,0 +1,1135 @@
+[
+    {
+        "activity_name": "Exceptions",
+        "activity_json": [
+            {
+                "videoResources": "/Exceptions.zip",
+                "activityType": "video",
+                "videoURL": "http://courseware.msitprogram.net/play/content/cspp1/videos//VideoOnExceptions.mp4",
+                "title": "In this Activity we will discuss Exceptions by watching a video"
+            }
+        ],
+        "activity_id": "A1"
+    },
+    {
+        "activity_name": "Exception-1 notes",
+        "activity_json": [
+            {
+                "activityType": "notes",
+                "title": "Exception-1 notes",
+                "text": "Try to answer the following questions by just reading the code. Reading code is a very good skill to have (and will help you both in your programming career and on your exams!). It is okay to check your answers that you obtain from just reading the code, then in your interpreter run the code for the ones you got wrong on your first attempt.<br><br>What error (if any) is raised when the following code snippets are attempted?"
+            }
+        ],
+        "activity_id": "A2"
+    },
+    {
+        "activity_name": "Exception-1",
+        "activity_json": [
+            {
+                "quizDescription": "Try to answer the following questions by just reading the code. Reading code is a very good skill to have (and will help you both in your programming career and on your exams!). It is okay to check your answers that you obtain from just reading the code, then in your interpreter run the code for the ones you got wrong on your first attempt.<br><br>What error (if any) is raised when the following code snippets are attempted?",
+                "activityType": "quiz",
+                "questions": [
+                    {
+                        "questionType": "checkbox",
+                        "max_marks": 1,
+                        "questionText": [
+                            {
+                                "text": " '1' / '2' "
+                            }
+                        ],
+                        "options": [
+                            {
+                                "option": "SyntaxError",
+                                "correct": false
+                            },
+                            {
+                                "option": "ValueError",
+                                "correct": false
+                            },
+                            {
+                                "option": "TypeError",
+                                "correct": true
+                            },
+                            {
+                                "option": "NameError",
+                                "correct": false
+                            },
+                            {
+                                "option": "No error is raised",
+                                "correct": false
+                            }
+                        ],
+                        "question_id": "Q1"
+                    },
+                    {
+                        "questionType": "checkbox",
+                        "max_marks": 1,
+                        "questionText": [
+                            {
+                                "text": " '1' / 2 "
+                            }
+                        ],
+                        "options": [
+                            {
+                                "option": "SyntaxError",
+                                "correct": false
+                            },
+                            {
+                                "option": "ValueError",
+                                "correct": false
+                            },
+                            {
+                                "option": "TypeError",
+                                "correct": true
+                            },
+                            {
+                                "option": "NameError",
+                                "correct": false
+                            },
+                            {
+                                "option": "No error is raised",
+                                "correct": false
+                            }
+                        ],
+                        "question_id": "Q2"
+                    },
+                    {
+                        "questionType": "checkbox",
+                        "max_marks": 1,
+                        "questionText": [
+                            {
+                                "text": " int('1') / 2.0 "
+                            }
+                        ],
+                        "options": [
+                            {
+                                "option": "SyntaxError",
+                                "correct": false
+                            },
+                            {
+                                "option": "ValueError",
+                                "correct": false
+                            },
+                            {
+                                "option": "TypeError",
+                                "correct": false
+                            },
+                            {
+                                "option": "NameError",
+                                "correct": false
+                            },
+                            {
+                                "option": "No error is raised",
+                                "correct": true
+                            }
+                        ],
+                        "question_id": "Q3"
+                    },
+                    {
+                        "questionType": "checkbox",
+                        "max_marks": 1,
+                        "questionText": [
+                            {
+                                "text": " mylist = [10, 20, 30]<br> mylist.index(11) "
+                            }
+                        ],
+                        "options": [
+                            {
+                                "option": "SyntaxError",
+                                "correct": false
+                            },
+                            {
+                                "option": "ValueError",
+                                "correct": true
+                            },
+                            {
+                                "option": "TypeError",
+                                "correct": false
+                            },
+                            {
+                                "option": "NameError",
+                                "correct": false
+                            },
+                            {
+                                "option": "No error is raised",
+                                "correct": false
+                            }
+                        ],
+                        "question_id": "Q4"
+                    },
+                    {
+                        "questionType": "checkbox",
+                        "max_marks": 1,
+                        "questionText": [
+                            {
+                                "text": " A=2 <br>3*a "
+                            }
+                        ],
+                        "options": [
+                            {
+                                "option": "SyntaxError",
+                                "correct": false
+                            },
+                            {
+                                "option": "ValueError",
+                                "correct": false
+                            },
+                            {
+                                "option": "TypeError",
+                                "correct": false
+                            },
+                            {
+                                "option": "NameError",
+                                "correct": true
+                            },
+                            {
+                                "option": "No error is raised",
+                                "correct": false
+                            }
+                        ],
+                        "question_id": "Q5"
+                    }
+                ],
+                "title": "Answer the following questions"
+            }
+        ],
+        "activity_id": "A3"
+    },
+    {
+        "activity_name": "Exception Example",
+        "activity_json": [
+            {
+                "videoResources": "/ExceptionExamples.zip",
+                "activityType": "video",
+                "videoURL": "http://courseware.msitprogram.net/play/content/cspp1/videos//VideoOnExceptionExamples.mp4",
+                "title": "In this Activity we will discuss Exceptions example by watching a video"
+            }
+        ],
+        "activity_id": "A4"
+    },
+    {
+        "activity_name": "Exceptions as Control Flow",
+        "activity_json": [
+            {
+                "videoResources": "/ExceptionsasControlFlow.zip",
+                "activityType": "video",
+                "videoURL": "http://courseware.msitprogram.net/play/content/cspp1/videos//VideoOnExceptionsasControlFlow.mp4",
+                "title": "In this Activity we will discuss Exceptions as control flow by watching a video"
+            }
+        ],
+        "activity_id": "A5"
+    },
+    {
+        "activity_name": "Exceptions Activity-1 notes",
+        "activity_json": [
+            {
+                "activityType": "notes",
+                "title": "Exceptions Activity-1 notes",
+                "text": "Below are some short Python programs. For each program, answer the associated question.<br><br>Try to answer the questions without running the code. Check your answers, then run the code for the ones you get wrong.<br><br>These questions will ask you to write what the code prints out. If an exception is raised that is not handled by the code write error (no quotes), in addition to any other text that is output.<br><br>The function in the following questions takes a list of integers numbers and a position index, and divides each entry in the list of numbers by the value at entry index.<br><br>Write what it prints out, separating what appears on a new line by a comma and a space.<br><a href=\"http://iiitdev.msitprogram.net/images/bsit-102.PNG\">click here for image"
+            }
+        ],
+        "activity_id": "A6"
+    },
+    {
+        "activity_name": "Exceptions Activity-1",
+        "activity_json": [
+            {
+                "quizDescription": [
+                    {
+                        "text": "Below are some short Python programs. For each program, answer the associated question.<br><br>Try to answer the questions without running the code. Check your answers, then run the code for the ones you get wrong.<br><br>These questions will ask you to write what the code prints out. If an exception is raised that is not handled by the code write \"error\" (no quotes), in addition to any other text that is output.<br><br>The function in the following questions takes a list of integers <code>numbers </code>and a position <code>index</code>, and divides each entry in the list of numbers by the value at entry <code>index</code>.<br><br>Write what it prints out, separating what appears on a new line by a comma and a space."
+                    },
+                    {
+                        "code": "ExceptionsExercise2Activity1.py"
+                    }
+                ],
+                "activityType": "quiz",
+                "questions": [
+                    {
+                        "questionType": "checkbox",
+                        "questionText": [
+                            {
+                                "text": " What does <code>fancy_divide([0, 2, 4], 1)</code> print out? "
+                            }
+                        ],
+                        "correct_feedback": "Correct",
+                        "max_marks": 1,
+                        "wrong_feedback": "Incorrect",
+                        "options": [
+                            {
+                                "correct": false,
+                                "option": "0, 1"
+                            },
+                            {
+                                "correct": true,
+                                "option": " 1, 0 "
+                            },
+                            {
+                                "correct": false,
+                                "option": "0, -1"
+                            },
+                            {
+                                "correct": false,
+                                "option": "-1, 0"
+                            }
+                        ],
+                        "question_id": "Q6"
+                    },
+                    {
+                        "questionType": "checkbox",
+                        "questionText": [
+                            {
+                                "text": " What does <code>fancy_divide([0, 2, 4], 4)</code> print out? "
+                            }
+                        ],
+                        "correct_feedback": "Correct",
+                        "max_marks": 1,
+                        "wrong_feedback": "Incorrect",
+                        "options": [
+                            {
+                                "correct": false,
+                                "option": "0, 1"
+                            },
+                            {
+                                "correct": false,
+                                "option": " 1, 0 "
+                            },
+                            {
+                                "correct": false,
+                                "option": "0, -1"
+                            },
+                            {
+                                "correct": true,
+                                "option": "-1, 0"
+                            }
+                        ],
+                        "question_id": "Q7"
+                    },
+                    {
+                        "questionType": "checkbox",
+                        "questionText": [
+                            {
+                                "text": " What does <code>fancy_divide([0, 2, 4], 0)</code> print out? "
+                            }
+                        ],
+                        "correct_feedback": "Correct",
+                        "max_marks": 1,
+                        "wrong_feedback": "Incorrect",
+                        "options": [
+                            {
+                                "correct": false,
+                                "option": "0, 1"
+                            },
+                            {
+                                "correct": true,
+                                "option": " 0, error "
+                            },
+                            {
+                                "correct": false,
+                                "option": "0, -1"
+                            },
+                            {
+                                "correct": false,
+                                "option": "errror, 0"
+                            }
+                        ],
+                        "question_id": "Q8"
+                    }
+                ],
+                "title": "Answer the following questions"
+            }
+        ],
+        "activity_id": "A7"
+    },
+    {
+        "activity_name": "Exceptions Activity-2 notes",
+        "activity_json": [
+            {
+                "activityType": "notes",
+                "title": "Exceptions Activity-2 notes",
+                "text": "Below are some short Python programs. For each program, answer the associated question.<br><br>Try to answer the questions without running the code. Check your answers, then run the code for the ones you get wrong.<br><br>These questions will ask you to write what the code prints out. If an exception is raised that is not handled by the code write 'error' (no quotes), in addition to any other text that is output.<br><br>The function in the following questions takes a list of integers numbers and a position index, and divides each entry in the list of numbers by the value at entry index.<br><br>Write what it prints out, separating what appears on a new line by a comma and a space.<br><a href=\"http://iiitdev.msitprogram.net/images/bsit-103.PNG\">click here for image"
+            }
+        ],
+        "activity_id": "A8"
+    },
+    {
+        "activity_name": "Exceptions Activity-2",
+        "activity_json": [
+            {
+                "quizDescription": [
+                    {
+                        "text": "Below are some short Python programs. For each program, answer the associated question.<br><br>Try to answer the questions without running the code. Check your answers, then run the code for the ones you get wrong.<br><br>These questions will ask you to write what the code prints out. If an exception is raised that is not handled by the code write \"error\" (no quotes), in addition to any other text that is output.<br><br>The function in the following questions takes a list of integers <code>numbers </code>and a position <code>index</code>, and divides each entry in the list of numbers by the value at entry <code>index</code>.<br><br>Write what it prints out, separating what appears on a new line by a comma and a space."
+                    },
+                    {
+                        "code": "ExceptionsExercise2Activity2.py"
+                    }
+                ],
+                "activityType": "quiz",
+                "questions": [
+                    {
+                        "questionType": "checkbox",
+                        "questionText": [
+                            {
+                                "text": " What does <code>fancy_divide([0, 2, 4], 1)</code> print out? "
+                            }
+                        ],
+                        "correct_feedback": "Correct",
+                        "max_marks": 1,
+                        "wrong_feedback": "Incorrect",
+                        "options": [
+                            {
+                                "correct": false,
+                                "option": "0, 1"
+                            },
+                            {
+                                "correct": true,
+                                "option": " 1, 0 "
+                            },
+                            {
+                                "correct": false,
+                                "option": "0, -1"
+                            },
+                            {
+                                "correct": false,
+                                "option": "-1, 0"
+                            }
+                        ],
+                        "question_id": "Q9"
+                    },
+                    {
+                        "questionType": "checkbox",
+                        "questionText": [
+                            {
+                                "text": " What does <code>fancy_divide([0, 2, 4], 4)</code> print out? "
+                            }
+                        ],
+                        "correct_feedback": "Correct",
+                        "max_marks": 1,
+                        "wrong_feedback": "Incorrect",
+                        "options": [
+                            {
+                                "correct": false,
+                                "option": "0, 0, 1"
+                            },
+                            {
+                                "correct": false,
+                                "option": "0, 1, 0"
+                            },
+                            {
+                                "correct": true,
+                                "option": "1, 0, 0"
+                            },
+                            {
+                                "correct": false,
+                                "option": "1, 1, 0"
+                            }
+                        ],
+                        "question_id": "Q10"
+                    },
+                    {
+                        "questionType": "checkbox",
+                        "questionText": [
+                            {
+                                "text": " What does <code>fancy_divide([0, 2, 4], 0)</code> print out? "
+                            }
+                        ],
+                        "correct_feedback": "Correct",
+                        "max_marks": 1,
+                        "wrong_feedback": "Incorrect",
+                        "options": [
+                            {
+                                "correct": false,
+                                "option": "0, 2"
+                            },
+                            {
+                                "correct": false,
+                                "option": "2, 0"
+                            },
+                            {
+                                "correct": false,
+                                "option": "0, -2"
+                            },
+                            {
+                                "correct": true,
+                                "option": " -2, 0 "
+                            }
+                        ],
+                        "question_id": "Q11"
+                    }
+                ],
+                "title": "Answer the following questions"
+            }
+        ],
+        "activity_id": "A9"
+    },
+    {
+        "activity_name": "Exceptions Activity-3 notes",
+        "activity_json": [
+            {
+                "activityType": "notes",
+                "title": "Exceptions Activity-3 notes",
+                "text": "Below are some short Python programs. For each program, answer the associated question.<br><br>Try to answer the questions without running the code. Check your answers, then run the code for the ones you get wrong.<br><br>These questions will ask you to write what the code prints out. If an exception is raised that is not handled by the code write 'error' (no quotes), in addition to any other text that is output.<br><br>The function in the following questions takes a list of integers numbers and a position index, and divides each entry in the list of numbers by the value at entry index.<br><br>Write what it prints out, separating what appears on a new line by a comma and a space.<br><a href=\"http://iiitdev.msitprogram.net/images/bsit-104.PNG\">click here for image"
+            }
+        ],
+        "activity_id": "A10"
+    },
+    {
+        "activity_name": "Exceptions Activity-3",
+        "activity_json": [
+            {
+                "quizDescription": [
+                    {
+                        "text": "Below are some short Python programs. For each program, answer the associated question.<br><br>Try to answer the questions without running the code. Check your answers, then run the code for the ones you get wrong.<br><br>These questions will ask you to write what the code prints out. If an exception is raised that is not handled by the code write \"error\" (no quotes), in addition to any other text that is output.<br><br>The function in the following questions takes a list of integers <code>numbers </code>and a position <code>index</code>, and divides each entry in the list of numbers by the value at entry <code>index</code>.<br><br>Write what it prints out, separating what appears on a new line by a comma and a space."
+                    },
+                    {
+                        "code": "ExceptionsExercise2Activity3.py"
+                    }
+                ],
+                "activityType": "quiz",
+                "questions": [
+                    {
+                        "questionType": "checkbox",
+                        "questionText": [
+                            {
+                                "text": " What does <code>fancy_divide([0, 2, 4], 1)</code> print out? "
+                            }
+                        ],
+                        "correct_feedback": "Correct",
+                        "max_marks": 1,
+                        "wrong_feedback": "Incorrect",
+                        "options": [
+                            {
+                                "correct": false,
+                                "option": "0, 1"
+                            },
+                            {
+                                "correct": true,
+                                "option": " 1, 0 "
+                            },
+                            {
+                                "correct": false,
+                                "option": "0, -1"
+                            },
+                            {
+                                "correct": false,
+                                "option": "-1, 0"
+                            }
+                        ],
+                        "question_id": "Q12"
+                    },
+                    {
+                        "questionType": "checkbox",
+                        "questionText": [
+                            {
+                                "text": " What does <code>fancy_divide([0, 2, 4], 4)</code> print out? "
+                            }
+                        ],
+                        "correct_feedback": "Correct",
+                        "max_marks": 1,
+                        "wrong_feedback": "Incorrect",
+                        "options": [
+                            {
+                                "correct": false,
+                                "option": "0, 0, 1"
+                            },
+                            {
+                                "correct": false,
+                                "option": "0, 1, 0"
+                            },
+                            {
+                                "correct": true,
+                                "option": " 1, 0, 0 "
+                            },
+                            {
+                                "correct": false,
+                                "option": "1, 1, 0"
+                            }
+                        ],
+                        "question_id": "Q13"
+                    },
+                    {
+                        "questionType": "checkbox",
+                        "questionText": [
+                            {
+                                "text": " What does <code>fancy_divide([0, 2, 4], 0)</code> print out? "
+                            }
+                        ],
+                        "correct_feedback": "Correct",
+                        "max_marks": 1,
+                        "wrong_feedback": "Incorrect",
+                        "options": [
+                            {
+                                "correct": false,
+                                "option": "0, 2"
+                            },
+                            {
+                                "correct": false,
+                                "option": "2, 0"
+                            },
+                            {
+                                "correct": true,
+                                "option": " 0, -2 "
+                            },
+                            {
+                                "correct": false,
+                                "option": "-2, 0"
+                            }
+                        ],
+                        "question_id": "Q14"
+                    }
+                ],
+                "title": "Answer the following questions"
+            }
+        ],
+        "activity_id": "A11"
+    },
+    {
+        "activity_name": "Exceptions Activity-4 notes",
+        "activity_json": [
+            {
+                "activityType": "notes",
+                "title": "Exceptions Activity-4 notes",
+                "text": "Below are some short Python programs. For each program, answer the associated question.<br><br>Try to answer the questions without running the code. Check your answers, then run the code for the ones you get wrong.<br><br>These questions will ask you to write what the code prints out. If an exception is raised that is not handled by the code write 'error' (no quotes), in addition to any other text that is output.<br><br>The function in the following questions takes a list of integers numbers and a position index, and divides each entry in the list of numbers by the value at entry index.<br><br>Write what it prints out, separating what appears on a new line by a comma and a space.<br><a href=\"http://iiitdev.msitprogram.net/images/bsit-105.PNG\">click here for image"
+            }
+        ],
+        "activity_id": "A12"
+    },
+    {
+        "activity_name": "Exceptions Activity-4",
+        "activity_json": [
+            {
+                "quizDescription": [
+                    {
+                        "text": "Below are some short Python programs. For each program, answer the associated question.<br><br>Try to answer the questions without running the code. Check your answers, then run the code for the ones you get wrong.<br><br>These questions will ask you to write what the code prints out. If an exception is raised that is not handled by the code write \"error\" (no quotes), in addition to any other text that is output.<br><br>The function in the following questions takes a list of integers <code>numbers </code>and a position <code>index</code>, and divides each entry in the list of numbers by the value at entry <code>index</code>.<br><br>Write what it prints out, separating what appears on a new line by a comma and a space."
+                    },
+                    {
+                        "code": "ExceptionsExercise2Activity4.py"
+                    }
+                ],
+                "activityType": "quiz",
+                "questions": [
+                    {
+                        "questionType": "checkbox",
+                        "max_marks": 1,
+                        "questionText": [
+                            {
+                                "text": " Below are some short Python programs. For each program, answer the associated question.<br><br>Try to answer the questions without running the code. Check your answers, then run the code for the ones you get wrong.<br><br>These questions will ask you to write what the code prints out. If an exception is raised that is not handled by the code write error (no quotes), in addition to any other text that is output.<br><br>The function in the following questions takes a list of integers numbers and a position index, and divides each entry in the list of numbers by the value at entry index.<br><br>Write what it prints out, separating what appears on a new line by a comma and a space.<a href=\"http://iiitdev.msitprogram.net/images/bsit-21.PNG\">click here for image</a><br><br>Does this code print 0 when you call <code>fancy_divide([0, 2, 4], 0)</code>? "
+                            }
+                        ],
+                        "options": [
+                            {
+                                "option": "Yes",
+                                "correct": false
+                            },
+                            {
+                                "option": "No",
+                                "correct": true
+                            }
+                        ],
+                        "question_id": "Q15"
+                    }
+                ],
+                "title": "Answer the following questions"
+            }
+        ],
+        "activity_id": "A13"
+    },
+    {
+        "activity_name": "Exceptions Activity-5 notes",
+        "activity_json": [
+            {
+                "activityType": "notes",
+                "title": "Exceptions Activity-5 notes",
+                "text": "Below are some short Python programs. For each program, answer the associated question.<br><br>Try to answer the questions without running the code. Check your answers, then run the code for the ones you get wrong.<br><br>These questions will ask you to write what the code prints out. If an exception is raised that is not handled by the code write 'error' (no quotes), in addition to any other text that is output.<br><br>The function in the following questions takes a list of integers numbers and a position index, and divides each entry in the list of numbers by the value at entry index.<br><br>Write what it prints out, separating what appears on a new line by a comma and a space.<br><a href=\"http://iiitdev.msitprogram.net/images/bsit-106.PNG\">click here for image"
+            }
+        ],
+        "activity_id": "A14"
+    },
+    {
+        "activity_name": "Exceptions Activity-5",
+        "activity_json": [
+            {
+                "quizDescription": [
+                    {
+                        "text": "Below are some short Python programs. For each program, answer the associated question.<br><br>Try to answer the questions without running the code. Check your answers, then run the code for the ones you get wrong.<br><br>These questions will ask you to write what the code prints out. If an exception is raised that is not handled by the code write \"error\" (no quotes), in addition to any other text that is output.<br><br>The function in the following questions takes a list of integers <code>numbers </code>and a position <code>index</code>, and divides each entry in the list of numbers by the value at entry <code>index</code>.<br><br>Write what it prints out, separating what appears on a new line by a comma and a space."
+                    },
+                    {
+                        "code": "ExceptionsExercise2Activity5.py"
+                    }
+                ],
+                "activityType": "quiz",
+                "questions": [
+                    {
+                        "questionType": "checkbox",
+                        "max_marks": 1,
+                        "questionText": [
+                            {
+                                "text": "Below are some short Python programs. For each program, answer the associated question.<br><br>Try to answer the questions without running the code. Check your answers, then run the code for the ones you get wrong.<br><br>These questions will ask you to write what the code prints out. If an exception is raised that is not handled by the code write error (no quotes), in addition to any other text that is output.<br><br>The function in the following questions takes a list of integers numbers and a position index, and divides each entry in the list of numbers by the value at entry index.<br><br>Write what it prints out, separating what appears on a new line by a comma and a space.<a href=\"http://iiitdev.msitprogram.net/images/bsit-22.PNG\">click here for image</a><br><br>Does this code print 0 when you call <code>fancy_divide([0, 2, 4], 0)</code>? "
+                            }
+                        ],
+                        "options": [
+                            {
+                                "option": "Yes",
+                                "correct": true
+                            },
+                            {
+                                "option": "No",
+                                "correct": false
+                            }
+                        ],
+                        "question_id": "Q16"
+                    }
+                ],
+                "title": "Answer the following questions"
+            }
+        ],
+        "activity_id": "A15"
+    },
+    {
+        "activity_name": "Simple Divide-1",
+        "activity_json": [
+            {
+                "activityType": "assignment",
+                "questions": [
+                    {
+                        "questionType": "filesubmission",
+                        "max_marks": 10,
+                        "evaluate": true,
+                        "questionText": [
+                            {
+                                "text": " Suppose we rewrite the FancyDivide function to use a helper function."
+                            },
+                            {
+                                "code": "ExceptionsExampleOnSimpleDivide.py"
+                            },
+                            {
+                                "text": "This code raises a ZeroDivisionError exception for the following call:<code> fancy_divide([0, 2, 4], 0)</code><br><br>Your task is to change the definition of simple_divide so that the call does not raise an exception. When dividing by 0, <code>fancy_divide</code> should return a list with all 0 elements. Any other error cases should still raise exceptions. You should only handle the ZeroDivisionError.<br><br>Check your program against the give test cases below as a Zip file. Submit your Solution(Zip file) when all test cases are passed"
+                            },
+                            {
+                                "attachment": [
+                                    "Assertions and Exceptions-Exercise on Simple Divide.zip"
+                                ]
+                            }
+                        ],
+                        "question_id": "Q17"
+                    }
+                ],
+                "title": "Solve the following problem"
+            }
+        ],
+        "activity_id": "A16"
+    },
+    {
+        "activity_name": "Assertions",
+        "activity_json": [
+            {
+                "videoResources": "Assertions.zip",
+                "activityType": "video",
+                "videoURL": "http://courseware.msitprogram.net/play/content/cspp1/videos//VideoOnAssertions.mp4",
+                "title": "In this Activity we will discuss Assertions as control flow by watching a video"
+            }
+        ],
+        "activity_id": "A17"
+    },
+    {
+        "activity_name": "Assertions Activity-1 notes",
+        "activity_json": [
+            {
+                "activityType": "notes",
+                "title": "Assertions Activity-1 notes",
+                "text": "Consider the function normalize that takes as input a list of positive numbers numbers and returns a list of numbers that are a fraction of the maximum element in the list. Try to answer the questions without running the code. Check your answers, then run the code for the ones you get wrong. You'll learn the most this way, by figuring things out, instead of just running the code and reading off the answers.<br><a href=\"http://iiitdev.msitprogram.net/images/bsit-107.PNG\">click here for image</a><br>The code below tries to call normalize with one particular input. Answer the next 5 questions based on the following code.<br><a href=\"http://iiitdev.msitprogram.net/images/bsit-108.PNG\">click here for image"
+            }
+        ],
+        "activity_id": "A18"
+    },
+    {
+        "activity_name": "Assertions Activity-1",
+        "activity_json": [
+            {
+                "quizDescription": [
+                    {
+                        "text": " Consider the function <code>normalize</code> that takes as input a list of positive numbers <code>numbers</code> and returns a list of numbers that are a fraction of the maximum element in the list. Try to answer the questions without running the code. Check your answers, then run the code for the ones you get wrong. You'll learn the most this way, by figuring things out, instead of just running the code and reading off the answers."
+                    },
+                    {
+                        "code": "AssertionsExercise3Activity1.py"
+                    },
+                    {
+                        "text": "The code below tries to call <code>normalize</code> with one particular input. Answer the next 5 questions based on the following code."
+                    },
+                    {
+                        "code": "AssertionsExercise3Activity1Code2.py"
+                    }
+                ],
+                "activityType": "quiz",
+                "questions": [
+                    {
+                        "questionType": "checkbox",
+                        "max_marks": 1,
+                        "questionText": [
+                            {
+                                "text": " Does the try block throw (also known as raise) an exception? "
+                            }
+                        ],
+                        "options": [
+                            {
+                                "option": " Yes ",
+                                "correct": true
+                            },
+                            {
+                                "option": " No ",
+                                "correct": false
+                            }
+                        ],
+                        "question_id": "Q18"
+                    },
+                    {
+                        "questionType": "checkbox",
+                        "questionText": [
+                            {
+                                "text": " What is the name of the exception the code is trying to catch? "
+                            }
+                        ],
+                        "correct_feedback": "Correct",
+                        "max_marks": 1,
+                        "wrong_feedback": "Incorrect",
+                        "options": [
+                            {
+                                "correct": true,
+                                "option": " ZeroDivisionError "
+                            },
+                            {
+                                "correct": false,
+                                "option": "InputError"
+                            },
+                            {
+                                "correct": false,
+                                "option": "IndexOutofBounceError"
+                            },
+                            {
+                                "correct": false,
+                                "option": "Integer error"
+                            }
+                        ],
+                        "question_id": "Q19"
+                    },
+                    {
+                        "questionType": "checkbox",
+                        "questionText": [
+                            {
+                                "text": " What is the output? "
+                            }
+                        ],
+                        "correct_feedback": "Correct",
+                        "max_marks": 1,
+                        "wrong_feedback": "Incorrect",
+                        "options": [
+                            {
+                                "correct": false,
+                                "option": "Invalid element"
+                            },
+                            {
+                                "correct": true,
+                                "option": " Invalid maximum element "
+                            },
+                            {
+                                "correct": false,
+                                "option": "maximum element"
+                            },
+                            {
+                                "correct": false,
+                                "option": "Error"
+                            }
+                        ],
+                        "question_id": "Q20"
+                    },
+                    {
+                        "questionType": "checkbox",
+                        "max_marks": 1,
+                        "questionText": [
+                            {
+                                "text": " Since we are dividing by the maximum element in a list of positive numbers, we know that normalize will return a value between 0 and 1. What type of condition is this? "
+                            }
+                        ],
+                        "options": [
+                            {
+                                "option": " pre condition ",
+                                "correct": false
+                            },
+                            {
+                                "option": " post condition ",
+                                "correct": true
+                            }
+                        ],
+                        "question_id": "Q21"
+                    },
+                    {
+                        "questionType": "checkbox",
+                        "max_marks": 1,
+                        "questionText": [
+                            {
+                                "text": " We also know the result is not meaningful when the maximum element is 0, so we want to ensure that the numbers in the list do not violate this. What type of condition is this? "
+                            }
+                        ],
+                        "options": [
+                            {
+                                "option": " pre condition ",
+                                "correct": true
+                            },
+                            {
+                                "option": " post condition ",
+                                "correct": false
+                            }
+                        ],
+                        "question_id": "Q22"
+                    }
+                ],
+                "title": "Answer the following questions"
+            }
+        ],
+        "activity_id": "A19"
+    },
+    {
+        "activity_name": "Assertions Activity-2 notes",
+        "activity_json": [
+            {
+                "activityType": "notes",
+                "title": "Assertions Activity-2 notes",
+                "text": "Assume the definition of the function normalize is rewritten as follows<br><br><a href=\"http://iiitdev.msitprogram.net/images/bsit-109.PNG\">click here for code</a><br>Answer the next 3 questions based on this code in next activity."
+            }
+        ],
+        "activity_id": "A20"
+    },
+    {
+        "activity_name": "Assertions Activity-2",
+        "activity_json": [
+            {
+                "quizDescription": [
+                    {
+                        "text": " Assume the definition of the function <code>normalize</code> is rewritten as follows "
+                    },
+                    {
+                        "text": "Answer the next 3 questions based on this code."
+                    }
+                ],
+                "activityType": "quiz",
+                "questions": [
+                    {
+                        "questionType": "checkbox",
+                        "max_marks": 1,
+                        "questionText": [
+                            {
+                                "text": " Which condition does the line assert(max_number != 0) correspond to? "
+                            }
+                        ],
+                        "options": [
+                            {
+                                "option": " pre condition ",
+                                "correct": true
+                            },
+                            {
+                                "option": " post condition ",
+                                "correct": false
+                            }
+                        ],
+                        "question_id": "Q23"
+                    },
+                    {
+                        "questionType": "checkbox",
+                        "max_marks": 1,
+                        "questionText": [
+                            {
+                                "text": " Which condition does the line assert(0.0 <= numbers[i] <= 1.0) correspond to? "
+                            }
+                        ],
+                        "options": [
+                            {
+                                "option": " pre condition ",
+                                "correct": false
+                            },
+                            {
+                                "option": " post condition ",
+                                "correct": true
+                            }
+                        ],
+                        "question_id": "Q24"
+                    },
+                    {
+                        "questionType": "checkbox",
+                        "questionText": [
+                            {
+                                "text": " What does the function call normalize([0, 0, 0]) print out? "
+                            }
+                        ],
+                        "correct_feedback": "Correct",
+                        "max_marks": 1,
+                        "wrong_feedback": "Incorrect",
+                        "options": [
+                            {
+                                "correct": false,
+                                "option": "Integer error"
+                            },
+                            {
+                                "correct": false,
+                                "option": "IndexOutofBounceError"
+                            },
+                            {
+                                "correct": false,
+                                "option": "ZeroDivisionError"
+                            },
+                            {
+                                "correct": true,
+                                "option": "AssertionError: Cannot divide by 0"
+                            }
+                        ],
+                        "question_id": "Q25"
+                    }
+                ],
+                "title": "Answer the following questions"
+            }
+        ],
+        "activity_id": "A21"
+    },
+    {
+        "activity_name": "Question-1",
+        "activity_json": [
+            {
+                "activityType": "assignment",
+                "questions": [
+                    {
+                        "questionType": "filesubmission",
+                        "max_marks": 20,
+                        "evaluate": true,
+                        "questionText": [
+                            {
+                                "text": "In <code>ps4a.py</code>, note that in the function <code>playHand</code>, there is a bunch of pseudocode. This pseudocode is provided to help guide you in writing your function. Check out the <a href=\"https://prod-edxapp.edx-cdn.org/assets/courseware/v1/85721a1199ca98dda55d8992bc93658d/asset-v1:MITx+6.00.1x+2T2017_2+type@asset+block/WhyPseudocode.pdf\">Why Pseudocode</a>? resource to learn more about the What and Why of Pseudocode before you start coding your solution. <br><br> <b>Note</b>: Do <b>not</b> assume that there will always be 7 letters in a hand! The parameter <code>n</code> represents the size of the hand. <br><br> <b>Testing</b>: Before testing your code in the answer box, try out your implementation as if you were playing the game. Here is some example output of <code>playHand</code>: <br><br> <b>Test Cases</b> <br><br> Case #1 <br><br> Function Call: <br><br> <code>wordList = loadWords() <br><br>playHand({'h':1, 'i':1, 'c':1, 'z':1, 'm':2, 'a':1}, wordList, 7)</code> <br><br> Output:"
+                            },
+                            {
+                                "file": "Problem5Case1.txt"
+                            },
+                            {
+                                "text": "Case #2 <br><br> Function Call: <br><br> <code>wordList = loadWords() <br><br>playHand({'w':1, 's':1, 't':2, 'a':1, 'o':1, 'f':1}, wordList, 7)</code> <br><br> Output:"
+                            },
+                            {
+                                "file": "Problem5Case2.txt"
+                            },
+                            {
+                                "text": "Case #3 <br><br> Function Call: <br><br> <code>wordList = loadWords() <br><br> playHand({'n':1, 'e':1, 't':1, 'a':1, 'r':1, 'i':2}, wordList, 7)</code> <br><br> Output:"
+                            },
+                            {
+                                "file": "Problem5Case3.txt"
+                            },
+                            {
+                                "text": "Additional Testing <br><br> Be sure that, in addition to the listed tests, you test the same basic test conditions with varying values of n. n will never be smaller than the number of letters in the hand."
+                            },
+                            {
+                                "code": "Code.py"
+                            }
+                        ],
+                        "question_id": "Q26"
+                    }
+                ],
+                "title": "Solve the following problem playing a hand"
+            }
+        ],
+        "activity_id": "A22"
+    },
+    {
+        "activity_name": "Question-2",
+        "activity_json": [
+            {
+                "activityType": "assignment",
+                "questions": [
+                    {
+                        "questionType": "filesubmission",
+                        "max_marks": 20,
+                        "evaluate": true,
+                        "questionText": [
+                            {
+                                "text": "A game consists of playing multiple hands. We need to implement one final function to complete our word-game program. Write the code that implements the <code>playGame</code> function. You should remove the code that is currently uncommented in the <code>playGame</code> body. Read through the specification and make sure you understand what this function accomplishes. For the game, you should use the <code>HAND_SIZE</code> constant to determine the number of cards in a hand. <br><br> <b>Testing</b>: Try out this implementation as if you were playing the game. Try out different values for <code>HAND_SIZE</code> with your program, and be sure that you can play the wordgame with different hand sizes by modifying only the variable <code>HAND_SIZE</code> <br><br> Sample Output <br><br> Here is how the game output should look"
+                            },
+                            {
+                                "code": "Problem6Code1.txt"
+                            },
+                            {
+                                "text": "Hints about the output <br><br> Be sure to inspect the above sample output carefully - very little is actually printed out in this function specifically. Most of the printed output actually comes from the code you wrote in <code>playHand</code> - be sure that your code is modular and uses function calls to the <code>playHand</code> helper function! <br><br> You should also make calls to the <code>dealHand</code> helper function. You shouldn't make calls to any other helper function that we've written so far - in fact, this function can be written in about 15-20 lines of code. <br><br> Here is the above output, with the output from <code>playHand</code> obscured: "
+                            },
+                            {
+                                "code": "Problem6Code2.txt"
+                            },
+                            {
+                                "text": "Entering your code <br><br> Be sure to only paste your definition for playGame in the following box. Do not include any other function definitions. <br><br> A cool trick about 'print' <br><br> A cool trick about <code>print</code>: you can make two or more print statements print to the same line! Try out the following code. It will separate the first and second line with a space, and the second and third line with a \"?\" rather than putting each on a new line. <code> print('Hello', end = \" \")<br><br> print('world', end=\"?\")<br><br> print('!') </code>"
+                            },
+                            {
+                                "code": "Problem6Code3.py"
+                            },
+                            {
+                                "text": "<b>Note</b>: the <code>input</code> function on Spyder may print an extra newline. That's ok. Do not try to move text backwards using <code>end='\b'</code> in a print statement"
+                            }
+                        ],
+                        "question_id": "Q27"
+                    }
+                ],
+                "title": "Solve the following problem playing a Game"
+            }
+        ],
+        "activity_id": "A23"
+    },
+    {
+        "activity_name": "Computer Choosing a Word and Playing a Hand",
+        "activity_json": [
+            {
+                "text": "<b>**Part B is dependent on your functions from ps4a.py, so be sure to complete ps4a.py before working on ps4b.py**</b> <br><br>Now that you have completed your word game code, you decide that you would like to enable your computer (SkyNet) to play the game (your hidden agenda is to prove once and for all that computers are inferior to human intellect!) In this part, you will be able to compare how you as a user succeed in the game compared to the computer's performance. <br><br>You should look at the following two functions: compChooseWord and compPlayHand, before moving on to Problem 7 on the next page.<br><br><b>compChooseWord</b> <br><br>If you follow the pseudocode for compChooseWord, you'll see that the code creates a computer player that is legal, but not always the best. Try to walk through and understand our implementation.<br><br><b>A Note On Runtime</b>: You may notice that things run a bit slowly when the computer plays. This is to be expected - the wordList has 83667 words, after all! <br><br><b>Test Cases to Understand the Code</b>: <br><br>>>> compChooseWord({'a': 1, 'p': 2, 's': 1, 'e': 1, 'l': 1}, wordList, 6) <br><br>appels <br><br>>>> compChooseWord({'a': 2, 'c': 1, 'b': 1, 't': 1}, wordList, 5) <br><br> acta <br><br>>>> compChooseWord({'a': 2, 'e': 2, 'i': 2, 'm': 2, 'n': 2, 't': 2}, wordList, 12) <br><br>immanent <br><br>>>> compChooseWord({'x': 2, 'z': 2, 'q': 2, 'n': 2, 't': 2}, wordList, 12) <br><br>None<br><br><b>compPlayHand</b>Now that we have the ability to let the computer choose a word, we need to set up a function to allow the computer to play a hand - in a manner very similar to Part A's playHand function. This function allows the computer to play a given hand and is very similar to the earlier version in which a user selected the word, although deciding when it is done playing a particular hand is different.<b>Test Cases to Understand the Code:</b> <br><br>compPlayHand({'a': 1, 'p': 2, 's': 1, 'e': 1, 'l': 1}, wordList, 6) <br><br>Current Hand: a p p s e l <br><br>\"appels\" earned 110 max_marks. Total: 110 max_marks<br><br>Total score: 110 max_marks.<br><br>compPlayHand({'a': 2, 'c': 1, 'b': 1, 't': 1}, wordList, 5)<br><br>Current Hand: a a c b t \"acta\" <br><br>earned 24 max_marks. Total: 24 max_marks <br><br>Current Hand: b Total score: 24 max_marks.<br><br> compPlayHand({'a': 2, 'e': 2, 'i': 2, 'm': 2, 'n': 2, 't': 2}, wordList, 12)<br><br>Current Hand: a a e e i i m m n n t t<br><br>\"immanent\" earned 96 max_marks. Total: 96 max_marks<br><br>Current Hand: a e t i<br><br>\"ait\" earned 9 max_marks. Total: 105 max_marks<br><br>Current Hand: e<br><br>Total score: 105 max_marks.",
+                "activityType": "notes",
+                "title": "Read the following"
+            }
+        ],
+        "activity_id": "A24"
+    },
+    {
+        "activity_name": "Question-3",
+        "activity_json": [
+            {
+                "quizDescription": "Now that your computer can choose a word, you need to give the computer the option to play. Write the code that re-implements the playGame function. You will modify the function to behave as described below in the function's comments. As before, you should use the HAND_SIZE constant to determine the number of cards in a hand. Be sure to try out different values for HAND_SIZE with your program.",
+                "activityType": "assignment",
+                "questions": [
+                    {
+                        "questionType": "fileSubmission",
+                        "max_marks": 20,
+                        "evaluate": true,
+                        "questionText": [
+                            {
+                                "code": "code 7.py"
+                            },
+                            {
+                                "text": "<b>Sample Output and Hints</b><br>Here is how the game output should look..."
+                            },
+                            {
+                                "file": "Here is How Output Code Should look like....txt"
+                            },
+                            {
+                                "text": "<b>Hints about the output</b><br>"
+                            },
+                            {
+                                "file": "Hints about the output.txt"
+                            },
+                            {
+                                "text": "<b>A Note on Runtime</b><br>"
+                            },
+                            {
+                                "file": "A Note on Runtime.txt"
+                            },
+                            {
+                                "text": "<b>Entering your code</b><br>"
+                            },
+                            {
+                                "file": "Entering your code.txt"
+                            }
+                        ],
+                        "question_id": "Q28"
+                    }
+                ],
+                "title": "Solve the following problem"
+            }
+        ],
+        "activity_id": "A25"
+    }
+]

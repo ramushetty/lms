@@ -1,0 +1,149 @@
+[
+    {
+        "activity_name": "Introduction to python packages",
+        "activity_json": [
+            {
+                "activityType": "video",
+                "videoURL": "http://courseware.msitprogram.net/play/content/cspp1/videos//Introduction%20to%20python%20packages.mp4",
+                "title": "Introduction to python packages"
+            }
+        ],
+        "activity_id": "A1"
+    },
+    {
+        "activity_name": "Question-1",
+        "activity_json": [
+            {
+                "activityType": "assignment",
+                "questions": [
+                    {
+                        "questionType": "filesubmission",
+                        "max_marks": 10,
+                        "evaluate": true,
+                        "questionText": [
+                            {
+                                "text": "Create a package named arithmetic which should contains 2 modules where one module should support addition and subtraction of two numbers and other module should support multiplication and division of two numbers.<br><br>Write a python program by using the above package to solve addition, subtraction, Multiplication and division of any given two numbers"
+                            }
+                        ],
+                        "question_id": "Q1"
+                    }
+                ],
+                "title": "Create a package named arithmetic which should contains 2 modules where one module should support addition and subtraction of two numbers and other module should support multiplication and division of two numbers."
+            }
+        ],
+        "activity_id": "A2"
+    },
+    {
+        "activity_name": "Pandas Intro and usage",
+        "activity_json": [
+            {
+                "activityType": "video",
+                "videoURL": "http://courseware.msitprogram.net/play/content/cspp1/videos//Pandas%20Intro%20and%20usage.mp4",
+                "title": "Pandas Intro and usage"
+            }
+        ],
+        "activity_id": "A3"
+    },
+    {
+        "activity_name": "Question-2",
+        "activity_json": [
+            {
+                "activityType": "assignment",
+                "questions": [
+                    {
+                        "questionType": "filesubmission",
+                        "max_marks": 10,
+                        "evaluate": true,
+                        "questionText": [
+                            {
+                                "text": "Write a Python program to add, subtract, multiple and divide two Pandas Series."
+                            }
+                        ],
+                        "question_id": "Q2"
+                    }
+                ],
+                "title": "Question-2"
+            }
+        ],
+        "activity_id": "A4"
+    },
+    {
+        "activity_name": "Matplotlib Intro and usage",
+        "activity_json": [
+            {
+                "activityType": "video",
+                "videoURL": "http://courseware.msitprogram.net/play/content/cspp1/videos//Matplotlib%20Intro%20and%20usage.mp4",
+                "title": "Matplotlib Intro and usage"
+            }
+        ],
+        "activity_id": "A5"
+    },
+    {
+        "activity_name": "Matplotlib legends titles and labels",
+        "activity_json": [
+            {
+                "activityType": "video",
+                "videoURL": "http://courseware.msitprogram.net/play/content/cspp1/videos//Matplotlib%20legends%20titles%20and%20labels.mp4",
+                "title": "Matplotlib legends titles and labels"
+            }
+        ],
+        "activity_id": "A6"
+    },
+    {
+        "activity_name": "Question-3",
+        "activity_json": [
+            {
+                "activityType": "assignment",
+                "questions": [
+                    {
+                        "questionType": "filesubmission",
+                        "max_marks": 10,
+                        "evaluate": true,
+                        "questionText": [
+                            {
+                                "text": "Write a Python program to plot a distribution of rolling a dice 1000 times. X-axis represents the dice face value and Y-axis represents the count of number of times that value shows up."
+                            }
+                        ],
+                        "question_id": "Q3"
+                    }
+                ],
+                "title": "Question-3"
+            }
+        ],
+        "activity_id": "A7"
+    },
+    {
+        "activity_name": "NumPy intro and usage",
+        "activity_json": [
+            {
+                "activityType": "video",
+                "videoURL": "http://courseware.msitprogram.net/play/content/cspp1/videos//NumPy%20intro%20and%20usage.mp4",
+                "title": "NumPy intro and usage"
+            }
+        ],
+        "activity_id": "A8"
+    },
+    {
+        "activity_name": "Question-4",
+        "activity_json": [
+            {
+                "activityType": "assignment",
+                "questions": [
+                    {
+                        "questionType": "filesubmission",
+                        "max_marks": 10,
+                        "evaluate": true,
+                        "questionText": [
+                            {
+                                "text": "Write a NumPy program to test if any of the elements of a given array is non-zero."
+                            }
+                        ],
+                        "question_id": "Q4"
+                    }
+                ],
+                "title": "Question-4"
+            }
+        ],
+        "activity_id": "A9"
+    }
+]

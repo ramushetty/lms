@@ -1,0 +1,449 @@
+[
+    {
+        "activity_name": "Introduction to Python",
+        "activity_json": [
+            {
+                "videoResources": "Introduction to Python.zip",
+                "activityType": "video",
+                "videoURL": "http://courseware.msitprogram.net/play/content/cspp1/videos/Introduction%20to%20Python.mp4",
+                "title": "In this Activity you will learn about the introduction to python by watching a video"
+            }
+        ],
+        "activity_id": "A1"
+    },
+    {
+        "activity_name": "Knowledge",
+        "activity_json": [
+            {
+                "videoResources": "/Knowledge.zip",
+                "activityType": "video",
+                "videoURL": "http://courseware.msitprogram.net/play/content/cspp1/videos//Knowledge.mp4",
+                "title": "In this Activity you will learn the back ground knowledge required to start the python course"
+            }
+        ],
+        "activity_id": "A2"
+    },
+    {
+        "activity_name": "Knowledge-1",
+        "activity_json": [
+            {
+                "activityType": "quiz",
+                "questions": [
+                    {
+                        "questionType": "checkbox",
+                        "max_marks": 1,
+                        "questionText": [
+                            {
+                                "text": "What is the difference between an Algorithm and a Program?"
+                            }
+                        ],
+                        "options": [
+                            {
+                                "option": "An algorithm is a conceptual idea, a program is a concrete instantiation of an algorithm.",
+                                "correct": true
+                            },
+                            {
+                                "option": "An algorithm is limited to mathematical operation, a program can specify all kinds of operations.",
+                                "correct": false
+                            },
+                            {
+                                "option": "An algorithm makes a slow program run fast.",
+                                "correct": false
+                            },
+                            {
+                                "option": "An algorithm deals with computer hardware, a program deals with computer software.",
+                                "correct": false
+                            }
+                        ],
+                        "question_id": "Q1"
+                    },
+                    {
+                        "questionType": "checkbox",
+                        "max_marks": 1,
+                        "questionText": [
+                            {
+                                "text": "True or False? A computational mode of thinking means that everything can be viewed as a math problem involving numbers and formulas."
+                            }
+                        ],
+                        "options": [
+                            {
+                                "option": "True",
+                                "correct": true
+                            },
+                            {
+                                "option": "False",
+                                "correct": false
+                            }
+                        ],
+                        "question_id": "Q2"
+                    },
+                    {
+                        "questionType": "checkbox",
+                        "max_marks": 1,
+                        "questionText": [
+                            {
+                                "text": "True or False? Computer Science is the study of how to build efficient machines that run programs."
+                            }
+                        ],
+                        "options": [
+                            {
+                                "option": "True",
+                                "correct": false
+                            },
+                            {
+                                "option": "False",
+                                "correct": true
+                            }
+                        ],
+                        "question_id": "Q3"
+                    },
+                    {
+                        "questionType": "checkbox",
+                        "max_marks": 1,
+                        "questionText": [
+                            {
+                                "text": "The two things every computer can do are:"
+                            }
+                        ],
+                        "options": [
+                            {
+                                "option": "Perform calculations correct",
+                                "correct": true
+                            },
+                            {
+                                "option": "Convert electricity to numbers",
+                                "correct": false
+                            },
+                            {
+                                "option": "Display results to a screen",
+                                "correct": false
+                            },
+                            {
+                                "option": "Remember the results",
+                                "correct": true
+                            }
+                        ],
+                        "question_id": "Q4"
+                    }
+                ],
+                "title": "Last two activities we learnt the background and introduction for python. Let's answer few questions in this activity"
+            }
+        ],
+        "activity_id": "A3"
+    },
+    {
+        "activity_name": "Knowledge-2",
+        "activity_json": [
+            {
+                "activityType": "quiz",
+                "questions": [
+                    {
+                        "questionType": "checkbox",
+                        "max_marks": 1,
+                        "questionText": [
+                            {
+                                "text": "Declarative knowledge refers to statements of fact."
+                            }
+                        ],
+                        "options": [
+                            {
+                                "option": "True",
+                                "correct": true
+                            },
+                            {
+                                "option": "False",
+                                "correct": false
+                            }
+                        ],
+                        "question_id": "Q5"
+                    },
+                    {
+                        "questionType": "checkbox",
+                        "max_marks": 1,
+                        "questionText": [
+                            {
+                                "text": "Imperative knowledge refers to 'how to' methods."
+                            }
+                        ],
+                        "options": [
+                            {
+                                "option": "True",
+                                "correct": true
+                            },
+                            {
+                                "option": "False",
+                                "correct": false
+                            }
+                        ],
+                        "question_id": "Q6"
+                    },
+                    {
+                        "questionType": "checkbox",
+                        "max_marks": 1,
+                        "questionText": [
+                            {
+                                "text": "A recipe for deducing the square root involves guessing a starting value for y. Without another recipe to be told how to pick a starting number, the computer cannot generate one on its own."
+                            }
+                        ],
+                        "options": [
+                            {
+                                "option": "True",
+                                "correct": true
+                            },
+                            {
+                                "option": "False",
+                                "correct": false
+                            }
+                        ],
+                        "question_id": "Q7"
+                    }
+                ],
+                "title": "Last activity you solved few questions. There are few more questions in this activity for you to answer"
+            }
+        ],
+        "activity_id": "A4"
+    },
+    {
+        "activity_name": "Machines",
+        "activity_json": [
+            {
+                "videoResources": "/Machines.zip",
+                "activityType": "video",
+                "videoURL": "http://courseware.msitprogram.net/play/content/cspp1/videos//Machines.mp4",
+                "title": "In this activity we discussed about how the machine architecture and machine primitives by watching a video"
+            }
+        ],
+        "activity_id": "A5"
+    },
+    {
+        "activity_name": "Machines-1",
+        "activity_json": [
+            {
+                "activityType": "quiz",
+                "questions": [
+                    {
+                        "questionType": "checkbox",
+                        "max_marks": 1,
+                        "questionText": [
+                            {
+                                "text": "True or False? A stored program computer is designed to compute precisely one computation, such as a square root, or the trajectory of a missile."
+                            }
+                        ],
+                        "options": [
+                            {
+                                "option": "True",
+                                "correct": false
+                            },
+                            {
+                                "option": "False",
+                                "correct": true
+                            }
+                        ],
+                        "question_id": "Q8"
+                    },
+                    {
+                        "questionType": "checkbox",
+                        "max_marks": 1,
+                        "questionText": [
+                            {
+                                "text": "True or False? A fixed program computer is designed to run any computation, by interpreting a sequence of program instructions that are read into it."
+                            }
+                        ],
+                        "options": [
+                            {
+                                "option": "True",
+                                "correct": false
+                            },
+                            {
+                                "option": "False",
+                                "correct": true
+                            }
+                        ],
+                        "question_id": "Q9"
+                    },
+                    {
+                        "questionType": "checkbox",
+                        "max_marks": 1,
+                        "questionText": [
+                            {
+                                "text": "A program counter"
+                            }
+                        ],
+                        "options": [
+                            {
+                                "option": "counts the number of primitive operations executed by the program.",
+                                "correct": false
+                            },
+                            {
+                                "option": "counts the number of primitive operations comprising a complex operation.",
+                                "correct": false
+                            },
+                            {
+                                "option": "points the computer to the next instruction to execute in the program.",
+                                "correct": true
+                            },
+                            {
+                                "option": "remembers how many times a program has been executed",
+                                "correct": false
+                            }
+                        ],
+                        "question_id": "Q10"
+                    },
+                    {
+                        "questionType": "checkbox",
+                        "max_marks": 1,
+                        "questionText": [
+                            {
+                                "text": "What does it mean when we say that \"the computer walks through the sequence executing some computation\"?"
+                            }
+                        ],
+                        "options": [
+                            {
+                                "option": "The computer tests each instruction to ensure it will not harm the circuitry. incorrect",
+                                "correct": false
+                            },
+                            {
+                                "option": "The computer executes the instructions in strict, linear sequence, just like walking in a straight line.",
+                                "correct": false
+                            },
+                            {
+                                "option": "The computer executes the instructions mostly in a linear sequence, except sometimes it jumps to a different place in the sequence.",
+                                "correct": true
+                            },
+                            {
+                                "option": "The computer slowly executes instructions so that we can follow its progress, rather than running a program at full speed.",
+                                "correct": false
+                            }
+                        ],
+                        "question_id": "Q11"
+                    },
+                    {
+                        "questionType": "checkbox",
+                        "max_marks": 1,
+                        "questionText": [
+                            {
+                                "text": "True or False? In order to compute everything that is computable, every computer must be able to handle the sixteen most primitive operations."
+                            }
+                        ],
+                        "options": [
+                            {
+                                "option": "True",
+                                "correct": false
+                            },
+                            {
+                                "option": "False",
+                                "correct": true
+                            }
+                        ],
+                        "question_id": "Q12"
+                    }
+                ],
+                "title": " Last activity we learn about machines. Let's answer few questions in this activity"
+            }
+        ],
+        "activity_id": "A6"
+    },
+    {
+        "activity_name": "Languages",
+        "activity_json": [
+            {
+                "videoResources": "/Languages.zip",
+                "activityType": "video",
+                "videoURL": "http://courseware.msitprogram.net/play/content/cspp1/videos//Languages.mp4",
+                "title": "In this activity, we discussed an aspect of language by watching a video"
+            }
+        ],
+        "activity_id": "A7"
+    },
+    {
+        "activity_name": "Languages-1",
+        "activity_json": [
+            {
+                "quizDescription": "Choose the term described by each of the following definitions.<br><br>Definitions:",
+                "activityType": "quiz",
+                "questions": [
+                    {
+                        "questionType": "checkbox",
+                        "questionText": [
+                            {
+                                "text": "Determines whether a string is legal"
+                            }
+                        ],
+                        "correct_feedback": "Correct",
+                        "max_marks": 1,
+                        "wrong_feedback": "Incorrect",
+                        "options": [
+                            {
+                                "correct": false,
+                                "option": "Semantics"
+                            },
+                            {
+                                "correct": false,
+                                "option": "Static semantics"
+                            },
+                            {
+                                "correct": true,
+                                "option": "Syntax"
+                            }
+                        ],
+                        "question_id": "Q13"
+                    },
+                    {
+                        "questionType": "checkbox",
+                        "questionText": [
+                            {
+                                "text": "Determines whether a string has meaning"
+                            }
+                        ],
+                        "correct_feedback": "Correct",
+                        "max_marks": 1,
+                        "wrong_feedback": "Incorrect",
+                        "options": [
+                            {
+                                "correct": false,
+                                "option": "Semantics"
+                            },
+                            {
+                                "correct": true,
+                                "option": "Static semantics"
+                            },
+                            {
+                                "correct": false,
+                                "option": "Syntax"
+                            }
+                        ],
+                        "question_id": "Q14"
+                    },
+                    {
+                        "questionType": "checkbox",
+                        "questionText": [
+                            {
+                                "text": "Assigns a meaning to a legal sentence"
+                            }
+                        ],
+                        "correct_feedback": "Correct",
+                        "max_marks": 1,
+                        "wrong_feedback": "Incorrect",
+                        "options": [
+                            {
+                                "correct": true,
+                                "option": "Semantics"
+                            },
+                            {
+                                "correct": false,
+                                "option": "Static semantics"
+                            },
+                            {
+                                "correct": false,
+                                "option": "Syntax"
+                            }
+                        ],
+                        "question_id": "Q15"
+                    }
+                ],
+                "title": "Last activity we learned about the aspect of language. Let's answer few questions in this activity"
+            }
+        ],
+        "activity_id": "A8"
+    }
+]

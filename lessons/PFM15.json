@@ -1,0 +1,140 @@
+[
+    {
+        "activity_name": "Question-1",
+        "activity_json": [
+            {
+                "activityType": "assignment",
+                "questions": [
+                    {
+                        "questionType": "filesubmission",
+                        "max_marks": 20,
+                        "evaluate": true,
+                        "questionText": [
+                            {
+                                "text": "Write a program that counts up the number of vowels contained in the string s. Valid vowels are: 'a', 'e', 'i', 'o', and 'u'. For example, if s = 'azcbobobegghakl', your program should print:<br>Number of vowels: 5"
+                            }
+                        ],
+                        "question_id": "Q1"
+                    }
+                ],
+                "title": "We designed some Assignments for you to practice Please solve the Assignments and submit them"
+            }
+        ],
+        "activity_id": "A1"
+    },
+    {
+        "activity_name": "Question-2",
+        "activity_json": [
+            {
+                "activityType": "assignment",
+                "questions": [
+                    {
+                        "questionType": "filesubmission",
+                        "max_marks": 20,
+                        "evaluate": true,
+                        "questionText": [
+                            {
+                                "text": "Write a program that prints the number of times the string 'bob' occurs in s. For example, if s = 'azcbobobegghakl', then your program should print<br>Number of times bob occurs is: 2"
+                            }
+                        ],
+                        "question_id": "Q2"
+                    }
+                ],
+                "title": "We designed some Assignments for you to practice Please solve the Assignments and submit them"
+            }
+        ],
+        "activity_id": "A2"
+    },
+    {
+        "activity_name": "Question-3",
+        "activity_json": [
+            {
+                "activityType": "assignment",
+                "questions": [
+                    {
+                        "questionType": "filesubmission",
+                        "max_marks": 20,
+                        "evaluate": true,
+                        "questionText": [
+                            {
+                                "text": "Write a program that prints the longest substring of s in which the letters occur in alphabetical order. For example, if s = 'azcbobobegghakl', then your program should print<br>Longest substring in alphabetical order is: beggh<br> In the case of ties, print the first substring. For example, if s = 'abcbcd', then your program should print<br>Longest substring in alphabetical order is: abc"
+                            }
+                        ],
+                        "question_id": "Q3"
+                    }
+                ],
+                "title": "We designed some Assignments for you to practice Please solve the Assignments and submit them"
+            }
+        ],
+        "activity_id": "A3"
+    },
+    {
+        "activity_name": "Question-4",
+        "activity_json": [
+            {
+                "activityType": "assignment",
+                "questions": [
+                    {
+                        "questionType": "filesubmission",
+                        "max_marks": 20,
+                        "evaluate": true,
+                        "questionText": [
+                            {
+                                "text": "Write a python program to find if the given number is a perfect cube or not using guess and check algorithm"
+                            }
+                        ],
+                        "question_id": "Q4"
+                    }
+                ],
+                "title": "We designed some Assignments for you to practice Please solve the Assignments and submit them"
+            }
+        ],
+        "activity_id": "A4"
+    },
+    {
+        "activity_name": "Question-5",
+        "activity_json": [
+            {
+                "activityType": "assignment",
+                "questions": [
+                    {
+                        "questionType": "filesubmission",
+                        "max_marks": 20,
+                        "evaluate": true,
+                        "questionText": [
+                            {
+                                "text": "Write a python program to find the square root of the given number using approximation method"
+                            }
+                        ],
+                        "question_id": "Q5"
+                    }
+                ],
+                "title": "We designed some Assignments for you to practice Please solve the Assignments and submit them"
+            }
+        ],
+        "activity_id": "A5"
+    },
+    {
+        "activity_name": "Question-6",
+        "activity_json": [
+            {
+                "activityType": "assignment",
+                "questions": [
+                    {
+                        "questionType": "filesubmission",
+                        "max_marks": 20,
+                        "evaluate": true,
+                        "questionText": [
+                            {
+                                "text": "Write a python program to find the square root of the given number using Bi-section method"
+                            }
+                        ],
+                        "question_id": "Q6"
+                    }
+                ],
+                "title": "We designed some Assignments for you to practice Please solve the Assignments and submit them"
+            }
+        ],
+        "activity_id": "A6"
+    }
+]

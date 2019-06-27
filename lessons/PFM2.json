@@ -1,0 +1,92 @@
+[
+    {
+        "activity_name": "Computational thinking techniques",
+        "activity_json": [
+            {
+                "activityType": "video",
+                "videoURL": "http://courseware.msitprogram.net/play/content/cspp1/videos//Computational%20thinking%20techniques.mp4",
+                "title": "Computational thinking techniques"
+            }
+        ],
+        "activity_id": "A1"
+    },
+    {
+        "activity_name": "Pseudocode Definition and example",
+        "activity_json": [
+            {
+                "activityType": "video",
+                "videoURL": "http://courseware.msitprogram.net/play/content/cspp1/videos//Pseudocode%20Definition%20and%20example.mp4",
+                "title": "Pseudocode Definition and example"
+            }
+        ],
+        "activity_id": "A2"
+    },
+    {
+        "activity_name": "Algorithm Definition, characteristics and examples",
+        "activity_json": [
+            {
+                "activityType": "video",
+                "videoURL": "http://courseware.msitprogram.net/play/content/cspp1/videos//Algorithm%20Definition,%20characteristics%20and%20examples.mp4",
+                "title": "Algorithm Definition, characteristics and examples"
+            }
+        ],
+        "activity_id": "A3"
+    },
+    {
+        "activity_name": "Flowchart Definition, symbols and example",
+        "activity_json": [
+            {
+                "activityType": "video",
+                "videoURL": "http://courseware.msitprogram.net/play/content/cspp1/videos//Flowchart%20Definition,%20symbols%20and%20example.mp4",
+                "title": "Flowchart Definition, symbols and example"
+            }
+        ],
+        "activity_id": "A4"
+    },
+    {
+        "activity_name": "Question-1",
+        "activity_json": [
+            {
+                "activityType": "assignment",
+                "questions": [
+                    {
+                        "questionType": "filesubmission",
+                        "max_marks": 10,
+                        "evaluate": true,
+                        "questionText": [
+                            {
+                                "text": "Write a Pseudocode, an algorithm and a flowchart to find largest number among 3 numbers"
+                            }
+                        ],
+                        "question_id": "Q1"
+                    }
+                ],
+                "title": "Question-1"
+            }
+        ],
+        "activity_id": "A5"
+    },
+    {
+        "activity_name": "Question-2",
+        "activity_json": [
+            {
+                "activityType": "assignment",
+                "questions": [
+                    {
+                        "questionType": "filesubmission",
+                        "max_marks": 10,
+                        "evaluate": true,
+                        "questionText": [
+                            {
+                                "text": "Write a Pseudocode, an algorithm and a flowchart to check whether the given age of a person is eligible for voting or not.(age eligible for voting is >=18)."
+                            }
+                        ],
+                        "question_id": "Q2"
+                    }
+                ],
+                "title": "Question-2"
+            }
+        ],
+        "activity_id": "A6"
+    }
+]
